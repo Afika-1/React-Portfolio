@@ -24,18 +24,22 @@ function App() {
           <img className="linkedin-logo" alt="Linkedin logo" src={linkedin} />
           <img className="img" alt="Img" src={logo} />
           <div className="CV-button">
-            
+
           </div>
           <button className="overlap-group">CV</button>
-          <div className="text-wrapper-4">About</div>
-          <div className="text-wrapper-5">Project</div>
-          <div href="#contact" className="text-wrapper-6">Contact</div>
-          {/* <img className="rectangle-3" alt="Rectangle" src="rectangle-1.svg" /> */}
+          <nav className='navbar'>
+            <ul>
+              <li><a href="#about" className="text-wrapper-4">About</a></li>
+              <li><a href="#project" className="text-wrapper-5">Project</a></li>
+              <li><a href="#contact" className="text-wrapper-6">Contact</a></li>
+            </ul>
+          </nav>
+
           <form>
-            <input className="rectangle-4" name='name' placeholder='Full Name' />
-            <input className="rectangle-5" name='email' placeholder='Email Address' />
-            <input className="rectangle-6" name='project' placeholder='Project' />
-            <input className="rectangle-7" name='message' placeholder='Type your message' />
+            <input className="rectangle-4" type='text' name='name' placeholder='Full Name' />
+            <input className="rectangle-5" type='email' name='email' placeholder='Email Address' />
+            <input className="rectangle-6" type='text' name='project' placeholder='Project' />
+            <input className="rectangle-7" type='text' name='message' placeholder='Type your message' />
             <button className="send-button" type="submit">Send</button>
           </form>
 
@@ -47,10 +51,7 @@ function App() {
           <img className="zondicons-location" alt="Zondicons location" src="zondicons-location.svg" />
           <img className="fluent-call-2" alt="Fluent call" src="fluent-call-20-regular.svg" />
           <img className="group" alt="Group" src="group.png" />
-          {/* <div className="text-wrapper-10" ></div>
-          <div className="text-wrapper-11" ></div>
-          <div className="text-wrapper-12" ></div>
-          <div className="text-wrapper-13"></div> */}
+          
         </div>
       </div>
     </div>

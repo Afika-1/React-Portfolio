@@ -5,7 +5,10 @@
   justify-content: center;
   width: 100%;
 }
-
+.navbar ul li {
+  background-color: #629e60;
+  color: #d79e48;
+}
 .contact .overlap-wrapper {
   background-color: #ffffff;
   border: 1px none;
