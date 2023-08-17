@@ -1,44 +1,33 @@
 .contact {
-  background-color: #ffffff;
+  background-color: #000000;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height: 100vh;
   width: 100%;
 }
-.navbar ul li {
-  background-color: #629e60;
-  color: #d79e48;
-}
-.contact .overlap-wrapper {
+
+/* .contact .overlap-wrapper {
   background-color: #ffffff;
   border: 1px none;
   height: 1024px;
   width: 1440px;
-}
+} */
 
-.contact .overlap {
+/* .contact .overlap {
   height: 1024px;
   position: relative;
-}
+} */
 
-.contact .fluent-call {
+/* .contact .fluent-call {
   height: 20px;
   left: 710px;
   position: absolute;
   top: 502px;
   width: 20px;
-}
+} */
 
-.contact .rectangle {
-  background-color: #000000;
-  border: 1px solid;
-  height: 1024px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1440px;
-}
-.rectangle-4 {  
+/* .rectangle-4 {  
   color: #ffffff;
   font-family: "Imprima-Regular", Helvetica;
   font-size: 24px;
@@ -47,8 +36,8 @@
   line-height: normal;
   opacity: 0.5;
   position: absolute;
-  /* white-space: nowrap; */
-}
+  white-space: nowrap;
+} */
 
 .contact .background {
   height: 644px;
@@ -173,9 +162,9 @@ overflow-x: hidden;
 .contact .overlap-group {
   border-radius: 18px;
   height: 35px;
-  /* position: relative; */
+  position:
+   relative;
   width: 78px;
-
   border: 1px solid;
   background-color: #000000;
   border-color: #629e60;
@@ -201,6 +190,7 @@ overflow-x: hidden;
   width: 36px;
 }
 
+
 .contact .rectangle-2 {
   border: 1px solid;
   background-color: #000000;
@@ -213,7 +203,20 @@ overflow-x: hidden;
   width: 78px;
 }
 
-.contact .text-wrapper-4 {
+.header-class{
+  width: 60%;
+
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+
+/* nav ul li a{
   color: #ffffff;
   font-family: "IM FELL Great Primer SC-Regular", Helvetica;
   font-size: 20px;
@@ -224,9 +227,11 @@ overflow-x: hidden;
   position: absolute;
   top: 34px;
   white-space: nowrap;
-}
 
-.contact .text-wrapper-5 {
+} */
+
+
+/* .contact .text-wrapper-5 {
   color: #ffffff;
   font-family: "IM FELL Great Primer SC-Regular", Helvetica;
   font-size: 20px;
@@ -237,9 +242,9 @@ overflow-x: hidden;
   position: absolute;
   top: 34px;
   white-space: nowrap;
-}
+} */
 
-.contact .text-wrapper-6 {
+/* .contact .text-wrapper-6 {
   color: #ffffff;
   font-family: "IM FELL Great Primer SC-Regular", Helvetica;
   font-size: 20px;
@@ -250,7 +255,7 @@ overflow-x: hidden;
   position: absolute;
   top: 34px;
   white-space: nowrap;
-}
+} */
 
 .contact .rectangle-3 {
   height: 41px;
@@ -357,37 +362,37 @@ overflow-x: hidden;
   background-color:#d69d48;
 }
 
-.contact .vector {
+/* .contact .vector {
   height: 20px;
   left: 272px;
   position: absolute;
   top: 351px;
   width: 20px;
-}
+} */
 
-.contact .mdi-email {
+/* .contact .mdi-email {
   height: 24px;
   left: 272px;
   position: absolute;
   top: 288px;
   width: 24px;
-}
+} */
 
-.contact .zondicons-location {
+/* .contact .zondicons-location {
   height: 20px;
   left: 272px;
   position: absolute;
   top: 421px;
   width: 20px;
-}
+} */
 
-.contact .fluent-call-2 {
+/* .contact .fluent-call-2 {
   height: 20px;
   left: 288px;
   position: absolute;
   top: 246px;
   width: 20px;
-}
+} */
 
 .contact .group {
   height: 20px;

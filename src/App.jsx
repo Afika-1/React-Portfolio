@@ -13,28 +13,29 @@ function App() {
     <div className="contact">
       <div className="overlap-wrapper">
         <div className="overlap">
-          <img className="fluent-call" alt="Fluent call" src="image.svg" />
-          <div className="rectangle" />
+          {/* <img className="fluent-call" alt="Fluent call" src="image.svg" /> */}
           <img className="background" alt="Background image" src={backgound} />
-          <div className="background-home" />
-          <div className="div" />
+          {/* <div className="background-home" />
+          <div className="div" /> */}
           <div className='title'><h1 className="text-wrapper">Contact <span className="text-wrapper-2">Me</span></h1></div>
-          <img className="line" alt="Line" src="line-9.svg" />
+          {/* <img className="line" alt="Line" src="line-9.svg" /> */}
           <img className="github" alt="Github" src={github} />
           <img className="linkedin-logo" alt="Linkedin logo" src={linkedin} />
           <img className="img" alt="Img" src={logo} />
-          <div className="CV-button">
-
-          </div>
-          <button className="overlap-group">CV</button>
+        
+          {/* <div className="CV-button"> </div> */}
+        
+          <div className='header-class'>
           <nav className='navbar'>
             <ul>
+              <li><a href='#home' className='home'>Home</a></li>
               <li><a href="#about" className="text-wrapper-4">About</a></li>
               <li><a href="#project" className="text-wrapper-5">Project</a></li>
               <li><a href="#contact" className="text-wrapper-6">Contact</a></li>
             </ul>
+            <button className="overlap-group">Resume</button>
           </nav>
-
+          </div>
           <form>
             <input className="rectangle-4" type='text' name='name' placeholder='Full Name' />
             <input className="rectangle-5" type='email' name='email' placeholder='Email Address' />
@@ -46,15 +47,15 @@ function App() {
           <div className="text-wrapper-7">+27662398354</div>
           <div className="text-wrapper-8">Afikashwashwa@gmail.com</div>
           <div className="text-wrapper-9">Cape Town, South Africa</div>
-          <img className="vector" alt="Vector" src="vector.svg" />
-          <img className="mdi-email" alt="Mdi email" src="mdi-email.svg" />
-          <img className="zondicons-location" alt="Zondicons location" src="zondicons-location.svg" />
-          <img className="fluent-call-2" alt="Fluent call" src="fluent-call-20-regular.svg" />
-          <img className="group" alt="Group" src="group.png" />
+          {/* <img className="vector" alt="Vector" src="vector.svg" /> */}
+          {/* <img className="mdi-email" alt="Mdi email" src="mdi-email.svg" /> */}
+          {/* <img className="zondicons-location" alt="Zondicons location" src="zondicons-location.svg" /> */}
+          {/* <img className="fluent-call-2" alt="Fluent call" src="fluent-call-20-regular.svg" /> */}
+          {/* <img className="group" alt="Group" src="group.png" /> */}
           
         </div>
-      </div>
-    </div>
+      // </div>
+    // </div>
   );
 };
 export default App
