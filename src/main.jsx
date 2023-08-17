@@ -4,7 +4,6 @@ import App from './App.jsx'
 import Navbar from './assets/Navbar.jsx'
 
 
-import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

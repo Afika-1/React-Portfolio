@@ -1,11 +1,44 @@
-.contact {
-  background-color: #000000;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 100vh;
-  width: 100%;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+body {
+  background-color: #000000;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./assets/background3.jpg);
+  background-repeat: no-repeat;
+  background-size: 50vw 100vh;;
+
+}
+
+.contact-content{
+  color: #ffffff;
+  font-family: "Imprima-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.contact .send-button {
+  /* height: 40px;
+  left: 725px; */
+  position: absolute;
+  /* top: 604px; */
+  width: 111px;
+  background-color: #d69d48;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.contact {}
 
 /* .contact .overlap-wrapper {
   background-color: #ffffff;
@@ -39,31 +72,22 @@
   white-space: nowrap;
 } */
 
-.contact .background {
-  height: 644px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 628px;
-  opacity: 0.5;
-}
 
-.contact .background-home {
+/* .contact .background-home {
   height: 1024px;
   left: 0;
   position: absolute;
   top: 0;
   width: 1440px;
-}
+} */
 
-.contact .div {
+/* .contact .div {
   height: 47px;
   left: 662px;
   position: absolute;
   top: 90px;
   width: 190px;
-}
+} */
 
 /* .contact .text-wrapper {
   color: #ffffff;
@@ -96,28 +120,32 @@
   font-family: "IM FELL Great Primer SC-Regular", Helvetica;
   font-size: 12px;
   font-weight: 400;
-  left: 630px;
- 
+  width: 100vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 94px;
-  }
-  .contact .text-wrapper {
-  color: #ffffff;
-  }
-  .title .text-wrapper-2 {
-  color: #d79e48;
-  }
-  
+}
 
+.contact .text-wrapper {
+  color: #ffffff;
+}
+
+.title span {
+  color: #d79e48;
+}
+
+#line{
+  padding: 10%;
+}
 .contact .line {
-  height: 8px;
-  left: 185px;
   position: absolute;
+  font-size: 30px;
   top: 156px;
-  width: 1070px;
+  width: 80vw;
+  border-top: #8F8F8F solid;
+  display: flex;
+  justify-content: center
 }
 
 .contact .github {
@@ -138,43 +166,26 @@
   width: 30px;
 }
 
-.contact .img {
-  height: 70px;
-  left: 100px;
-  object-fit: cover;
-  position: absolute;
-  top: 15px;
-  width: 70px;
 
-  border: 0px none;
-  border-radius: 50px;
-overflow-x: hidden;
-}
 
-.contact .CV-button {
+/* .contact .CV-button {
   height: 35px;
   left: 1310px;
   position: absolute;
   top: 25px;
   width: 80px;
-}
+} */
 
-.contact .overlap-group {
+.contact .btn-cv {
   border-radius: 18px;
-  height: 35px;
-  position:
-   relative;
-  width: 78px;
-  border: 1px solid;
-  background-color: #000000;
-  border-color: #629e60;
-  left: 0;
-  position: absolute;
-  top: 0;
+height: 2.5rem;
+width: 6.8rem;  
+background-color:#d69d48;
   color: #ffffff;
   font-family: "IM FELL Great Primer SC-Regular", Helvetica;
   font-size: 20px;
   font-weight: 400;
+  border: none;
 }
 
 .contact .text-wrapper-3 {
@@ -203,33 +214,56 @@ overflow-x: hidden;
   width: 78px;
 }
 
-.header-class{
-  width: 60%;
+.header-class {}
 
-}
-nav{
+nav {
+  /* background-color: #629e60; */
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100vw;
+  padding: 10px;
 
+}
+
+.contact .logo {
+  height: 70px;
+  left: 2%;
+  object-fit: cover;
+  position: relative;
+  width: 70px;
+
+  border: 0px none;
+  border-radius: 50px;
+  overflow-x: hidden;
 }
 
 
 
-/* nav ul li a{
-  color: #ffffff;
+nav ul li {
+  list-style-type: none;
+  
   font-family: "IM FELL Great Primer SC-Regular", Helvetica;
   font-size: 20px;
   font-weight: 400;
-  left: 436px;
+  /* left: 436px; */
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  top: 34px;
-  white-space: nowrap;
+  /* position: absolute; */
+  /* white-space: nowrap; */
 
-} */
+  display: inline-block;
+  padding-inline-start: 4rem;
 
+}
+nav ul li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: #d69d48;
+
+}
 
 /* .contact .text-wrapper-5 {
   color: #ffffff;
@@ -314,7 +348,7 @@ nav{
   width: 490px;
 }
 
-.contact .text-wrapper-7 {
+/* .contact .text-wrapper-7 {
   color: #ffffff;
   font-family: "Lalezar-Regular", Helvetica;
   font-size: 30px;
@@ -325,9 +359,9 @@ nav{
   position: absolute;
   text-align: center;
   top: 345px;
-}
+} */
 
-.contact .text-wrapper-8 {
+/* .contact .text-wrapper-8 {
   color: #ffffff;
   font-family: "Lalezar-Regular", Helvetica;
   font-size: 30px;
@@ -338,9 +372,9 @@ nav{
   position: absolute;
   text-align: center;
   top: 276px;
-}
+} */
 
-.contact .text-wrapper-9 {
+/* .contact .text-wrapper-9 {
   color: #ffffff;
   font-family: "Lalezar-Regular", Helvetica;
   font-size: 30px;
@@ -351,16 +385,8 @@ nav{
   position: absolute;
   text-align: center;
   top: 411px;
-}
+} */
 
-.contact .send-button {
-  height: 40px;
-  left: 725px;
-  position: absolute;
-  top: 604px;
-  width: 111px;
-  background-color:#d69d48;
-}
 
 /* .contact .vector {
   height: 20px;
