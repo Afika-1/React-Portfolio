@@ -11,8 +11,7 @@ function App() {
   return (
     <body>
       <div className="contact">
-        <div className="overlap-wrapper">
-          <div className="overlap">
+        
             <header className='header-class'>
               <nav className='navbar'>
                 <img className="logo" alt="logo Image" src={logo} />
@@ -63,8 +62,7 @@ function App() {
 
             </div>
           </div>
-      // </div>
-    // </div>
+       
     </body>);
 };
 
