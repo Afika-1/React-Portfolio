@@ -1,0 +1,66 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 10px;
+    background:linear-gradient(to bottom right, black,black,black,  rgb(44, 43, 43));
+    z-index: 1;
+  }
+  .header-class{
+ 
+    fill-opacity: 0.5;
+    width: 100vw;
+  }
+   .logo {
+    height: 70px;
+    left: 2%;
+    object-fit: cover;
+    position: relative;
+    width: 70px;
+  
+    border: 0px none;
+    border-radius: 50px;
+    overflow-x: hidden;
+  }
+  
+  
+  
+  nav ul li {
+    list-style-type: none;
+  
+    font-family: "IM FELL Great Primer SC-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  
+  
+    display: inline-block;
+    padding-inline-start: 4rem;
+  
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #d69d48;
+  
+  }
+    
+  .btn-cv {
+    border-radius: 18px;
+    height: 2.5rem;
+    width: 6.8rem;
+    background-color: #d69d48;
+    color: #ffffff;
+    font-family: "IM FELL Great Primer SC-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    position: relative;
+
+  }

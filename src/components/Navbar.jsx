@@ -1,9 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import logo from './/assets/logo.jpg'
-
-import './App.css'
-
+import logo from '../assets/logo.jpg'
+import './navigation.css'
 
 export default function Navbar() {
 
@@ -21,9 +19,7 @@ export default function Navbar() {
 
 
                 <button className="btn-cv">Resume</button>
-
             </nav>
         </header>
-    );
-};
+    );};
 

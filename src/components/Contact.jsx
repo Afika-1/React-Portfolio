@@ -1,11 +1,12 @@
 import React from 'react'
-import './App.css'
-import linkedin from './/assets/linkedin.gif'
-import github from './/assets/github.gif'
+import './contact.css'
+import linkedin from '../assets/linkedin.gif'
+import github from '../assets/github.gif'
+
 export default function Contact() {
   return (
-    <div>
-    
+    <div className='contact'>
+   
       <div className='title'>
               <h1 className="text-wrapper">Contact <span className="text-wrapper-2">Me</span></h1>
             </div>
@@ -42,7 +43,7 @@ export default function Contact() {
             </div>
     
     
-    </div>
+            </div>
     
   )
 }

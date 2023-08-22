@@ -1,0 +1,77 @@
+.about {
+  height: 100vh;
+  background-image: url(../assets/bg-about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 80vw 100vh;
+}
+
+.about-content {
+  top: 20%;
+  padding-left: 15%;
+  width: 80vw;
+  line-height: 40px;
+  font-size: 25px;
+  color: #ffffff;
+  position: relative;
+  display: block;
+  text-align: center;
+  
+  
+
+}
+.about-content p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+position: relative  ;
+}
+.boxes{
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  ;
+}
+.boxes button{
+  width: 10vw;
+  height: 10vh;
+  
+}
+.title {
+  color: transparent;
+  font-family: "IM FELL Great Primer SC-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  width: 100vw;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+.text-wrapper {
+  color: #ffffff;
+}
+
+.title span {
+  color: #d79e48;
+}
+
+#line {
+  padding-left: 10%;
+}
+
+.line {
+  position: absolute;
+  width: 80vw;
+  padding: 0;
+  border-top: #8F8F8F solid;
+  display: flex;
+  justify-content: center
+}
+
+.about-content {
+  position: absolute;
+
+}
