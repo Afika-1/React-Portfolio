@@ -4,29 +4,16 @@ import './App.css'
 import linkedin from './/assets/linkedin.gif'
 import github from './/assets/github.gif'
 import logo from './/assets/logo.jpg'
+import Navbar from './Navbar.jsx'
+
 // import {faPhone, FaEnvelope, faLocation}from 'react-icons/fa' 
 
 function App() {
 
   return (
     <body>
-      <div className="contact">
-        
-            <header className='header-class'>
-              <nav className='navbar'>
-                <img className="logo" alt="logo Image" src={logo} />
-
-                <ul>
-                  <li><a href='#home' className='home'>Home</a></li>
-                  <li><a href="#about" className="text-wrapper-4">About</a></li>
-                  <li><a href="#project" className="text-wrapper-5">Project</a></li>
-                  <li><a href="#contact" className="text-wrapper-6">Contact</a></li>
-                </ul>
-
-                <button className="btn-cv">Resume</button>
-
-              </nav>
-            </header>
+     
+<Navbar/>
             <div className='title'>
               <h1 className="text-wrapper">Contact <span className="text-wrapper-2">Me</span></h1>
             </div>
@@ -61,7 +48,7 @@ function App() {
               </form>
 
             </div>
-          </div>
+   
        
     </body>);
 };

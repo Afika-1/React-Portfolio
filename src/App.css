@@ -48,7 +48,7 @@ body {
   margin-top: 4rem;
 }
 
-.contact .send-button {
+.send-button {
   position: absolute;
   padding: 10px;
   border-radius: 10px;
@@ -85,7 +85,7 @@ form {
 }
 
 
-.contact .title {
+ .title {
   color: transparent;
   font-family: "IM FELL Great Primer SC-Regular", Helvetica;
   font-size: 12px;
@@ -96,7 +96,7 @@ form {
   text-align: center;
 }
 
-.contact .text-wrapper {
+ .text-wrapper {
   color: #ffffff;
 }
 
