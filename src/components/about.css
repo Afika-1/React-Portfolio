@@ -3,6 +3,7 @@
 }
 
 .about {
+  padding-top: 8%;
   height: 100vh;
   background-image: url(../assets/bg-about.jpg);
   background-size: cover;
@@ -11,8 +12,8 @@
 }
 
 .about-content {
-  top: 20%;
-  padding-left: 15%;
+  padding-top: 5vh;
+  padding-left: 20vw;
   width: 80vw;
   line-height: 40px;
   font-size: 1rem;
