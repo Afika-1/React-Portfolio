@@ -15,8 +15,8 @@
   padding-top: 5vh;
   padding-left: 20vw;
   width: 80vw;
-  line-height: 40px;
-  font-size: 1rem;
+  line-height: 5vh;
+  font-size: 0.7rem;
   color: #ffffff;
   position: relative;
   display: block;
@@ -30,6 +30,15 @@
   justify-content: center;
   align-items: center;
 position: relative  ;
+}
+.qualification {
+  
+  font-size: 1rem;
+  color: #d79e48;
+  padding-bottom: 5vh;
+}
+.qualification span{
+  padding-left: 10vw;
 }
 .boxes{
   padding-top: 10%;
