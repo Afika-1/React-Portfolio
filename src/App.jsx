@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from 'react'
-import Contact from "./components/Contact";
+import Contact from "./Components/Contact";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 

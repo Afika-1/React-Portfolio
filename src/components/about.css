@@ -3,7 +3,7 @@
 }
 
 .about {
-  padding-top: 8%;
+  padding-top: 15vh;
   height: 100vh;
   background-image: url(../assets/bg-about.jpg);
   background-size: cover;
