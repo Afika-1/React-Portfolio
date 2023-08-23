@@ -11,7 +11,7 @@ nav {
  
     fill-opacity: 0.5;
     width: 100vw;
-    position: fixed;
+    position:static ;
     z-index: 1;
   }
    .logo {

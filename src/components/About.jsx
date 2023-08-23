@@ -1,10 +1,12 @@
 import React from 'react'
 import './about.css'
+import Navbar from './Navbar'
 export default function About() {
     return (
-
+        <div>
+        <Navbar />
         <div className='about'>
-
+        
             <div className='title'>
                 <h1 className="text-wrapper">About <span className="text-wrapper-2">Me</span></h1>
             </div>
@@ -42,6 +44,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

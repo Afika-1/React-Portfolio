@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.portfolio {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%), url('../assets/background1.jpg'), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* filter: blur(8px); */
+    color: white;
+    min-height: 100vh;
+    width: 100vw;
+}
+h1 span{
+    color: #d69d48;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40vh;
+    padding-left: 20vw;
+}
+p img{
+    height:55px;
+    width: 55px;
+}
