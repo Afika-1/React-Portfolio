@@ -4,6 +4,7 @@ import linkedin from '../assets/linkedin.gif'
 import github from '../assets/github.gif'
 import phone from '../assets/phone.png'
 import location from '../assets/location.png'
+import email from '../assets/email.png'
 
 export default function Contact() {
   return (
@@ -20,7 +21,7 @@ export default function Contact() {
           <div className="contact-container">
             <div className="det-div">
               <p><img src={phone} />+27662398354</p>
-              <p >Afikashwashwa@gmail.com</p>
+              <p ><img src={email} />Afikashwashwa@gmail.com</p>
               <p ><img src={location} />Cape Town, South Africa</p>
             </div>
 
