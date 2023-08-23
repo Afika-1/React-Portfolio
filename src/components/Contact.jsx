@@ -2,6 +2,8 @@ import React from 'react'
 import './contact.css'
 import linkedin from '../assets/linkedin.gif'
 import github from '../assets/github.gif'
+import phone from '../assets/phone.png'
+import location from '../assets/location.png'
 
 export default function Contact() {
   return (
@@ -17,9 +19,9 @@ export default function Contact() {
 
           <div className="contact-container">
             <div className="det-div">
-              <p>+27662398354</p>
+              <p><img src={phone} />+27662398354</p>
               <p >Afikashwashwa@gmail.com</p>
-              <p >Cape Town, South Africa</p>
+              <p ><img src={location} />Cape Town, South Africa</p>
             </div>
 
             <div className="icons">

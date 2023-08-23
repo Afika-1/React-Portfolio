@@ -11,16 +11,35 @@ export default function About() {
             <div id="line"><p className="line"></p></div>
 
             <div className='about-content'>
-                <div className='qualification'><p>Qualification <span>: Dip IT</span></p>
-                    <p>Post<span>:  Software Developer</span></p></div>
+                <div>
+                    <div className='qualification'>
+
+                        <div className='sub'>
+                            <p>Qualification </p>
+                            <p>Post</p>
+                        </div>
+
+                        <div>
+                            <p>: Dip IT</p>
+                            <p>: Software Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+
                 <p>I am a Graduate with a Diploma: IT (CN) that branched out to Software Development out of interest and passion for Mobile App Development  .
                     I am well equipped with tech knowledge and tools hence proficient in computer programs such as Visual Studio Code, SASAMS And Packet Tracer as examples.
                     <br></br>I have excellent Understanding and skills in languages such as HTML, CSS and JavaScript and upskilling with ReactJS and NodeJS. I currently specialize in Front End Web.</p>
                 <div className='boxes'>
                     <div>
-                        <p>1+</p><p>Years of Experience</p></div>
-                    <div><p>1+</p><p>Projects Completed</p></div>
-                    <div><p>1+</p><p>Tap to view My Education</p></div>
+                        <p>1+</p><p>Years of Experience</p>
+                    </div>
+                    <div><
+                        p>1+</p><p>Projects Completed</p>
+                    </div>
+                    <div>
+                        <p>1+</p><p>Tap to view My Education</p>
+                    </div>
                 </div>
             </div>
         </div>
