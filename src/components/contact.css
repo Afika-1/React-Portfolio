@@ -14,7 +14,7 @@ body {
 .contact {
 padding-top: 15vh;
   height: 100vh;
-  background-image: url(../assets/background3.jpg);
+  /* background-image: url(../assets/background3.jpg); */
   background-repeat: no-repeat;
   background-size: 50vw 100vh;
 }
