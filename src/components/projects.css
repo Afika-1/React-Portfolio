@@ -14,3 +14,9 @@
   .contact-title{
  
   }
+  .project-content{
+    display: flex;
+    justify-content: space-between;
+
+
+  }
