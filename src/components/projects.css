@@ -1,22 +1,56 @@
 * {
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box; */
-  }
-  
-  .projects {
-    background-color: #a57272;
-    height: 100vh;
+
+}
+
+.projects {
+    background-color: black;
+    max-height: 250vh;
     width: 100vw;
     padding-top: 10vh;
-  
-  }
-  .contact-title{
- 
-  }
-  .project-content{
+    color: white;
+
+}
+
+
+.contact-title {
+
+}
+
+.project-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
 
 
-  }
+}
+
+.image-descr {
+    
+}
+
+
+.description-icons {
+    display: flex;
+    align-items: center;
+gap: 10vw;  
+}
+
+.project-image img {
+
+    width: 385px;
+    height: 253.814px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    /* background: url(), lightgray 50% / cover no-repeat; */
+    /* mix-blend-mode:luminosity; */
+    border: solid white 1px;
+}
+
+.icons {
+    max-width: 20px;
+}
+.description{
+    width: 385px;
+}
