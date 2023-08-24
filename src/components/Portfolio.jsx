@@ -20,10 +20,10 @@ export default function Portfolio() {
                 <h1>I'm <span>AFIKA SHWASHWA</span></h1>
                 <p>A software developer  currently  specializing in front-end mobile and web development </p>
                 <div className='btn-icons'>
-                    <button>Resume</button>
+                    <button className='btn'>Resume</button>
                     <div className="icons">
-                        <img className="github" alt="Github link" src={github} />
-                        <img className="linkedin-logo" alt="Linkedin link" src={linkedin} />
+                        <img className="git-hub" alt="Github link" src={github} />
+                        <img className="linkedin" alt="Linkedin link" src={linkedin} />
                     </div>
 
                 </div>
