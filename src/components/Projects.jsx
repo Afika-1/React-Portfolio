@@ -10,6 +10,10 @@ export default function Projects() {
             </div>
             <div id="line"><p className="line"></p></div>
   
+            <div>
+            <div>
+            </div>
+            </div>
 
 
         </div>
