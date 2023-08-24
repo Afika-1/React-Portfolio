@@ -6,7 +6,7 @@
 
 
 .portfolio {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.90) 100%), url('../assets/background1.jpg'), lightgray 50%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.90) 100%), url('../assets/background1.jpg'), lightgray 50%;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -15,6 +15,8 @@
     min-height: 100vh;
     width: 100vw;
 }
+.backgound{}
+
 h1 span{
     color: #d69d48;
 }
@@ -31,7 +33,7 @@ h1 span{
     width: 80vw;
 }
 .skillset{
-    padding-top: 20vh;
+    padding-top: 10vh;
 }
 p img{
     height:55px;

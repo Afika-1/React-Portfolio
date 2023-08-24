@@ -1,10 +1,10 @@
 import React from 'react'
 import './about.css'
-import Navbar from './Navbar'
+// import Navbar from './Navbar'
 export default function About() {
     return (
         <div>
-        <Navbar />
+     
         <div className='about'>
         
             <div className='title'>
