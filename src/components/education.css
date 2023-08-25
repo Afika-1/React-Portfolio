@@ -13,7 +13,7 @@
   }
 
 .edu-title {
-
+padding-top: 5vh;
     color: transparent;
     font-family: "IM FELL Great Primer SC-Regular";
     font-size: 0.6rem;
@@ -22,6 +22,7 @@
     letter-spacing: 0;
     line-height: normal;
     text-align: center;
+    color: white;
   }
 
 .education-title span {
@@ -40,4 +41,11 @@
     display: flex;
     justify-content: center
   }
-  
+  .education-content{
+   
+  }
+  .edu{
+    display: flex;
+    justify-content: sp;
+    padding-top: 10vh;
+  }
