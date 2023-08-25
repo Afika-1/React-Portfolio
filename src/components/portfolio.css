@@ -17,8 +17,7 @@
 .backgound{}
 
 .icons{
-    margin: 0;
-
+    display: flex;
 }
 
 h1 span{

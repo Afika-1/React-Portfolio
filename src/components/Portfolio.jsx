@@ -1,6 +1,6 @@
 import React from 'react'
 import '../components/portfolio.css'
-import linkedin from '../assets/linkedin.gif'
+import linkedin from '../assets/linkedin3.gif'
 import github from '../assets/github.gif'
 import css from '../assets/css.png'
 import html from '../assets/html.png'

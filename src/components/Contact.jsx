@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-import linkedin from '../assets/linkedin.gif'
+import linkedin from '../assets/linkedin3.gif'
 import github from '../assets/github.gif'
 import phone from '../assets/phone.png'
 import location from '../assets/location.png'
