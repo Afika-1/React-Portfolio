@@ -31,7 +31,7 @@ nav {
   nav ul li {
     list-style-type: none;
   
-    font-family: "IM FELL Great Primer SC-Regular", Helvetica;
+    font-family: "IM FELL Great Primer SC-Regular";
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 0;
@@ -59,7 +59,7 @@ nav {
     width: 6.8rem;
     background-color: #d69d48;
     color: #ffffff;
-    font-family: "IM FELL Great Primer SC-Regular", Helvetica;
+    font-family: "IM FELL Great Primer SC-Regular";
     font-size: 20px;
     font-weight: 400;
     border: none;
