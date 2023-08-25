@@ -13,7 +13,7 @@ export default function About() {
             <div id="line"><p className="line"></p></div>
 
             <div className='about-content'>
-                <div>
+            
                     <div className='qualification'>
 
                         <div className='sub'>
@@ -26,7 +26,7 @@ export default function About() {
                             <p>: Software Developer</p>
                         </div>
                     </div>
-                </div>
+         
 
 
                 <p>I am a Graduate with a Diploma: IT (CN) that branched out to Software Development out of interest and passion for Mobile App Development  .
