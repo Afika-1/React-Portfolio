@@ -5,16 +5,20 @@
 }
 
 .projects {
+
     background-color: black;
     max-height: 250vh;
     width: 100vw;
-    padding-top: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 8vh;
     color: white;
-
+    /* border-top: solid #D9D9D980 0.1px; */
 }
 
 
-.contact-title {}
+.contact-title {
+    padding-top: 5vh;
+}
 
 .project-content {
     display: flex;
@@ -28,19 +32,27 @@
 
 
 .description-icons {
-    padding-top: 2%;
+    padding-top: 3%;
     padding-bottom: 2%;
     display: flex;
     align-items: center;
     gap: 10vw;
-    border-bottom: dashed #d69d48 2px;
+    border-bottom: solid #2e2517 2px;
 }
-.description-icons button{
-background-color: #d69d48;
-border-radius: 10px;
-padding: 2%;
-color: white;
+
+#bd {
+    border-bottom: none;
 }
+
+.description-icons a button {
+    background-color: #d69d48;
+
+    border-radius: 10px;
+    width: 100px;
+    padding: 2%;
+    color: white;
+}
+
 .project-image img {
 
     width: 30vw;
@@ -57,14 +69,16 @@ color: white;
     max-width: 20px;
 }
 
-.description {
+.description 
+{
     width: 385px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.description p {
+.description p 
+{
     padding: 3%;
     font-size: 0.7rem;
     text-align: center;

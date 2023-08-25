@@ -12,6 +12,7 @@ body {
 }
 
 .contact {
+  border-top: solid #D9D9D980 0.1px;
 padding-top: 15vh;
   height: 100vh;
   /* background-image: url(../assets/background3.jpg); */

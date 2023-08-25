@@ -14,7 +14,7 @@ import gitlogo from '../assets/git.png'
 export default function Portfolio() {
     return (
         <div className='portfolio'>
-<div className='backgound'></div>
+            <div className='backgound'></div>
             <div className='home-content'>
                 <p>Hi There</p>
                 <h1>I'm <span>AFIKA SHWASHWA</span></h1>
