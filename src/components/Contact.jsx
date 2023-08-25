@@ -9,11 +9,11 @@ import email from '../assets/email.png'
 export default function Contact() {
   return (
     <div className='contact'>
-
+    <div id="line"><p className="line"></p></div>
       <div className='contact-title'>
         <h1 className="text-wrapper">Contact <span className="text-wrapper-2">Me</span></h1>
       </div>
-      <div id="line"><p className="line"></p></div>
+      
       <div className="contact-content">
 
         <div className="contact-det">
