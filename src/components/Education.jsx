@@ -10,35 +10,35 @@ export default function Education() {
                 <h1 className="text-wrapper">My <span className="text-wrapper-2">Education</span></h1>
             </div>
             <div className='education-content'>
-<div className='edu'>
-                <div>
-                    <h3>Diploma: IT</h3>
-                    <p>bddsgsg</p>
-                </div>
-                <div>
-                    <h3>Diploma: IT</h3>
-                    <p>bddsgsg</p>
-                </div>
-                <div>
-                    <h3>Diploma: IT</h3>
-                    <p>bddsgsg</p>
-                </div>
+                <div className='edu'>
+                    <div>
+                        <h3>Diploma: IT</h3>
+                        <p>bddsgsg</p>
+                    </div>
+                    <div>
+                        <h3>Diploma: IT</h3>
+                        <p>bddsgsg</p>
+                    </div>
+                    <div>
+                        <h3>Diploma: IT</h3>
+                        <p>bddsgsg</p>
+                    </div>
                 </div>
 
-            <div className='edu'>
-                <div>
-                    <h3>Diploma: IT</h3>
-                    <p>bddsgsg</p>
+                <div className='edu'>
+                    <div>
+                        <h3>Diploma: IT</h3>
+                        <p>bddsgsg</p>
+                    </div>
+                    <div>
+                        <h3>Diploma: IT</h3>
+                        <p>bddsgsg</p>
+                    </div>
+                    <div>
+                        <h3>Diploma: IT</h3>
+                        <p>bddsgsg</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Diploma: IT</h3>
-                    <p>bddsgsg</p>
-                </div>
-                <div>
-                    <h3>Diploma: IT</h3>
-                    <p>bddsgsg</p>
-                </div>
-            </div>
             </div>
         </div>
     )

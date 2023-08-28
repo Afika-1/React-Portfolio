@@ -41,10 +41,9 @@ padding-top: 15vh;
   margin-right: 50px;
 
 }
-.contact-det  p img{
-  height: 20px;
-  width: 30px;
-  padding-right: 1vw;
+.contact-det  p span{
+ 
+  padding-left: 1vw;
 
 }
 

@@ -49,3 +49,10 @@ padding-top: 5vh;
     justify-content: sp;
     padding-top: 10vh;
   }
+  .edu div{
+    border: #ffffff solid 1px;
+    margin-right: 5vw;
+    padding: 50px;
+    padding-left: 3px;
+    box-shadow: 8px 8px 5px 1px  #9c9b9b ;
+  }
