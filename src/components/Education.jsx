@@ -11,10 +11,10 @@ export default function Education() {
             </div>
             <div className='education-content'>
                 <div className='edu'>
-                    <div>
+                    <span><div>
                         <h3>Diploma: IT</h3>
                         <p>bddsgsg</p>
-                    </div>
+                    </div></span>
                     <div>
                         <h3>Diploma: IT</h3>
                         <p>bddsgsg</p>
