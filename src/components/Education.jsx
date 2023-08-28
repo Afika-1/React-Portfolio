@@ -1,9 +1,12 @@
 import React from 'react'
 import '../components/education.css'
+import Background from './Background'
 
 export default function Education() {
     return (
         <div className='education'>
+<Background/>
+
             <div id="line"><p className="line"></p></div>
 
             <div className='edu-title'>

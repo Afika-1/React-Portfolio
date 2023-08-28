@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
-import Backgound from "./components/Background";
+// import Backgound from "./components/Background";
 function App() {
 
   return (
@@ -15,7 +15,7 @@ function App() {
 
       <Navbar />
       <Portfolio />
-      <Backgound />
+
       <About />
       <Projects />
       <Education />
