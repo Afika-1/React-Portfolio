@@ -15,9 +15,10 @@ function App() {
     <div>
 
       <Navbar />
-      <MyBackgound/>
+   
       <Portfolio />
       <About />
+      <MyBackgound/>
       <Projects />
       <Education />
       <Contact />
