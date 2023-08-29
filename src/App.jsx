@@ -6,15 +6,17 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
+import MyBackgound from "./components/particles/MyBackgound";
+
+
 function App() {
 
   return (
     <div>
 
-
       <Navbar />
+      <MyBackgound/>
       <Portfolio />
-
       <About />
       <Projects />
       <Education />
