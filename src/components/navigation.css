@@ -67,4 +67,47 @@ nav {
 
   }
 
+
+  /* --------------------- */
+
   
+ /* ... Your existing styles ... */
+
+/* Add styles for mobile menu */
+.mobile-menu {
+  display: none;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list.mobile-open {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: rgb(44, 43, 43);
+  border-top: 2px solid #d69d48;
+  z-index: 2;
+}
+
+.nav-list.mobile-open li {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+.nav-list.mobile-open li:last-child {
+  border-bottom: none;
+}
+
+/* ... Your existing styles ... */
