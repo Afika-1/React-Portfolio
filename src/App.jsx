@@ -14,9 +14,7 @@ function App() {
     <div>
 
       <Navbar />
-   
       <Portfolio />
-      
       <About />
       <Projects />
       <Education />

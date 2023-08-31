@@ -29,17 +29,24 @@ nav {
   
   
   nav ul li {
+
     list-style-type: none;
-  
     font-family: "IM FELL Great Primer SC-Regular";
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 0;
     line-height: normal;
-  
-  
-    display: inline-block;
-    padding-inline-start: 4rem;
+
+
+  }
+  nav ul{
+    display: flex;
+    /* background-color: #d69d48;
+    border: #ffffff solid; */
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+
   
   }
   
@@ -92,6 +99,7 @@ nav {
 @media (max-width: 768px) {
   .navbar {
       flex-direction: column;
+      
   }
 
   .menu {
@@ -100,13 +108,19 @@ nav {
       width: 100%;
       background: linear-gradient(to bottom right, black, black, black, rgb(44, 43, 43));
       text-align: center;
+      
   }
 
   .menu.open {
       display: flex;
       flex-direction: column;
+      padding-top: 10px;
+      padding-bottom: 10px;
   }
-
+.logo{
+  height: 50px;
+  width: 50px;
+}
   .menu-icon {
       display: flex;
   }
