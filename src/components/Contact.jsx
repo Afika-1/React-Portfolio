@@ -107,7 +107,10 @@ export default function Contact() {
         </form>
 
       </div>
-
+      <div className="icons-bottom">
+      <img className="github" alt="Github link" src={github} />
+      <img className="lIn-logo" alt="Linkedin link" src={linkedin} />
+    </div>
 
     </div>
 

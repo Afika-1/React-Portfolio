@@ -10,8 +10,9 @@
   padding-top: 15vh;
   height: 100vh;
   width: 100vw;
+  max-height: 300vh;
   background-repeat: no-repeat;
-  background-size: 50vw 100vh;
+  background-size: 100vw 100vh;
 }
 
 .contact-content {
@@ -24,6 +25,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 
 
 }
@@ -51,6 +53,8 @@
 
 .icons {
   margin-top: 4vh;
+  display: flex;
+  gap: 20px;
 }
 
 .send-button {
@@ -67,11 +71,12 @@ form {
 }
 
 .form-message {
+  min-width: 330px;
   width: 30vw;
   font-size: 1rem;
   padding: 10px;
   background-color: #D9D9D980;
-  color: #000000;
+  color: #ffffff;
   height: 5rem;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -79,13 +84,14 @@ form {
 }
 
 .form-input {
+  min-width: 330px;
   max-width: 30vw;
   font-size: 20px;
   padding: 5px;
   margin-bottom: 10px;
   border-radius: 10px;
   background-color: #D9D9D980;
-  color: #000000;
+  color: #ffffff;
   border: #d69d48 solid 1px;
 }
 
@@ -247,4 +253,18 @@ form {
 /* import backgound from  './/assets/background 3.jpg'
     <img src={backgound} className="logo react" alt="React logo" /> */
 
-    
+    @media (max-width: 781px){
+      /* .condisplay: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; */
+
+
+
+  .icons{
+    display: none;
+  }
+  .contact-det{
+    margin-right: 0;
+  }
+    }
