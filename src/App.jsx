@@ -17,6 +17,7 @@ function App() {
       <Navbar />
    
       <Portfolio />
+      
       <About />
       <Projects />
       <Education />

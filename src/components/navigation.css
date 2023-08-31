@@ -67,6 +67,47 @@ nav {
 
   }
 
-
+/* 
   ---------------------
-  
+   */
+
+   /* Existing styles... */
+
+/* Hamburger Icon */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 2px 0;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+  }
+
+  .menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background: linear-gradient(to bottom right, black, black, black, rgb(44, 43, 43));
+      text-align: center;
+  }
+
+  .menu.open {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .menu-icon {
+      display: flex;
+  }
+}
