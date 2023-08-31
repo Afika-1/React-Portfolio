@@ -1,10 +1,8 @@
 import React from 'react'
-import './contact.css'
+import './styling/contact.css'
 import linkedin from '../assets/linkedin3.gif'
 import github from '../assets/github.gif'
-import phone from '../assets/phone.png'
-import location from '../assets/location.png'
-import email from '../assets/email.png'
+
 
 export default function Contact() {
   return (

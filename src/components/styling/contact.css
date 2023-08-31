@@ -4,18 +4,12 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #000000;
-  height: 100vh;
-  width: 100vw;
-
-}
 
 .contact {
-  /* border-top: solid #D9D9D980 0.1px; */
-padding-top: 15vh;
+  background-color: #000000;
+  padding-top: 15vh;
   height: 100vh;
-  /* background-image: url(../assets/background3.jpg); */
+  width: 100vw;
   background-repeat: no-repeat;
   background-size: 50vw 100vh;
 }
@@ -41,8 +35,9 @@ padding-top: 15vh;
   margin-right: 50px;
 
 }
-.contact-det  p span{
- 
+
+.contact-det p span {
+
   padding-left: 1vw;
 
 }
@@ -196,7 +191,7 @@ form {
 
 .text-wrapper-10 {
   color: #ffffff;
-  font-family:"IM FELL Great Primer SC-Regular";
+  font-family: "IM FELL Great Primer SC-Regular";
   font-size: 24px;
   font-weight: 400;
   left: 750px;
@@ -211,7 +206,7 @@ form {
 
 .text-wrapper-11 {
   color: #ffffff;
-  font-family:"IM FELL Great Primer SC-Regular";
+  font-family: "IM FELL Great Primer SC-Regular";
   font-size: 24px;
   font-weight: 400;
   left: 747px;
@@ -226,7 +221,7 @@ form {
 
 .text-wrapper-12 {
   color: #ffffff;
-  font-family:"IM FELL Great Primer SC-Regular";
+  font-family: "IM FELL Great Primer SC-Regular";
   font-size: 24px;
   font-weight: 400;
   left: 750px;

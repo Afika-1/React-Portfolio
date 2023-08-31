@@ -31,7 +31,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import logo from '../assets/logo.jpg';
-import './navigation.css';
+import './styling/navigation.css';
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);

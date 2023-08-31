@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/projects.css'
+import './styling/projects.css'
 import web from '../components/projects/mzamo.png'
 import bank from '../components/projects/bank.png'
 import chat from '../components/projects/ChatApp.png'

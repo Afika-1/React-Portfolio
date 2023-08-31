@@ -1,15 +1,7 @@
 import React from 'react'
-import '../components/portfolio.css'
+import './styling/portfolio.css'
 import linkedin from '../assets/linkedin3.gif'
 import github from '../assets/github.gif'
-// import css from '../assets/css.png'
-// import html from '../assets/html.png'
-// import bootstrap from '../assets/bootstrap.png'
-// import js from '../assets/js.png'
-// import rct from '../assets/reactjs.png'
-// import figma from '../assets/figma.png'
-// import gitlogo from '../assets/git.png'
-
 
 export default function Portfolio() {
     return (
