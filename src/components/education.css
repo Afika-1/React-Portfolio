@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+.education {
+    /* background-color: #000000; */
+    height: 100vh;
+    width: 100vw;
+    color: white;
+  
+  }
+
+.edu-title {
+padding-top: 5vh;
+    color: transparent;
+    font-family: "IM FELL Great Primer SC-Regular";
+    font-size: 0.6rem;
+    font-weight: 400;
+    width: 100vw;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    color: white;
+  }
+
+.education-title span {
+    color: #d79e48;
+  }
+
+#line {
+    padding-left: 10%;
+  }
+  
+  .line {
+    position: absolute;
+    width: 80vw;
+    padding: 0;
+    border-top: #8F8F8F solid;
+    display: flex;
+    justify-content: center
+  }
+  .education-content{
+   display: flex;
+   flex-direction: column;
+align-items: center;  }
+  .edu{
+    display: flex;
+    justify-content: sp;
+    padding-top: 10vh;
+  }
+  .container{
+    border: #ffffff solid 1px;
+    margin-right: 5vw;
+    padding: 10px;
+    width: 340px;
+    height: 200px;
+    box-shadow: 8px 8px 5px 1px  #9c9b9b ;
+  }
+  .container:hover{
+    color:#d79e48;
+    box-shadow: 8px 8px 5px 1px  #d79e48 ;
+  }
+
+ 
+  section{
+    margin-left: 23px;
+    padding-top: 5px;
+    padding-left: 10px;
+    height: 200px;
+    border-left: #d79e48 solid;
+    
+  }
+  .container p{
+    padding-left: 1vw;
+    margin-top: 20px;
+  }
+  .institution{
+    margin-top: 50px;
+  }
+  .edu div span{
+    background-color: #ffffff;
+    color: #000000;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 50px;
+    margin-left: 28%;
+  }

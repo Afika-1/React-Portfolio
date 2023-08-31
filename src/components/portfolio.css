@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.portfolio {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.90) 100%), url('../assets/background1.jpg'), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    min-height: 100vh;
+    width: 100vw;
+    font-family: "IM FELL Great Primer SC-Regular";
+}
+
+.icons{
+    display: flex;
+}
+
+h1 span{
+    color: #d69d48;
+    font-family: IM FELL Great Primer SC;
+}
+.git-hub, .linkedin{
+    height: 30px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 50px;
+    width: 30px;
+    margin-right: 30px;
+}
+.home-icons{
+    padding-right: 1vw;
+}
+
+.btn-icons{
+    /* border: #979696 solid; */
+    margin-top: 3vh;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40vh;
+    padding-left: 20vw;
+    width: 80vw;
+}
+.skillset{
+    padding-top: 10vh;
+}
+p img{
+    height:6vh;
+    width: 5vw;
+}
+.btn{
+    border-radius: 18px;
+    height: 1.3rem;
+    width: 6rem;
+    background-color: #d69d48;
+    color: #ffffff;
+    font-family: "IM FELL Great Primer SC-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    position: relative;
+    box-shadow: 1px 1px 7px 8px #979696;
+}
