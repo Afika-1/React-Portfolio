@@ -90,7 +90,7 @@ export default function Contact() {
 
             <div className="icons">
               <img className="github" alt="Github link" src={github} />
-              <img className="linkedin-logo" alt="Linkedin link" src={linkedin} />
+              <img className="lIn-logo" alt="Linkedin link" src={linkedin} />
             </div>
 
           </div>

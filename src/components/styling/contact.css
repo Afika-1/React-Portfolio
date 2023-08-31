@@ -123,22 +123,16 @@ form {
   justify-content: center
 }
 
-.github {
+.github, .lIn-logo {
   height: 30px;
   object-fit: cover;
   position: relative;
   border-radius: 50px;
   width: 30px;
-  margin-right: 30px;
+  gap: 30px;
 }
 
-.linkedin-logo {
-  height: 30px;
-  object-fit: cover;
-  position: relative;
-  width: 30px;
-  border-radius: 50px;
-}
+
 
 
 .text-wrapper-3 {

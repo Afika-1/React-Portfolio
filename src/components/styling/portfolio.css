@@ -16,8 +16,10 @@
     font-family: "IM FELL Great Primer SC-Regular";
 }
 
-.icons{
+.hm-icons{
     display: flex;
+    gap: 20px;
+    /* align-items: center; */
 }
 
 h1 span{
@@ -30,7 +32,6 @@ h1 span{
     position: relative;
     border-radius: 50px;
     width: 30px;
-    margin-right: 30px;
 }
 .home-icons{
     padding-right: 1vw;
@@ -54,10 +55,10 @@ h1 span{
 .skillset{
     padding-top: 10vh;
 }
-p img{
+/* p img{
     height:6vh;
     width: 5vw;
-}
+} */
 .btn{
     border-radius: 18px;
     height: 1.3rem;
@@ -70,4 +71,21 @@ p img{
     border: none;
     position: relative;
     box-shadow: 1px 1px 7px 8px #979696;
+}
+
+/* -------------- home page content responsiveness ---------------------- */
+
+@media (max-width: 781px){
+
+    .btn-icons{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+
+    }
+
+    .hm-icons{
+        margin-top: 2vh;
+    }
 }

@@ -119,21 +119,20 @@ nav ul li a:hover {
     background-color: #d69d48;
 
   }
+  
 
+  .logo {
+    height: 50px;
+    width: 50px;
+    left: 0;
 
+  }
 
-.logo {
-  height: 50px;
-  width: 50px;
-  left: 0;
+  .menu-icon {
+    display: flex;
+  }
 
-}
-
-.menu-icon {
-  display: flex;
-}
-
-.btn-cv {
-  display: none;
-}
+  .btn-cv {
+    display: none;
+  }
 }

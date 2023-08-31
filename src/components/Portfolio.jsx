@@ -12,8 +12,10 @@ export default function Portfolio() {
                 <h1>I'm <span>Afika Shwashwa</span></h1>
                 <p>A software developer  currently  specializing in front-end mobile and web development </p>
                 <div className='btn-icons'>
+
                     <button className='btn'>Resume</button>
-                    <div className="icons">
+
+                    <div className="hm-icons">
                         <img className="git-hub" alt="Github link" src={github} />
                         <img className="linkedin" alt="Linkedin link" src={linkedin} />
                     </div>
