@@ -5,10 +5,12 @@
 .about {
   background-color: black;
   padding-top: 10vh;
-  height: 100vh;
-  background-size: cover;
+  min-height: 100vh;
+  
+  /* background-size: cover; */
   background-repeat: no-repeat;
-  background-size: 80vw 100vh;
+  /* background-size: 80vw 100vh; */
+
 }
 
 .about-content {
@@ -28,7 +30,8 @@
 
 .about-content p {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  flex-wrap: wrap;
   align-items: center;
   position: relative;
 }
@@ -36,20 +39,30 @@
 .qualification {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  gap: 30px;
+  /* flex-direction: column; */
+  /* align-items: center; */
+
+  /* flex-wrap: wrap; */
   font-size: 1rem;
   color: #d79e48;
   padding-bottom: 5vh;
+  /* max-width: 430px; */
 }
-
-.qualification div {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  min-width: 13vw;
-  max-width: 30vw;
+.sub{
+display: flex;
+flex-direction: column;
 }
+/* .qualification div {
+  display: flex; */
+  /* justify-content: center; */
 
+  /* min-width: 13vw;
+  max-width: 60vw; */
+/* } */
+/* .p1{
+ width: 200px;
+} */
 .boxes {
   padding-top: 10%;
   display: flex;
@@ -116,9 +129,16 @@
 @media (max-width: 781px){
 
   .sub{
-    display: flex;
+    /* display: flex; */
     /* justify-content: center; */
-    flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+  }
+  .qualification{
+    font-size: 15px;
+    gap: 8px;
+  }
+  .about{
+    max-height: 400vh;
   }
 }
