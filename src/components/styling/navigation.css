@@ -100,13 +100,14 @@ nav ul li a:hover {
   .navbar {
     flex-direction: column;
     justify-content: center;
+    
   }
 
   .menu {
     display: none;
     flex-direction: column;
     width: 100%;
-    background: linear-gradient(to bottom right, black, black, black, rgb(44, 43, 43));
+    background: linear-gradient(to bottom right, black, black, rgb(34, 34, 34), rgb(44, 43, 43));
     text-align: center;
 
   }
@@ -116,10 +117,12 @@ nav ul li a:hover {
     flex-direction: row;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #d69d48;
 
   }
-  
+  ul li{
+    padding: 2px;
+    box-shadow: .8px 1px .8px 1px  #d79e48 ;
+  }
 
   .logo {
     height: 50px;
