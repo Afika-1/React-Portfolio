@@ -4,8 +4,6 @@ import web from '../components/projects/mzamo.png'
 import bank from '../components/projects/bank.png'
 import chat from '../components/projects/ChatApp.png'
 import income from '../components/projects/INCOME.jpg'
-import red from '../components/projects/red.png'
-import tax from '../components/projects/tax-calculator.jpg'
 import simple from '../components/projects/simple.png'
 
 export default function Projects() {
@@ -29,7 +27,7 @@ export default function Projects() {
                         </div>
                     </div>
 
-                    <div className='description-icons'>
+                    <div className='description-icons' id='description-icons'>
                         <div className='description'>
                             <h2>Banking System</h2>
                             <p className='para'>Here is a mobile banking system app. This was created using a the TKinter Python library. The App can creates an account and allows account holder to make transactions while recording the data and more.</p>
@@ -48,7 +46,7 @@ export default function Projects() {
                         </div>
                     </div>
 
-                    <div className='description-icons'>
+                    <div className='description-icons' id='description-icons'>
                         <div className='description'>
                             <h2>Tax Calculator</h2>
                             <p>The Tax Calculator allows the user to enter their annual income, select the tax bracket they are in and applies the accurate tax rate then displays the annual and monthly tax obligation.

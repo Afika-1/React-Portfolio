@@ -248,7 +248,9 @@ form {
   top: 418px;
   white-space: nowrap;
 }
-
+.icons-bottom{
+  display: none;
+}
 
 /* import backgound from  './/assets/background 3.jpg'
     <img src={backgound} className="logo react" alt="React logo" /> */

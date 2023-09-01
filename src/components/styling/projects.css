@@ -7,10 +7,10 @@
 .projects {
 
     background-color: black;
-    max-height: 250vh;
+    max-height: 350vh;
     width: 100vw;
     padding-top: 5vh;
-    padding-bottom: 8vh;
+    padding-bottom: 5vh;
     color: white;
     /* border-top: solid #D9D9D980 0.1px; */
 }
@@ -36,6 +36,7 @@
     padding-bottom: 2%;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 10vw;
     border-bottom: solid #2e2517 2px;
 }
@@ -55,7 +56,8 @@
 
 .project-image img {
 
-    width: 30vw;
+    /* width: 30vw; */
+    width: 400px ;
     /* min-height: 25vh; */
     height: 30vh;
     flex-shrink: 0;
@@ -83,4 +85,14 @@
     font-size: 0.7rem;
     text-align: center;
     position: relative;
+}
+@media (max-width: 992px){
+    #description-icons{
+display: flex;
+flex-direction: column-reverse;
+    }
+    .description-icons{
+        display: flex;
+        flex-direction: column;
+    }
 }
