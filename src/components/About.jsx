@@ -1,6 +1,6 @@
 import React from 'react'
 import './styling/about.css'
-// import Navbar from './Navbar'
+
 export default function About() {
     return (
         <div>
@@ -34,13 +34,16 @@ export default function About() {
                         <br></br>I have excellent Understanding and skills in languages such as HTML, CSS and JavaScript and upskilling with ReactJS and NodeJS. I currently specialize in Front End Web.</p>
                     <div className='boxes'>
                         <div>
-                            <p>1+</p><p>Years of Experience</p>
-                        </div>
-                        <div><
-                            p>1+</p><p>Projects Completed</p>
+                            <p>1+</p>
+                            <p>Years of Experience</p>
                         </div>
                         <div>
-                            <p>1+</p><p>Tap to view My Education</p>
+                            <p>1+</p>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div>
+                            <p>1+</p>
+                            <p>Tap to view My Education</p>
                         </div>
                     </div>
                 </div>
