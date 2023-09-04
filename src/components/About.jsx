@@ -33,16 +33,16 @@ export default function About() {
                     <br></br>I have excellent Understanding and skills in languages such as HTML, CSS and JavaScript and upskilling with ReactJS and NodeJS. I currently specialize in Front End Web.</p>
                 <div className='boxes'>
                     <div>
-                        <p>1+</p>
-                        <p>Years of Experience</p>
+                        <p className='btns'>1+</p>
+                        <p className='btns'>Years of Experience</p>
                     </div>
                     <div>
-                        <p>1+</p>
-                        <p>Projects Completed</p>
+                        <p className='btns'>1+</p>
+                        <p className='btns'>Projects Completed</p>
                     </div>
                     <div>
-                        <p>1+</p>
-                        <p>Tap to view My Education</p>
+                        <p className='btns'>1+</p>
+                        <p className='btns'>Tap to view My Education</p>
                     </div>
                 </div>
             </div>
