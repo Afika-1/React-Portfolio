@@ -58,6 +58,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #d69d48;
+  font-weight: bold;
 
 }
 

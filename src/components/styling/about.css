@@ -65,7 +65,7 @@
 }
 
 .boxes div {
-  width: 10vw;
+  width: 5rem;
   height: 15vh;
   font-size: 0.7rem;
   background-color: #d79e48;
@@ -86,6 +86,7 @@
 } */
 #btns{
   font-weight: bold;
+
 }
 
 .title {

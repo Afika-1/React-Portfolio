@@ -43,7 +43,7 @@ export default function Navbar() {
     return (
         <header className='header-class'>
             <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
-                <img className="logo" alt="logo Image" src={logo} />
+                <a href='#portfolio'><img className="logo" alt="logo Image" src={logo} /></a>
 
                 <div className={`menu-icon ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
                     <div className="bar"></div>

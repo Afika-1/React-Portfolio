@@ -45,11 +45,15 @@
 
 .description-icons a button {
     background-color: #d69d48;
-
-    border-radius: 10px;
-    width: 100px;
+    border-radius: 18px;
+    height: 1rem;
+    width: 4rem;
+    /* border-radius: 10px; */
+    /* width: 100px; */
     padding: 2%;
     color: white;
+    border: none;
+
 }
 
 .project-image img {
@@ -90,7 +94,9 @@
         display: flex;
         flex-direction: column;
     }
-
+    .projects{
+        max-height: 400vh;
+    }
 }
 
 @media (max-width: 480px) {
