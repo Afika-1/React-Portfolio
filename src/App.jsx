@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
-
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
 

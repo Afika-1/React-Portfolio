@@ -72,6 +72,7 @@ nav ul li a:hover {
   font-weight: 400;
   border: none;
   position: relative;
+  margin-right: 3vw;
 
 }
 
@@ -139,3 +140,6 @@ nav ul li a:hover {
     display: none;
   }
 }
+
+/* ---------router for navigation------------ */
+

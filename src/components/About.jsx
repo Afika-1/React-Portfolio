@@ -4,7 +4,7 @@ import './styling/about.css'
 export default function About() {
     return (
 
-        <div className='about'>
+        <div className='about' id='about'>
 
             <div className='title'>
                 <h1 className="text-wrapper">About <span className="text-wrapper-2">Me</span></h1>

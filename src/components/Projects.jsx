@@ -8,7 +8,7 @@ import simple from '../components/projects/simple.png'
 
 export default function Projects() {
     return (
-        <div className='projects'>
+        <div className='projects' id='projects'>
         <div id="line"><p className="line"></p></div>
 
             <div className='contact-title'>

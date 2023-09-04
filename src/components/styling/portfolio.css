@@ -59,7 +59,12 @@ h1 span{
     height:6vh;
     width: 5vw;
 } */
+
+.myIcons{
+    margin-top: 2vh;
+}
 .btn{
+    display: none;
     border-radius: 18px;
     height: 1.3rem;
     width: 6rem;
@@ -70,7 +75,7 @@ h1 span{
     font-weight: 400;
     border: none;
     position: relative;
-    box-shadow: 1px 1px 7px 8px #979696;
+    /* box-shadow: 1px 1px 7px 8px #979696; */
 }
 
 /* -------------- home page content responsiveness ---------------------- */
@@ -95,4 +100,7 @@ justify-content: center;
 gap: 20px;
 margin-top: 10vh;
     }
+}
+.skillset p span{
+    height: 10px;
 }

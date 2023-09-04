@@ -28,8 +28,6 @@
 
 }
 
-.image-descr {}
-
 
 .description-icons {
     padding-top: 3%;
@@ -56,14 +54,10 @@
 
 .project-image img {
 
-    /* width: 30vw; */
     width: 400px;
-    /* min-height: 25vh; */
     height: 30vh;
     flex-shrink: 0;
     border-radius: 20px;
-    /* background: url(), lightgray 50% / cover no-repeat; */
-    /* mix-blend-mode:luminosity; */
     border: solid white 1px;
 }
 

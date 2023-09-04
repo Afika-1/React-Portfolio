@@ -6,7 +6,7 @@ import github from '../assets/github.gif'
 
 export default function Contact() {
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
     <div id="line"><p className="line"></p></div>
       <div className='contact-title'>
         <h1 className="text-wrapper">Contact <span className="text-wrapper-2">Me</span></h1>

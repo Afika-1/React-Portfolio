@@ -5,7 +5,7 @@ import github from '../assets/github.gif'
 
 export default function Portfolio() {
     return (
-        <div className='portfolio'>
+        <div className='portfolio' id='portfolio'>
             <div className='backgound'></div>
             <div className='home-content'>
                 <p>Hi There</p>
@@ -16,16 +16,16 @@ export default function Portfolio() {
                     <button className='btn'>Resume</button>
 
                     <div className="hm-icons">
-                        <img className="git-hub" alt="Github link" src={github} />
-                        <img className="linkedin" alt="Linkedin link" src={linkedin} />
+                        <a  href="https://github.com/Afika-1"><img className="git-hub" alt="Github link" src={github} /></a>
+                        <a href=''><img className="linkedin" alt="Linkedin link" src={linkedin} /></a>
                     </div>
 
                 </div>
                 <div className='skillset'>
                     <p>Tech Stack</p>
-                    <p>
+                    <p className='myIcons'>
                         <span className='home-icons'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="53" viewBox="0 0 55 52" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 55 52" fill="none">
                                 <path d="M10.144 44.2016L6.28198 3.25H48.7179L44.8507 44.1951L27.4742 48.75L10.144 44.2016Z" fill="#E44F26" />
                                 <path d="M27.5 45.2693L41.5422 41.5886L44.8456 6.59912H27.5V45.2693Z" fill="#F1662A" />
                                 <path d="M27.5 21.7864H20.4703L19.9856 16.6432H27.5V11.6204H14.1797L14.3069 12.9691L15.6114 26.8092H27.5V21.7864ZM27.5 34.8302L27.4759 34.8367L21.56 33.3271L21.1819 29.3215H15.8486L16.5928 37.206L27.4759 40.0627L27.5 40.0562V34.8302Z" fill="#EBEBEB" />
@@ -33,7 +33,7 @@ export default function Portfolio() {
                             </svg>
                         </span>
                         <span className='home-icons'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="53" viewBox="0 0 55 52" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"viewBox="0 0 55 52" fill="none">
                                 <g clip-path="url(#clip0_241_182)">
                                     <path d="M41.9297 0.223389H13.2471C6.25845 0.223389 0.593018 5.56814 0.593018 12.1612V39.2203C0.593018 45.8134 6.25845 51.1582 13.2471 51.1582H41.9297C48.9184 51.1582 54.5838 45.8134 54.5838 39.2203V12.1612C54.5838 5.56814 48.9184 0.223389 41.9297 0.223389Z" fill="url(#paint0_linear_241_182)" />
                                     <g filter="url(#filter0_d_241_182)">
@@ -66,7 +66,7 @@ export default function Portfolio() {
                             </svg>
                         </span>
                         <span className='home-icons'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="53" viewBox="0 0 55 53" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 55 53" fill="none">
                                 <g filter="url(#filter0_i_241_190)">
                                     <g clip-path="url(#clip0_241_190)">
                                         <path d="M0.593018 0.895142H54.5838V52.5704H0.593018V0.895142Z" fill="#F7DF1E" />
@@ -91,7 +91,7 @@ export default function Portfolio() {
                             </svg>
                         </span>
                         <span className='home-icons'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="53" viewBox="0 0 54 52" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg"  width="40" height="40" viewBox="0 0 54 52" fill="none">
                                 <g clip-path="url(#clip0_413_50)">
                                     <path d="M7.93557 46.0772L3.69482 0.545898H50.2949L46.05 46.0703L26.9666 51.1346L7.93557 46.0772Z" fill="#1572B6" />
                                     <path d="M26.9954 47.2638L42.4158 43.1714L46.0437 4.26843H26.9954V47.2638Z" fill="#33A9DC" />
@@ -108,7 +108,7 @@ export default function Portfolio() {
                             </svg>
                         </span>
                         <span className='home-icons'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="53" viewBox="0 0 128 128" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg"  width="40" height="40" viewBox="0 0 128 128" fill="none">
                                 <path d="M63.9999 75.4C70.2959 75.4 75.3999 70.296 75.3999 64C75.3999 57.7039 70.2959 52.6 63.9999 52.6C57.7038 52.6 52.5999 57.7039 52.5999 64C52.5999 70.296 57.7038 75.4 63.9999 75.4Z" fill="#61DAFB" />
                                 <path d="M107.3 45.2C105.1 44.4 102.8 43.6 100.4 42.9C101 40.5 101.5 38.1 101.9 35.8C104 22.6 101.7 13.3 95.2999 9.69998C93.3999 8.59997 91.2999 8.09998 88.8999 8.09998C81.8999 8.09998 72.9999 13.3 63.9999
                                  22C54.9999 13.3 46.0999 8.09998 39.0999 8.09998C36.6999 8.09998 34.5999 8.59997 32.6999 9.69998C26.2999 13.4 23.9999 22.7 26.0999 35.8C26.4999 38.1 26.9999 40.5 27.5999 42.9C25.1999 43.6 22.8999 44.3 20.6999 
@@ -132,7 +132,7 @@ export default function Portfolio() {
                         </span>
 
 
-                        <span className='home-icons'><svg xmlns="http://www.w3.org/2000/svg" width="55" height="53" viewBox="0 0 55 55" fill="none">
+                        <span className='home-icons'><svg xmlns="http://www.w3.org/2000/svg"  width="40" height="40"viewBox="0 0 55 55" fill="none">
                             <g clip-path="url(#clip0_241_213)">
                                 <path d="M14.3929 54.13C21.8628 54.13 27.9254 50.0883 27.9254 45.1083V36.0867H14.3929C6.92291 36.0867 0.860352 40.1284 0.860352 45.1083C0.860352 50.0883 6.92291 54.13 14.3929 54.13Z" fill="#0ACF83" />
                                 <path d="M0.860352 27.065C0.860352 22.085 6.92291 18.0433 14.3929 18.0433H27.9254V36.0867H14.3929C6.92291 36.0867 0.860352 32.045 0.860352 27.065Z" fill="#A259FF" />
@@ -147,7 +147,7 @@ export default function Portfolio() {
                             </defs>
                         </svg></span>
                         <span className='home-icons'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="53" viewBox="0 0 128 128" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg"  width="40" height="40" viewBox="0 0 128 128" fill="none">
                                 <g clip-path="url(#clip0_414_68)">
                                     <path d="M124.737 58.378L69.621 3.26405C66.449 0.090045 61.301 0.090045 58.124 3.26405L46.68 14.71L61.198 29.228C64.573 28.089 68.441 28.853 71.13 31.542C73.833 34.248 74.591 38.149 73.424 41.535L87.416 55.528C90.801 54.361 94.708 55.115 97.41 57.823C101.19 61.6 101.19 67.723 97.41 71.502C96.5117 72.4008 95.4452 73.1137 94.2713 73.6001C93.0974 74.0865 91.8392 74.3369 90.5685 74.3369C89.2978 74.3369 88.0396 74.0865 86.8657 73.6001C85.6919 73.1137 84.6253 72.4008 83.727 71.502C82.3774 70.1516 81.4574 68.4321 81.0829 66.56C80.7083 64.6879 80.8959 62.7468 81.622 60.981L68.574 47.933L68.572 82.274C69.5187 82.7403 70.383 83.3577 71.131 84.102C74.909 87.879 74.909 94 71.131 97.785C67.352 101.562 61.227 101.562 57.452 97.785C53.674 94.001 53.674 87.88 57.452 84.102C58.3572 83.1955 59.4338 82.4782 60.619 81.992V47.333C59.4328 46.8483 58.3559 46.1304 57.452 45.222C54.59 42.362 53.901 38.162 55.369 34.646L41.056 20.333L3.26401 58.123C1.73933 59.6482 0.882812 61.7165 0.882812 63.873C0.882813 66.0296 1.73933 68.0979 3.26401 69.623L58.381 124.737C61.555 127.911 66.701 127.911 69.88 124.737L124.738 69.879C126.262 68.3535 127.119 66.285 127.118 64.1283C127.118 61.9717 126.262 59.9034 124.737 58.378Z" fill="#F34F29" />
                                 </g>
