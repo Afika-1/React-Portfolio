@@ -2,7 +2,7 @@ import React from 'react'
 import './styling/portfolio.css'
 import linkedin from '../assets/linkedin3.gif'
 import github from '../assets/github.gif'
-import videobg from '../assets/videobg.mp4'
+import videobg from '../assets/videobg1.mp4'
 
 export default function Portfolio() {
     return (
