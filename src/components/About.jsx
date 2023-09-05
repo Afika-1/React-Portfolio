@@ -1,5 +1,6 @@
 import React from 'react'
 import './styling/about.css'
+import '../App.css'
 
 export default function About() {
     return (
