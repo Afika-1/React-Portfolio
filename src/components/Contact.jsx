@@ -5,6 +5,7 @@ import github from '../assets/github.gif'
 
 
 export default function Contact() {
+  
   return (
     <div className='contact' id='contact'>
     <div id="line"><p className="line"></p></div>

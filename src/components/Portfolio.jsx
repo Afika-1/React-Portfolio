@@ -2,11 +2,12 @@ import React from 'react'
 import './styling/portfolio.css'
 import linkedin from '../assets/linkedin3.gif'
 import github from '../assets/github.gif'
+import videobg from '../assets/videobg.mp4'
 
 export default function Portfolio() {
     return (
         <div className='portfolio' id='portfolio'>
-            <div className='backgound'></div>
+            <video src={videobg} autoPlay loop muted/>
             <div className='home-content'>
                 <p>Hi There</p>
                 <h1>I'm <span>Afika Shwashwa</span></h1>
