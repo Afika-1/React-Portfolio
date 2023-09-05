@@ -5,8 +5,8 @@ import '../App.css'
 export default function About() {
     return (
 
-        <div className='about' id='about'>
-
+        <div className='about' id='bg'>
+<div className='bg_three'></div>
             <div className='title'>
                 <h1 className="text-wrapper">About <span className="text-wrapper-2">Me</span></h1>
             </div>

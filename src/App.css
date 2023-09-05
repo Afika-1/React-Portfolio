@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-.about{
+#bg{
     position: relative;
     width: 100%;
     
    
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.90) 100%), url('./src/assets/background1.jpg'), lightgray 50%;
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.90) 100%), url('./src/assets/background1.jpg'), lightgray 50%; */
 
     background-size: cover;
     background-repeat: no-repeat;
