@@ -63,6 +63,9 @@ align-items: center;  }
     color:#d79e48;
     box-shadow: 8px 8px 5px 1px  #d79e48 ;
   }
+  .spacing p span:hover{
+    background-color: #d79e48;
+  }
 
  
   section{
