@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
+import Background from "./components/Three";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
       <Navbar />
       <Portfolio />
+      <Background />
       <About />
       <Projects />
       <Education />
