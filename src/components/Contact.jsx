@@ -5,14 +5,14 @@ import github from '../assets/github.gif'
 
 
 export default function Contact() {
-  
+
   return (
     <div className='contact' id='contact'>
-    <div id="line"><p className="line"></p></div>
+      <div id="line"><p className="line"></p></div>
       <div className='contact-title'>
         <h1 className="text-wrapper">Contact <span className="text-wrapper-2">Me</span></h1>
       </div>
-      
+
       <div className="contact-content">
 
         <div className="contact-det">
@@ -20,8 +20,8 @@ export default function Contact() {
           <div className="contact-container">
             <div className="det-div">
               <p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 98 99" fill="none">
-              <g clip-path="url(#clip0_421_46)">
-                <path d="M81.6667 68.6426C81.6667 68.1699 81.6241 67.8262 81.5391 67.6113C81.454 67.3965 81.0712 
+                <g clip-path="url(#clip0_421_46)">
+                  <path d="M81.6667 68.6426C81.6667 68.1699 81.6241 67.8262 81.5391 67.6113C81.454 67.3965 81.0712 
                 67.042 80.3906 66.5479C79.7101 66.0537 78.8487 65.5166 77.8066 64.9365C76.7645 64.3564 75.7543 63.7871 
                 74.776 63.2285C73.7977 62.6699 72.8301 62.1328 71.873 61.6172C70.916 61.1016 70.3099 60.7793 70.0547 
                 60.6504C69.842 60.5215 69.4379 60.2422 68.8425 59.8125C68.247 59.3828 67.7153 59.0605 67.2474 
@@ -48,28 +48,28 @@ export default function Contact() {
                  77.1289 80.263 75.1523C81.1988 72.875 81.6667 70.7051 81.6667 68.6426ZM98 18.5625V80.4375C98 85.5508 96.2029 
                  89.9229 92.6087 93.5537C89.0145 97.1846 84.6866 99 79.625 99H18.375C13.3134 99 8.98546 97.1846 5.39128 
                  93.5537C1.79709 89.9229 0 85.5508 0 80.4375V18.5625C0 13.4492 1.79709 9.07715 5.39128 5.44629C8.98546 1.81543 
-                 13.3134 0 18.375 0H79.625C84.6866 0 89.0145 1.81543 92.6087 5.44629C96.2029 9.07715 98 13.4492 98 18.5625Z" 
-                 fill="#D79E48"/>
-              </g>
-              <defs>
-                <clipPath id="clip0_421_46">
-                  <rect width="98" height="99" fill="white"/>
-                </clipPath>
-              </defs>
-            </svg>
-            <span>+27662398354</span></p>
+                 13.3134 0 18.375 0H79.625C84.6866 0 89.0145 1.81543 92.6087 5.44629C96.2029 9.07715 98 13.4492 98 18.5625Z"
+                    fill="#D79E48" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_421_46">
+                    <rect width="98" height="99" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+                <span>+27662398354</span></p>
 
               <p ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 31 31" fill="none">
-              <path d="M15.3333 0.546631L9.67825 4.20366H4.83325V7.30283L1.78825 9.3018C0.918252 9.84415 0.333252 10.8204 
+                <path d="M15.3333 0.546631L9.67825 4.20366H4.83325V7.30283L1.78825 9.3018C0.918252 9.84415 0.333252 10.8204 
               0.333252 11.9516V27.4475C0.333252 28.2694 0.649322 29.0577 1.21193 29.6389C1.77454 30.2201 2.5376 30.5466 3.33325 
               30.5466H27.3333C28.9983 30.5466 30.3333 29.1675 30.3333 27.4475V11.9516C30.3333 10.8204 29.7483 9.84415 28.8783 9.3018L25.8333 
               7.30283V4.20366H20.9883M7.83325 7.30283H22.8333V14.8648L15.3333 19.6995L7.83325 14.8648M9.33325 8.85242V11.1768H21.3333V8.85242M4.83325 
-              10.9908V12.9278L3.33325 11.9516M25.8333 10.9908L27.3333 11.9516L25.8333 12.9278M9.33325 12.7264V15.0508H21.3333V12.7264H9.33325Z" fill="#D79E48"/>
-            </svg>
-              <span>Afikashwashwa@gmail.com</span></p>
+              10.9908V12.9278L3.33325 11.9516M25.8333 10.9908L27.3333 11.9516L25.8333 12.9278M9.33325 12.7264V15.0508H21.3333V12.7264H9.33325Z" fill="#D79E48" />
+              </svg>
+                <span>Afikashwashwa@gmail.com</span></p>
               <p >
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 151 138" fill="none">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M121.544 97.0578C123.36 96.3091 125.446 96.1356 127.406 96.5701C129.367
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 151 138" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M121.544 97.0578C123.36 96.3091 125.446 96.1356 127.406 96.5701C129.367
                97.0046 131.066 98.017 132.182 99.4153L132.663 100.112L149.246 127.446C149.838 128.42 150.138 129.498 150.122 130.587C150.105 
                131.677 149.773 132.748 149.152 133.71C148.531 134.673 147.64 135.499 146.553 136.12C145.466 136.74 144.214 137.138 142.903 
                137.279L141.833 137.333H9.16665C7.84388 137.334 6.54021 137.073 5.36448 136.574C4.18876 136.074 3.17512 135.35 2.40819 
@@ -84,9 +84,9 @@ export default function Contact() {
                 35.8139 23.5734 23.6473 34.4583 14.6768C45.3433 5.70632 60.1064 0.666748 75.5 0.666748ZM75.5 34.8334C71.1018 34.8334 66.8838 
                 36.2733 63.7738 38.8363C60.6638 41.3993 58.9167 44.8755 58.9167 48.5001C58.9167 52.1247 60.6638 55.6009 63.7738 58.1639C66.8838 
                 60.7269 71.1018 62.1667 75.5 62.1667C79.8982 62.1667 84.1162 60.7269 87.2262 58.1639C90.3362 55.6009 92.0833 52.1247 92.0833 
-                48.5001C92.0833 44.8755 90.3362 41.3993 87.2262 38.8363C84.1162 36.2733 79.8982 34.8334 75.5 34.8334Z" fill="#D79E48"/>
-            </svg>
-              <span>Cape Town, South Africa</span></p>
+                48.5001C92.0833 44.8755 90.3362 41.3993 87.2262 38.8363C84.1162 36.2733 79.8982 34.8334 75.5 34.8334Z" fill="#D79E48" />
+                </svg>
+                <span>Cape Town, South Africa</span></p>
             </div>
 
             <div className="icons">
@@ -97,23 +97,84 @@ export default function Contact() {
           </div>
         </div>
 
-        <form>
-          <input className="form-input" type='text' required name='name' placeholder='Full Name' />
-          <input className="form-input" type='email' required name='email' placeholder='Email Address' />
-          <input className="form-input" type='text' required name='project' placeholder='Project' />
-          <textarea className="form-message" type='text' required name='message' placeholder='Type your message here' />
+        <form id='myForm'>
+          <input className="form-input" type='text' id='name' required name='name' placeholder='Full Name' />
+          <input className="form-input" type='email' id='myEmail' required name='email' placeholder='Email Address' />
+          <input className="form-input" type='text' id='project' required name='project' placeholder='Project' />
+          <textarea className="form-message" type='text' id='message' name='message' placeholder='Type your message here' />
           <div>
-            <button className="send-button" type="submit">Send</button>
+            <button className="send-button" onSubmit={formSubmit} type="submit">Send</button>
           </div>
         </form>
 
       </div>
       <div className="icons-bottom">
-      <img className="github" alt="Github link" src={github} />
-      <img className="lIn-logo" alt="Linkedin link" src={linkedin} />
-    </div>
+        <img className="github" alt="Github link" src={github} />
+        <img className="lIn-logo" alt="Linkedin link" src={linkedin} />
+      </div>
 
     </div>
 
   )
+  function formSubmit(e) {
+
+    e.preventDefault();
+
+    //Get values of each input field from the form
+    let name = document.querySelector('#name').value;
+
+    let email = document.querySelector('#myEmail').value;
+    let project = document.querySelector('#project').value;
+
+    let message = document.querySelector('#message').value;
+
+    sendMessage(name, email,project, message);
+
+  }
+
+
+
+  //Send message to firebase
+
+  function sendMessage(name, email,project, message) {
+
+    const db = getDatabase();
+
+    set(ref(db, 'users/' + Math.floor(Math.random() * 200000)), {
+
+      email: email,
+
+      message: message
+
+    })
+
+      .then(() => {
+
+        //Show Alert Message(5)
+
+        //  document.querySelector('.alert').style.display = 'block';
+
+        //Hide Alert Message After Seven Seconds(6)
+
+
+
+        document.getElementById('myForm').reset();
+
+      }).catch((error) => {
+
+        alert(error)
+
+      })
+
+
+
+  }
+
+  
+
+
+
+
+
+
 }

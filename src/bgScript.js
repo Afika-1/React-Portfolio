@@ -1,51 +1,29 @@
-// import * as THREE from 'three'
-// import './App.css'
-// import  background from './assets/background1.jpg'
-
-// const container = document.querySelector('.newBg');
-// const loader = new THREE.TextureLoader();
 
 
-// const scene = new THREE.Scene();
-// const camera = new THREE.PerspectiveCamera(70,
-//     window.innerWidth / window.innerHeight,
-//     0.1, 1000);
-// const renderer = new THREE.WebGL1Renderer();
-// renderer.setSize(window.innerWidth, window.innerHeight);
-// container.appendChild(renderer.domElement);
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
 
-// const geometry = new THREE.PlaneGeometry(14, 8, 15, 9);
-// const material = new THREE.MeshBasicMaterial({
-//     // color: 0xff0000,
-    
-//     map: loader.load(background),
-//     opacity: 0.1, 
-//     transparent: true, 
-// });
+const firebaseConfig = {
+  apiKey: "AIzaSyDo-qSjbEs0CKFvmm9tTnslyTlNC0Ax_BY",
+  authDomain: "portfolio-17f7d.firebaseapp.com",
+  projectId: "portfolio-17f7d",
+  storageBucket: "portfolio-17f7d.appspot.com",
+  messagingSenderId: "1027992157584",
+  appId: "1:1027992157584:web:ac88fabd8637600c328715"
+};
 
-// const mesh = new THREE.Mesh(geometry, material);
-// scene.add(mesh);
-// camera.position.z = 5;
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
-// const count = geometry.attributes.position.count;
-// const clock = new THREE.Clock()
 
-// function animate() {
-//     const time = clock.getElapsedTime();
-//     for (let i = 0; i < count; i++) {
-//         const x = geometry.attributes.position.getX(i);
-//         const y = geometry.attributes.position.getY(i);
 
-//         const anim1 = 0.25 * Math.sin(x + time * 0.7);
-//         const anim2 = 0.35 * Math.sin(x * 1 + time * 0.7);
-//         const anim3 = 0.1 * Math.sin(y * 15 + time * 0.7);
+import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-database.js";
 
-//         geometry.attributes.position.setZ(i, anim1 + anim2+ anim3);
-//         geometry.computeVertexNormals();
-//         geometry.attributes.position.needsUpdate = true;
-//     }
-//     requestAnimationFrame(animate);
-//     renderer.render(scene, camera);
-// }
+const database = getDatabase();
 
-// animate();
+//listen for submit event
+
+// this following line helps us access the elements of the form
+
+document.getElementById("myForm").addEventListener('submit', formSubmit);
+
+ 
