@@ -7,8 +7,8 @@
 .bg {
     position: relative;
     width: 100%;
-    max-height:max-content;
-/* background-color: aqua; */
+    max-height: max-content;
+    /* background-color: aqua; */
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -16,5 +16,15 @@
 
 .root {
 
+    position: relative;
+}
+.newBg {
     position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    /* background-color: aqua; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1; 
 }

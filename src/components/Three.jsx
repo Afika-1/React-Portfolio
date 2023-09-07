@@ -19,11 +19,11 @@ function Background() {
     
     const geometry = new THREE.PlaneGeometry(14, 8, 15, 9);
     const material = new THREE.MeshBasicMaterial({
-        // color: 0xff0000,
         
         map: loader.load(background),
         opacity: 0.1, 
         transparent: true, 
+        
     });
     
     const mesh = new THREE.Mesh(geometry, material);
@@ -41,7 +41,7 @@ function Background() {
     
             const anim1 = 0.25 * Math.sin(x + time * 0.7);
             const anim2 = 0.35 * Math.sin(x * 1 + time * 0.7);
-            const anim3 = 0.1 * Math.sin(y * 15 + time * 0.7);
+            const anim3 = 0.1 * Math.sin(y * 15 + time * 1);
     
             geometry.attributes.position.setZ(i, anim1 + anim2+ anim3);
             geometry.computeVertexNormals();
@@ -52,14 +52,12 @@ function Background() {
     }
     
     animate();
+
+
+    
         
 
-//   return (
-//     <div>
 
-
-//     </div>
-//   )
 }
 
 export default Background
