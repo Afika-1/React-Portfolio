@@ -91,6 +91,9 @@ h1 span{
     position: relative;
     /* box-shadow: 1px 1px 7px 8px #979696; */
 }
+.btn-cv{
+    display: none;
+}
 
 /* -------------- home page content responsiveness ---------------------- */
 
