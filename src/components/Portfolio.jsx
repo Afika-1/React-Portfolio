@@ -18,7 +18,7 @@ export default function Portfolio() {
 
                     <div className="hm-icons">
                         <a  href="https://github.com/Afika-1"><img className="git-hub" alt="Github link" src={github} /></a>
-                        <a href=''><img className="linkedin" alt="Linkedin link" src={linkedin} /></a>
+                        <a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a'><img className="linkedin" alt="Linkedin link" src={linkedin} /></a>
                     </div>
 
                 </div>

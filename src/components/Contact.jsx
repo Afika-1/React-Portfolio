@@ -126,8 +126,8 @@ export default function Contact() {
             </div>
 
             <div className="icons">
-              <img className="github" alt="Github link" src={github} />
-              <img className="lIn-logo" alt="Linkedin link" src={linkedin} />
+              <a href='https://github.com/Afika-1'><img className="github" alt="Github link" src={github} /></a>
+              <a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a'><img className="lIn-logo" alt="Linkedin link" src={linkedin} /></a>
             </div>
 
           </div>

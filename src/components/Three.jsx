@@ -1,7 +1,7 @@
 import React from 'react'
 import * as THREE from 'three'
 import '../App.css'
-import  background from '../assets/background1.jpg'
+import  background from '../assets/background3.jpg'
 function Background() {
 
 
