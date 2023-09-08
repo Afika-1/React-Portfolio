@@ -73,6 +73,7 @@ form {
 
 .form-message {
   min-width: 330px;
+  font-family: "IM FELL Great Primer SC-Regular";
   width: 30vw;
   font-size: 1rem;
   padding: 10px;
@@ -85,6 +86,8 @@ form {
 }
 
 .form-input {
+  font-family: "IM FELL Great Primer SC-Regular";
+
   min-width: 330px;
   max-width: 30vw;
   font-size: 20px;
