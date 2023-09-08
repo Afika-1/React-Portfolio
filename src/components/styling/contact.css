@@ -58,6 +58,7 @@
 }
 
 .send-button {
+  cursor: pointer;
   position: absolute;
   padding: 2vh;
   border-radius: 10px;
@@ -130,6 +131,7 @@ form {
 }
 
 .github, .lIn-logo {
+  cursor: pointer;
   height: 30px;
   object-fit: cover;
   position: relative;
