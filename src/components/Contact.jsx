@@ -116,61 +116,6 @@ export default function Contact() {
     </div>
 
   )
-  function formSubmit(e) {
-
-    e.preventDefault();
-
-    //Get values of each input field from the form
-    let name = document.querySelector('#name').value;
-
-    let email = document.querySelector('#myEmail').value;
-    let project = document.querySelector('#project').value;
-
-    let message = document.querySelector('#message').value;
-
-    sendMessage(name, email,project, message);
-
-  }
-
-
-
-  //Send message to firebase
-
-  function sendMessage(name, email,project, message) {
-
-    const db = getDatabase();
-
-    set(ref(db, 'users/' + Math.floor(Math.random() * 200000)), {
-
-      email: email,
-
-      message: message
-
-    })
-
-      .then(() => {
-
-        //Show Alert Message(5)
-
-        //  document.querySelector('.alert').style.display = 'block';
-
-        //Hide Alert Message After Seven Seconds(6)
-
-
-
-        document.getElementById('myForm').reset();
-
-      }).catch((error) => {
-
-        alert(error)
-
-      })
-
-
-
-  }
-
-  
 
 
 
