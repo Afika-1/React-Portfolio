@@ -1,10 +1,46 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './styling/contact.css'
 import linkedin from '../assets/linkedin3.gif'
 import github from '../assets/github.gif'
 
+import emailjs from '@emailjs/browser'
+
 
 export default function Contact() {
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [project, setProject] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const serviceId = 'service_umya76v';
+    const templateId = 'template_5chefx8';
+    const publicKey = 'j0fvX_rtB1ajB76Pa';
+
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      to_name: 'Afika Shwashwa',
+      message: message,
+    };
+  
+    emailjs.send(serviceId, templateId, templateParams, publicKey).then(
+      (response)=>{
+        console.log('Email sent successfully', response);
+        setName('');
+        setEmail('');
+        setProject('');
+        setMessage('');
+      }).catch((error)=>{
+        console.error('Error! Could not sent email: ', error);
+      });
+  };
+
+ 
+
 
   return (
     <div className='contact' id='contact'>
@@ -97,13 +133,13 @@ export default function Contact() {
           </div>
         </div>
 
-        <form id='myForm'>
-          <input className="form-input" type='text' id='name' required name='name' placeholder='Full Name' />
-          <input className="form-input" type='email' id='myEmail' required name='email' placeholder='Email Address' />
-          <input className="form-input" type='text' id='project' required name='project' placeholder='Project' />
-          <textarea className="form-message" type='text' id='message' name='message' placeholder='Type your message here' />
+        <form id='myForm' onSubmit={handleSubmit}>
+          <input className="form-input" type='text' id='name' value={name} onChange={(e)=>setName(e.target.value)} required name='name' placeholder='Full Name' />
+          <input className="form-input" type='email' id='myEmail' value={email}  onChange={(e)=>setEmail(e.target.value)} required name='email' placeholder='Email Address' />
+          <input className="form-input" type='text' id='project' value={project}  onChange={(e)=>setProject(e.target.value)} required name='project' placeholder='Project' />
+          <textarea className="form-message" type='text' id='message' value={message}  onChange={(e)=>setMessage(e.target.value)} required name='message' placeholder='Type your message here' />
           <div>
-            <button className="send-button" onSubmit={formSubmit} type="submit">Send</button>
+            <button className="send-button"  type="submit">Send</button>
           </div>
         </form>
 

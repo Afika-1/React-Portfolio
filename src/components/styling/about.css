@@ -128,12 +128,7 @@
 
 @media (max-width: 781px) {
 
-  .sub {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* flex-direction: row;
-    flex-wrap: wrap; */
-  }
+  
 
   .qualification {
     font-size: .5rem;
@@ -177,5 +172,4 @@
     box-shadow: 1px 1px 8px 10px #535353;
   }
 
-  .btn {}
 }
