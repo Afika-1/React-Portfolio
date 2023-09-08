@@ -19,7 +19,7 @@ export default function Projects() {
 
                 <div className='image-descr'>
                     <div className='description-icons'>
-                        <div className='project-image'><img src={web}/></div>
+                        <div className='project-image'><img src={web} href=''/></div>
                         <div className='description'>
                             <h2>School Website</h2>
                             <p>We were tasked to create a website for the school to improve their online presence. We used HTML, CSS and JS tools to achieve this</p>

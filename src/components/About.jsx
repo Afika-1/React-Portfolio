@@ -40,10 +40,7 @@ export default function About() {
                         <p className='btns' id='btns'>5+</p>
                         <p className='btns'>Projects Completed</p>
                     </div>
-                    <div>
-                        <p className='btns' id='btns'>Education</p>
-                        <p className='btns'>Tap to view</p>
-                    </div>
+                    
                 </div>
             </div>
         </div>
