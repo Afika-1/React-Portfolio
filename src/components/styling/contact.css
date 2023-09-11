@@ -274,4 +274,13 @@ form {
   .contact-det{
     margin-right: 0;
   }
+
+  .contact {
+    /* background-color: #000000; */
+    padding-top: 15vh;
+    height: 110vh;
+    width: 100vw;
+    max-height: 300vh;
+   
+  }
     }

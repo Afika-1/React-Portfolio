@@ -4,6 +4,7 @@ import linkedin from '../assets/linkedin3.gif'
 import github from '../assets/github.gif'
 
 import emailjs from '@emailjs/browser'
+import ReCAPTCHA from "react-google-recaptcha";
 
 
 export default function Contact() {
@@ -26,21 +27,24 @@ export default function Contact() {
       to_name: 'Afika Shwashwa',
       message: message,
     };
-  
+
     emailjs.send(serviceId, templateId, templateParams, publicKey).then(
-      (response)=>{
+      (response) => {
         console.log('Email sent successfully', response);
         setName('');
         setEmail('');
         setProject('');
         setMessage('');
-      }).catch((error)=>{
+      }).catch((error) => {
         console.error('Error! Could not sent email: ', error);
       });
   };
 
- 
 
+  // -----------Adding reCAPTCHA------------
+
+const onChange =()=>{}
+ 
 
   return (
     <div className='contact' id='contact'>
@@ -134,19 +138,28 @@ export default function Contact() {
         </div>
 
         <form id='myForm' onSubmit={handleSubmit}>
-          <input className="form-input" type='text' id='name' value={name} onChange={(e)=>setName(e.target.value)} required name='name' placeholder='Full Name' />
-          <input className="form-input" type='email' id='myEmail' value={email}  onChange={(e)=>setEmail(e.target.value)} required name='email' placeholder='Email Address' />
-          <input className="form-input" type='text' id='project' value={project}  onChange={(e)=>setProject(e.target.value)} required name='project' placeholder='Project' />
-          <textarea className="form-message" type='text' id='message' value={message}  onChange={(e)=>setMessage(e.target.value)} required name='message' placeholder='Type your message here' />
+          <input className="form-input" type='text' id='name' value={name} onChange={(e) => setName(e.target.value)} required name='name' placeholder='Full Name' />
+          <input className="form-input" type='email' id='myEmail' value={email} onChange={(e) => setEmail(e.target.value)} required name='email' placeholder='Email Address' />
+          <input className="form-input" type='text' id='project' value={project} onChange={(e) => setProject(e.target.value)} required name='project' placeholder='Project' />
+          <textarea className="form-message" type='text' id='message' value={message} onChange={(e) => setMessage(e.target.value)} required name='message' placeholder='Type your message here' />
           <div>
-            <button className="send-button"  type="submit">Send</button>
+
+            <ReCAPTCHA
+              sitekey="Your client site key"
+              onChange={onChange}/>
+
+
+            <button className="send-button" type="submit">Send</button>
           </div>
         </form>
 
       </div>
       <div className="icons-bottom">
-        <img className="github" alt="Github link" src={github} />
-        <img className="lIn-logo" alt="Linkedin link" src={linkedin} />
+
+        <a href='https://github.com/Afika-1'><img className="github" alt="Github link" src={github} /></a>
+        <a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a'><img className="lIn-logo" alt="Linkedin link" src={linkedin} /></a>
+
+
       </div>
 
     </div>

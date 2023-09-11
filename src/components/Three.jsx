@@ -21,7 +21,7 @@ function Background() {
     const material = new THREE.MeshBasicMaterial({
         
         map: loader.load(background),
-        opacity: 0.1, 
+        opacity: 0.2, 
         transparent: true, 
         
     });
