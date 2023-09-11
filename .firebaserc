@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "portfolio-17f7d"
-  }
+    "default": "afika-shwashwa",
+    "Production": "afika-shwashwa"
+  },
+  "targets": {},
+  "etags": {}
 }
