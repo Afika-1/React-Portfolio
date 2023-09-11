@@ -3,8 +3,8 @@ import './styling/projects.css'
 import web from '../components/projects/mzamo.png'
 import bank from '../components/projects/bank.png'
 import chat from '../components/projects/ChatApp.png'
-import income from '../components/projects/INCOME.jpg'
-import simple from '../components/projects/simple.png'
+import income from '../components/projects/SARS-Tax.png'
+import simple from '../components/projects/unnamed.webp'
 
 export default function Projects() {
     return (

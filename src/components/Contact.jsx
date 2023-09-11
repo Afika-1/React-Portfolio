@@ -41,11 +41,18 @@ export default function Contact() {
   };
 
 
+
   // -----------Adding reCAPTCHA------------
 
-const [verified, setVerified]=useState(false)
+    const [verified, setVerified]=useState(false)
+    function onChange(value) {
+      console.log("Captcha value:", value);
+      setVerified(true)
+    }
 
   return (
+
+    
     <div className='contact' id='contact'>
       <div id="line"><p className="line"></p></div>
       <div className='contact-title'>
@@ -58,7 +65,12 @@ const [verified, setVerified]=useState(false)
 
           <div className="contact-container">
             <div className="det-div">
-              <p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 98 99" fill="none">
+              <p><      
+              
+              
+              
+              
+                svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 98 99" fill="none">
                 <g clip-path="url(#clip0_421_46)">
                   <path d="M81.6667 68.6426C81.6667 68.1699 81.6241 67.8262 81.5391 67.6113C81.454 67.3965 81.0712 
                 67.042 80.3906 66.5479C79.7101 66.0537 78.8487 65.5166 77.8066 64.9365C76.7645 64.3564 75.7543 63.7871 
@@ -142,8 +154,8 @@ const [verified, setVerified]=useState(false)
           <input className="form-input" type='text' id='project' value={project} onChange={(e) => setProject(e.target.value)} required name='project' placeholder='Project' />
           <textarea className="form-message" type='text' id='message' value={message} onChange={(e) => setMessage(e.target.value)} required name='message' placeholder='Type your message here' />
           <div>
-          // <div class="g-recaptcha" data-sitekey="6LcLfBgoAAAAAEJy5-jU1w4WQlNLreri-TzfQtl5"></div>
 
+          <ReCAPTCHA sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" onChange={onChange}/>
 
             <button className="send-button" type="submit" disabled={!verified} >Send</button>
           </div>
