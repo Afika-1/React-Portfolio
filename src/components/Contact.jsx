@@ -43,8 +43,7 @@ export default function Contact() {
 
   // -----------Adding reCAPTCHA------------
 
-const onChange =()=>{}
- 
+const [verified, setVerified]=useState(false)
 
   return (
     <div className='contact' id='contact'>
@@ -143,10 +142,10 @@ const onChange =()=>{}
           <input className="form-input" type='text' id='project' value={project} onChange={(e) => setProject(e.target.value)} required name='project' placeholder='Project' />
           <textarea className="form-message" type='text' id='message' value={message} onChange={(e) => setMessage(e.target.value)} required name='message' placeholder='Type your message here' />
           <div>
-          <div class="g-recaptcha" data-sitekey="6LcLfBgoAAAAAEJy5-jU1w4WQlNLreri-TzfQtl5"></div>
+          // <div class="g-recaptcha" data-sitekey="6LcLfBgoAAAAAEJy5-jU1w4WQlNLreri-TzfQtl5"></div>
 
 
-            <button className="send-button" type="submit">Send</button>
+            <button className="send-button" type="submit" disabled={!verified} >Send</button>
           </div>
         </form>
 
