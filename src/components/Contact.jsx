@@ -155,7 +155,7 @@ export default function Contact() {
           <textarea className="form-message" type='text' id='message' value={message} onChange={(e) => setMessage(e.target.value)} required name='message' placeholder='Type your message here' />
           <div>
 
-          <ReCAPTCHA sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" onChange={onChange}/>
+          <ReCAPTCHA sitekey="6LcLfBgoAAAAAEJy5-jU1w4WQlNLreri-TzfQtl5" onChange={onChange}/>
 
             <button className="send-button" type="submit" disabled={!verified} >Send</button>
           </div>
