@@ -6,7 +6,7 @@
 
 .projects {
 
-    /* background-color: black; */
+    background-color: black;
     max-height: 350vh;
     width: 100vw;
     padding-top: 10vh;
@@ -61,7 +61,7 @@
     background-color: #000;
     border: #ffffff solid 1px;
     color: white;
-    box-shadow: 8px 2px 5px 3px #d79e48;
+    box-shadow: 2px 2px 1px 3px #d79e48;
   
   }
 

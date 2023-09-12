@@ -2,12 +2,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
+}
+input::placeholder, textarea::placeholder{
+  color: black; 
 }
 
-
 .contact {
-  /* background-color: #000000; */
-  padding-top: 15vh;
+  background-color: #000;
+  padding-top: 10vh;
   height: 100vh;
   width: 100vw;
   max-height: 300vh;
@@ -70,11 +73,11 @@
   font-size: .7rem;
 
 }
-.send-button :hover{
+.send-button:hover{
   background-color: #000;
   border: #ffffff solid 1px;
   color: white;
-  box-shadow: 8px 2px 5px 3px #d79e48;
+  box-shadow: 2px 2px 1px 3px #d79e48;
   cursor: pointer;
 
 }
@@ -291,7 +294,9 @@ form {
   .contact {
     /* background-color: #000000; */
     padding-top: 15vh;
-    height: 110vh;
+    padding-bottom: 25vh;
+
+    height: 103vh;
     width: 100vw;
     max-height: 300vh;
    

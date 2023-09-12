@@ -65,12 +65,7 @@ export default function Contact() {
 
           <div className="contact-container">
             <div className="det-div">
-              <p><      
-              
-              
-              
-              
-                svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 98 99" fill="none">
+              <p>< svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 98 99" fill="none">
                 <g clip-path="url(#clip0_421_46)">
                   <path d="M81.6667 68.6426C81.6667 68.1699 81.6241 67.8262 81.5391 67.6113C81.454 67.3965 81.0712 
                 67.042 80.3906 66.5479C79.7101 66.0537 78.8487 65.5166 77.8066 64.9365C76.7645 64.3564 75.7543 63.7871 
@@ -160,6 +155,8 @@ export default function Contact() {
             <button className="send-button" type="submit" disabled={!verified} >Send</button>
           </div>
         </form>
+
+        
 
       </div>
       <div className="icons-bottom">
