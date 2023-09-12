@@ -89,6 +89,7 @@
 }
 
 .title {
+  padding-top: 3vh;
   color: transparent;
   font-family: "IM FELL Great Primer SC-Regular";
   font-size: 0.5rem;

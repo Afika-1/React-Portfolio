@@ -4,7 +4,7 @@ nav {
   justify-content: space-between;
   width: 100vw;
   padding: 10px;
-  background: linear-gradient(to bottom right, black, black, black, rgb(44, 43, 43));
+  background: linear-gradient(to bottom right, black, black, black, rgb(71, 70, 70));
   z-index: 1;
 }
 
@@ -71,7 +71,7 @@ nav ul li a:hover {
   height: 1rem;
   width: 4rem;
   background-color: #d69d48;
-  color: #ffffff;
+  color: black;
   font-family: "IM FELL Great Primer SC-Regular";
   font-size: 20px;
   font-weight: 400;
@@ -84,6 +84,7 @@ nav ul li a:hover {
 .btn-cv:hover{
   background-color: #000;
   border: #ffffff solid 1px;
+  color: white;
   box-shadow: 8px 2px 5px 3px #d79e48;
 
 }
