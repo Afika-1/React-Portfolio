@@ -5,7 +5,6 @@ nav {
   width: 100vw;
   padding: 10px;
   background: linear-gradient(to bottom right, black, black, black, rgb(71, 70, 70) );
-  /* background-color: rgba(0, 0, 0, 0.5); */
   
   z-index: 1;
 }
@@ -19,11 +18,11 @@ nav {
 }
 
 .logo {
-  height: 70px;
+  height: 50px;
   left: 2%;
   object-fit: cover;
   position: relative;
-  width: 70px;
+  width: 50px;
 
   border: 0px none;
   border-radius: 50px;
@@ -31,7 +30,8 @@ nav {
 }
 .logo:hover{
   transform: scale(0.9);
-  box-shadow: 8px 6px 5px 3px #302d27;
+  box-shadow: 2px 2px 1px 3px #d79e48;
+  /* box-shadow: 8px 6px 5px 3px #302d27; */
 }
 
 
@@ -114,20 +114,18 @@ nav ul li a:hover {
 
 /* Media Query for Mobile */
 @media (max-width: 768px) {
-  .navbar {
-    justify-content: space-between;
-    
-  }
+
 nav{
- 
+  justify-content: space-between;
+  align-items:normal;
+  background: linear-gradient(to bottom right, rgb(0,0,0,0.75), rgb(0,0,0,0.1), black, black);
+
 }
   .menu {
     display: none;
     width: 100%;
-    background: linear-gradient(to bottom right, black, black, rgb(34, 34, 34), rgb(44, 43, 43));
+    background: linear-gradient(to bottom right, rgb(34, 34, 34), rgb(44, 43, 43), black, black);
     text-align: center;
-    
-    
 
   }
 
@@ -141,18 +139,20 @@ nav{
   ul li{
     margin: 15px;
     padding: 10px;
+    border: rgb(44, 43, 43) solid 1px;
     box-shadow: .8px 1px .8px 1px  #d79e48 ;
   }
   ul li:hover{
     border: #ffffff solid 1px;
+    font-weight:lighter;
+  }
+  nav ul li a:hover {
+    color: #d69d48;
+    font-weight: normal;
+  
   }
   
-  .logo {
-    height: 50px;
-    width: 50px;
-    left: 0;
-
-  }
+ 
   .drop{
     display: flex;
     flex-direction: column;
