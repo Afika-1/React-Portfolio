@@ -16,21 +16,21 @@ export default function Navbar() {
         <header className='header-class'>
             <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
                 <a href='#portfolio'><img className="logo" alt="logo Image" src={logo} /></a>
+                <div className='drop'>
+                    <div className={`menu-icon ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+                        <div className="bar"></div>
+                        <div className="bar"></div>
+                        <div className="bar"></div>
+                    </div>
 
-                <div className={`menu-icon ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
-                    <div className="bar"></div>
-                    <div className="bar"></div>
-                    <div className="bar"></div>
+                    <ul className={`menu ${menuOpen ? 'open' : ''}`}>
+                        <li><a href='#portfolio' className='home'>Home</a></li>
+                        <li><a href="#about" className="text-wrapper-4">About</a></li>
+                        <li><a href="#education" className="text-wrapper-4">Education</a></li>
+                        <li><a href="#projects" className="text-wrapper-5">Project</a></li>
+                        <li><a href="#contact" className="text-wrapper-6">Contact</a></li>
+                    </ul>
                 </div>
-
-                <ul className={`menu ${menuOpen ? 'open' : ''}`}>
-                    <li><a href='#portfolio' className='home'>Home</a></li>
-                    <li><a href="#about" className="text-wrapper-4">About</a></li>
-                    <li><a href="#education" className="text-wrapper-4">Education</a></li>
-                    <li><a href="#projects" className="text-wrapper-5">Project</a></li>
-                    <li><a href="#contact" className="text-wrapper-6">Contact</a></li>
-                </ul>
-
                 <button className="btn-cv">Resume</button>
             </nav>
         </header>

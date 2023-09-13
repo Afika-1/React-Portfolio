@@ -4,7 +4,9 @@ nav {
   justify-content: space-between;
   width: 100vw;
   padding: 10px;
-  background: linear-gradient(to bottom right, black, black, black, rgb(71, 70, 70));
+  background: linear-gradient(to bottom right, black, black, black, rgb(71, 70, 70) );
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  
   z-index: 1;
 }
 
@@ -113,37 +115,47 @@ nav ul li a:hover {
 /* Media Query for Mobile */
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     
   }
-
+nav{
+ 
+}
   .menu {
     display: none;
-    flex-direction: column;
     width: 100%;
     background: linear-gradient(to bottom right, black, black, rgb(34, 34, 34), rgb(44, 43, 43));
     text-align: center;
+    
+    
 
   }
 
   .menu.open {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-top: 10px;
     padding-bottom: 10px;
 
   }
   ul li{
-    padding: 2px;
+    margin: 15px;
+    padding: 10px;
     box-shadow: .8px 1px .8px 1px  #d79e48 ;
   }
-
+  ul li:hover{
+    border: #ffffff solid 1px;
+  }
+  
   .logo {
     height: 50px;
     width: 50px;
     left: 0;
 
+  }
+  .drop{
+    display: flex;
+    flex-direction: column;
   }
 
   .menu-icon {
