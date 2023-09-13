@@ -35,24 +35,29 @@ export default function Contact() {
         setEmail('');
         setProject('');
         setMessage('');
+        setVerified(false); // Reset the reCAPTCHA verification
+        alert('Form submitted successfully!'); // Display a success alert
       }).catch((error) => {
         console.error('Error! Could not sent email: ', error);
       });
+
+
+
   };
 
 
 
   // -----------Adding reCAPTCHA------------
 
-    const [verified, setVerified]=useState(false)
-    function onChange(value) {
-      console.log("Captcha value:", value);
-      setVerified(true)
-    }
+  const [verified, setVerified] = useState(false)
+  function onChange(value) {
+    console.log("Captcha value:", value);
+    setVerified(true)
+  }
 
   return (
 
-    
+
     <div className='contact' id='contact'>
       <div id="line"><p className="line"></p></div>
       <div className='contact-title'>
@@ -65,9 +70,8 @@ export default function Contact() {
 
           <div className="contact-container">
             <div className="det-div">
-              <p>< svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 98 99" fill="none">
-                <g clip-path="url(#clip0_421_46)">
-                  <path d="M81.6667 68.6426C81.6667 68.1699 81.6241 67.8262 81.5391 67.6113C81.454 67.3965 81.0712 
+              <p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 98 99" fill="none">
+                <g clip-path="url(#clip0_421_46)"><path d="M81.6667 68.6426C81.6667 68.1699 81.6241 67.8262 81.5391 67.6113C81.454 67.3965 81.0712 
                 67.042 80.3906 66.5479C79.7101 66.0537 78.8487 65.5166 77.8066 64.9365C76.7645 64.3564 75.7543 63.7871 
                 74.776 63.2285C73.7977 62.6699 72.8301 62.1328 71.873 61.6172C70.916 61.1016 70.3099 60.7793 70.0547 
                 60.6504C69.842 60.5215 69.4379 60.2422 68.8425 59.8125C68.247 59.3828 67.7153 59.0605 67.2474 
@@ -95,7 +99,7 @@ export default function Contact() {
                  89.9229 92.6087 93.5537C89.0145 97.1846 84.6866 99 79.625 99H18.375C13.3134 99 8.98546 97.1846 5.39128 
                  93.5537C1.79709 89.9229 0 85.5508 0 80.4375V18.5625C0 13.4492 1.79709 9.07715 5.39128 5.44629C8.98546 1.81543 
                  13.3134 0 18.375 0H79.625C84.6866 0 89.0145 1.81543 92.6087 5.44629C96.2029 9.07715 98 13.4492 98 18.5625Z"
-                    fill="#D79E48" />
+                  fill="#D79E48" />
                 </g>
                 <defs>
                   <clipPath id="clip0_421_46">
@@ -144,19 +148,20 @@ export default function Contact() {
         </div>
 
         <form id='myForm' onSubmit={handleSubmit}>
-          <input className="form-input" type='text' id='name' value={name} onChange={(e) => setName(e.target.value)} required name='name' placeholder='Full Name' />
-          <input className="form-input" type='email' id='myEmail' value={email} onChange={(e) => setEmail(e.target.value)} required name='email' placeholder='Email Address' />
-          <input className="form-input" type='text' id='project' value={project} onChange={(e) => setProject(e.target.value)} required name='project' placeholder='Project' />
-          <textarea className="form-message" type='text' id='message' value={message} onChange={(e) => setMessage(e.target.value)} required name='message' placeholder='Type your message here' />
-          <div>
+          <input className="form-input" type='text' required id='name' value={name} onChange={(e) => setName(e.target.value)} name='name' placeholder='Full Name' />
+          <input className="form-input" type='email' required id='myEmail' value={email} onChange={(e) => setEmail(e.target.value)} name='email' placeholder='Email Address' />
+          <input className="form-input" type='text' required id='project' value={project} onChange={(e) => setProject(e.target.value)} name='project' placeholder='Project' />
+          <textarea className="form-message" type='text' required id='message' value={message} onChange={(e) => setMessage(e.target.value)} name='message' placeholder='Type your message here' />
+          <div> 
 
-          <ReCAPTCHA sitekey="6LcLfBgoAAAAAEJy5-jU1w4WQlNLreri-TzfQtl5" onChange={onChange}/>
+            <ReCAPTCHA sitekey="6LcLfBgoAAAAAEJy5-jU1w4WQlNLreri-TzfQtl5" onChange={onChange} />
 
             <button className="send-button" type="submit" disabled={!verified} >Send</button>
           </div>
         </form>
 
-        
+
+
 
       </div>
       <div className="icons-bottom">
