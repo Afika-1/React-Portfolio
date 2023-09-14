@@ -108,7 +108,8 @@ section {
 
 @media (max-width: 781px) {
   .education {
-    max-height: 250vh;
+    height: 250vh;
+    height: 200vh;
   }
 
   .container {
