@@ -35,8 +35,8 @@ export default function Contact() {
         setEmail('');
         setProject('');
         setMessage('');
-        setVerified(false); // Reset the reCAPTCHA verification
-        alert('Form submitted successfully!'); // Display a success alert
+        setVerified(false); 
+        alert('Form submitted successfully!'); 
       }).catch((error) => {
         console.error('Error! Could not sent email: ', error);
       });
@@ -154,7 +154,7 @@ export default function Contact() {
           <textarea className="form-message" type='text' required id='message' value={message} onChange={(e) => setMessage(e.target.value)} name='message' placeholder='Type your message here' />
           <div> 
 
-            <ReCAPTCHA sitekey="6LcyTiUoAAAAAOQNyItcX6JYVSfp_ez227agzpBl" onChange={onChange} />
+            <ReCAPTCHA sitekey="6LcLUiUoAAAAAPHq1RdDOIWI4aLT4dwz7GPoDriU" onChange={onChange} />
 
             <button className="send-button" type="submit" disabled={!verified} >Send</button>
           </div>
