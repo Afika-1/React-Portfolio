@@ -6,7 +6,7 @@
 }
 input::placeholder, textarea::placeholder{
   color: black; 
-}
+}  
 
 .contact {
   background-color: #000;
@@ -71,16 +71,33 @@ input::placeholder, textarea::placeholder{
   background-color: #d69d48;
   font-family: "IM FELL Great Primer SC-Regular";
   font-size: .7rem;
-
+  cursor: not-allowed;
 }
-.send-button:hover{
+/* .send-button:hover{
   background-color: #000;
   border: #ffffff solid 1px;
   color: white;
   box-shadow: 2px 2px 1px 3px #d79e48;
   cursor: pointer;
 
+} */
+
+/* .send-button {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  box-shadow: none;
+  cursor: not-allowed;
+} */
+
+.send-button:hover:not([disabled]) {
+  background-color: #000;
+  border: #ffffff solid 1px;
+  color: white;
+  box-shadow: 2px 2px 1px 3px #d79e48;
+  cursor: pointer;
 }
+
 
 form {
   display: flex;
@@ -91,7 +108,7 @@ form {
   min-width: 330px;
   font-family: "IM FELL Great Primer SC-Regular";
   width: 30vw;
-  font-size: 1rem;
+  font-size: .8rem;
   padding: 10px;
   background-color: #D9D9D980;
   color: #ffffff;

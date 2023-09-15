@@ -42,8 +42,9 @@ export default function Navbar() {
                     <ul className={`menu ${menuOpen ? 'open' : ''}`}>
                         <li><a href='#portfolio' className='home'>Home</a></li>
                         <li><a href="#about" className="text-wrapper-4">About</a></li>
-                        <li><a href="#education" className="text-wrapper-4">Education</a></li>
                         <li><a href="#projects" className="text-wrapper-5">Project</a></li>
+                        <li><a href="#education" className="text-wrapper-4">Education</a></li>
+
                         <li><a href="#contact" className="text-wrapper-6">Contact</a></li>
                     </ul>
                 </div>
