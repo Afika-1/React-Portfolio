@@ -17,8 +17,8 @@ export default function Portfolio() {
                     <button className='btn'>Resume</button>
 
                     <div className="hm-icons">
-                        <a href="https://github.com/Afika-1"><img className="git-hub" alt="Github link" src={github} /></a>
-                        <a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a'><img className="linkedin" alt="Linkedin link" src={linkedin} /></a>
+                        <a href="https://github.com/Afika-1" target='_blank'><img className="git-hub" alt="Github link" src={github} /></a>
+                        <a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a' target='_blank'><img className="linkedin" alt="Linkedin link" src={linkedin} /></a>
                     </div>
 
                 </div>

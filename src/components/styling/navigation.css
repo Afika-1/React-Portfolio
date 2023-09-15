@@ -111,6 +111,13 @@ nav ul li a:hover {
   margin: 2px 0;
   
 }
+/* .x{
+    width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 2px 0;
+  
+} */
 
 /* Media Query for Mobile */
 @media (max-width: 768px) {
@@ -130,6 +137,7 @@ nav{
     border-radius: 0 0 0 20px;
 
   }
+
 
   .menu.open {
     display: flex;
