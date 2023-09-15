@@ -151,7 +151,7 @@ export default function Contact() {
           <input className="form-input" type='text' required id='name' value={name} onChange={(e) => setName(e.target.value)} name='name' placeholder='Full Name' />
           <input className="form-input" type='email' required id='myEmail' value={email} onChange={(e) => setEmail(e.target.value)} name='email' placeholder='Email Address' />
           <input className="form-input" type='text' required id='project' value={project} onChange={(e) => setProject(e.target.value)} name='project' placeholder='Subject' />
-          <textarea className="form-message" type='text' required id='message' value={message} onChange={(e) => setMessage(e.target.value)} name='message' placeholder='Type your message here' />
+          <textarea className="form-message" type='text' required id='message' value={message} onChange={(e) => setMessage(e.target.value)} name='message' placeholder='Type your message...' />
           <div> 
 
             <ReCAPTCHA sitekey="6LcLfBgoAAAAAEJy5-jU1w4WQlNLreri-TzfQtl5" onChange={onChange} />

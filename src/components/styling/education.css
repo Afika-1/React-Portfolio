@@ -111,7 +111,11 @@ section {
   .education {
     min-height: 100vh;
   }
-
+  .edu {
+   
+    padding-top: 1vh;
+  }
+  
   .container {
     border: #ffffff solid 1px;
     margin-right: 5vw;
