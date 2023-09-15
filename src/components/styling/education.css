@@ -6,6 +6,7 @@
 
 .education {
   padding-top: 10vh;
+  min-height: 100vh;
   max-height: 250vh;
   width: 100vw;
   color: white;
@@ -108,8 +109,7 @@ section {
 
 @media (max-width: 781px) {
   .education {
-    height: 250vh;
-    height: 200vh;
+    min-height: 100vh;
   }
 
   .container {
