@@ -59,7 +59,7 @@ export default function Contact() {
 
 
     <div className='contact' id='contact'>
-      <div id="line"><p className="line"></p></div>
+      <div id="contact-line"><p className="contact-line"></p></div>
       <div className='contact-title'>
         <h1 className="text-wrapper">Contact <span className="text-wrapper-2">Me</span></h1>
       </div>
