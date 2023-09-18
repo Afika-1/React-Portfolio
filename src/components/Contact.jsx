@@ -139,9 +139,9 @@ export default function Contact() {
                 <span>Cape Town, South Africa</span></p>
             </div>
 
-            <div className="icons">
-              <a href='https://github.com/Afika-1'><img className="github" alt="Github link" src={github} /></a>
-              <a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a'><img className="lIn-logo" alt="Linkedin link" src={linkedin} /></a>
+            <div className="icons1">
+              <p><a href='https://github.com/Afika-1'><img className="github" alt="Github link" src={github} /></a></p>
+              <p><a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a'><img className="lIn-logo" alt="Linkedin link" src={linkedin} /></a></p>
             </div>
 
           </div>

@@ -25,7 +25,7 @@ input::placeholder, textarea::placeholder{
   font-size: 1rem;
   font-weight: 400;
   line-height: 2rem;
-  margin: 8% 0px 0px 0px;
+  margin: 5% 0px 0px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,10 +55,10 @@ input::placeholder, textarea::placeholder{
   align-items: center;
 }
 
-.icons {
-  margin-top: 4vh;
+.icons1 {
+  margin-top: 2vh;
   display: flex;
-  gap: 20px;
+gap: 30px; 
 }
 
 .send-button {
@@ -86,6 +86,8 @@ input::placeholder, textarea::placeholder{
 form {
   display: flex;
   flex-direction: column;
+  border:#8F8F8F solid 1px;
+
 }
 
 .form-message {
@@ -282,10 +284,16 @@ form {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap; */
+  .icons-bottom {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    margin-top: 10vh;
+}
 
 
-
-  .icons{
+  .icons1{
     display: none;
   }
   .contact-det{
