@@ -86,8 +86,7 @@ gap: 30px;
 form {
   display: flex;
   flex-direction: column;
-  border:#8F8F8F solid 1px;
-
+  
 }
 
 .form-message {

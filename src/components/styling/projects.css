@@ -73,19 +73,23 @@
     border-radius: 20px;
     border: solid white 1px;
     mix-blend-mode: luminosity;
-    box-shadow: 2px 1px 5px 5px #9c9b9b;
+    /* box-shadow: 2px 1px 5px 5px #9c9b9b; */
 }
-.project-image img:hover{
+#bank img:hover{
     mix-blend-mode:normal;
-    box-shadow: 2px 1px 5px 5px red;
+    box-shadow: 2px 1px 5px 5px maroon;
 }
 #mzamo img:hover{
+    mix-blend-mode:normal;
     box-shadow: 2px 1px 5px 5px #98962b;
+    
 }
 #tax img:hover{
+    mix-blend-mode:normal;
     box-shadow: 2px 1px 5px 5px rgb(6, 80, 141);
 }
 #simple img:hover{
+    mix-blend-mode:normal;
     box-shadow: 2px 1px 5px 5px rgb(35, 6, 141);
 }
 .icons {

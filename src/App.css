@@ -8,11 +8,11 @@
     position: relative;
     width: 100%;
     max-height: max-content;
-    /* background-color: black; */
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
-    /* z-index: -2; */
+    /* z-index: -1; */
 
 }
 
