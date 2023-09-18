@@ -132,6 +132,17 @@
   position: absolute;
 
 }
+/* @media (max-width: 992px) {
+.boxes {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+
+
+}
+} */
 
 @media (max-width: 781px) {
 
@@ -155,13 +166,11 @@
 
   }
 
-  .boxes {
+  /* .boxes {
     display: block;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* text-align: center; */
+    
 
-  }
+  } */
 
   .boxes div {
     width: 50vw;
@@ -179,4 +188,9 @@
     box-shadow: 1px 1px 8px 10px #535353;
   }
 
+}
+@media (max-width: 480px) {
+  .boxes{
+    display: block;
+  }
 }
