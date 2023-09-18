@@ -6,6 +6,7 @@
   padding-top: 10vh;
   height: 100vh;
   width: 100vw;
+  background-color: #000000;
   /* background-size: cover;
   background-repeat: no-repeat; */
   /* z-index: -1; */
@@ -60,6 +61,7 @@
 }
 
 .boxes {
+  
   padding-top: 10%;
   display: flex;
   justify-content: center;
@@ -154,6 +156,10 @@
     gap: 8px;
 
   }
+  .about-content {
+    padding-top: 5vh;
+    padding-left: noZx;
+    width: 90vw;}
 
   .about {
     height: 120vh;

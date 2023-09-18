@@ -1,7 +1,7 @@
 import React from 'react'
 import * as THREE from 'three'
 import '../App.css'
-import  background from '../assets/smoke1.jpg'
+import  background from '../assets/smoke.webp'
 function Background() {
 
 
@@ -23,6 +23,7 @@ function Background() {
         map: loader.load(background),
         opacity: 0.2, 
         transparent: true, 
+        // color: 0x00ff00,
     
         
     });
