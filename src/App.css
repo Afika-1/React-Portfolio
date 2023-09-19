@@ -6,7 +6,6 @@
 
 .bg {
     position: relative;
-    width: 100%;
     max-height: max-content;
     /* background-color: black; */
     background-size: cover;
