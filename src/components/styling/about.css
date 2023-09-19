@@ -45,14 +45,10 @@
   display: flex;
   justify-content: center;
   gap: 30px;
-  /* flex-direction: column; */
-  /* align-items: center; */
 
-  /* flex-wrap: wrap; */
   font-size: 1rem;
   color: #d79e48;
   padding-bottom: 5vh;
-  /* max-width: 430px; */
 }
 
 .sub {
@@ -86,11 +82,7 @@
 
 }
 
-/* .boxes div .btns{
-  display: flex;
-  flex-wrap: wrap;
 
-} */
 #btns{
   font-weight: bold;
 
@@ -121,7 +113,7 @@
 }
 
 .line {
-  margin-top: 5px;
+  margin-top: 10px;
   position: absolute;
   width: 80vw;
   padding: 0;
@@ -134,17 +126,7 @@
   position: absolute;
 
 }
-/* @media (max-width: 992px) {
-.boxes {
-  padding-top: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5vw;
 
-
-}
-} */
 
 @media (max-width: 781px) {
 
