@@ -54,7 +54,9 @@ h1 span {
 .home-icons {
     padding-right: 1vw;
 }
-
+.icons-height{
+    height: 40px;
+}
 .btn-icons {
     /* border: #979696 solid; */
     margin-top: 3vh;
@@ -144,9 +146,7 @@ h1 span {
     .btn-icons {
         display: flex;
         flex-direction: column;
-        /* justify-content: center;
-        align-items: center; */
-
+       
     }
 
     .hm-icons {
@@ -176,7 +176,7 @@ h1 span {
         position: absolute;
         display: flex;
         flex-direction: column;
-        padding-top: 30vh;
+        padding-top: 20vh;
         padding-left: 20vw;
         width: 80vw;
     }
