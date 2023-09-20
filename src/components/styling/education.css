@@ -129,11 +129,11 @@ section {
   }
   @media (max-width: 480px) {
     .education {
-      height: 500vh;
+      height: 300vh;
     }
     .container{
       padding: 10px;
-      width: 200px;
+      width: 250px;
       height: 150px;
     }
     section {

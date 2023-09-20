@@ -125,7 +125,7 @@ nav ul li a:hover {
 nav{
   justify-content: space-between;
   align-items:normal;
-  background: linear-gradient(to bottom right, rgb(0,0,0,0.75), rgb(0,0,0,0.1), black, black);
+  background: linear-gradient(to bottom right, rgb(0,0,0,0.1), rgb(0,0,0,0.75), black, black);
   border-bottom: #d69d48 solid 1px;
   border-radius: 0 0 0 40px;
 }
