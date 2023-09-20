@@ -144,7 +144,7 @@
     width: 90vw;}
 
   .about {
-    min-height: 110vh;
+    height: 110vh;
     text-align: center;
   }
 
@@ -180,8 +180,8 @@
     align-items: center;
   }
   .about {
-    min-height: 110vh;
-    ;
+  height: 150vh;
+    
   }
   
 }
