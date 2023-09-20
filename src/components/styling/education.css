@@ -7,7 +7,7 @@
 .education {
   padding-top: 10vh;
   min-height: 100vh;
-  max-height: 250vh;
+  max-height: 300vh;
   width: 100vw;
   color: white;
   background-color: #000000;
@@ -127,6 +127,21 @@ section {
     height: 200px;
     box-shadow: 8px 8px 5px 1px #9c9b9b;
   }
-
+  @media (max-width: 480px) {
+    .education {
+      height: 500vh;
+    }
+    .container{
+      padding: 10px;
+      width: 200px;
+      height: 150px;
+    }
+    section {
+      margin-left: 23px;
+      padding-top: 5px;
+      padding-left: 10px;
+      height: 140px;
+  }
+}
 
 }
