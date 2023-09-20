@@ -3,6 +3,7 @@ import './styling/portfolio.css'
 import linkedin from '../assets/linkedin3.gif'
 import github from '../assets/github.gif'
 import videobg from '../assets/videobg1.mp4'
+import resume from '../assets/Afika-Shwashwa.pdf'
 
 export default function Portfolio() {
     return (
@@ -14,8 +15,7 @@ export default function Portfolio() {
                 <p>A software developer  currently  specializing in front-end mobile and web development </p>
                 <div className='btn-icons'>
 
-                    <button className='btn'>Resume</button>
-
+                   <button className='btn'> <a href={resume} target='_blank'>Resume</a></button>
                     <div className="hm-icons">
                         <a href="https://github.com/Afika-1" target='_blank'><img className="git-hub" alt="Github link" src={github} /></a>
                         <a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a' target='_blank'><img className="linkedin" alt="Linkedin link" src={linkedin} /></a>
