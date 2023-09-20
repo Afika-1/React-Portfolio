@@ -4,8 +4,8 @@ nav {
   justify-content: space-between;
   width: 100vw;
   padding: 10px;
-  background: linear-gradient(to bottom right, black, black, black, rgb(71, 70, 70) );
-  
+  background: linear-gradient(to bottom right, black, black, black, rgb(71, 70, 70));
+
   z-index: 1;
 }
 
@@ -28,7 +28,8 @@ nav {
   border-radius: 50px;
   overflow-x: hidden;
 }
-.logo:hover{
+
+.logo:hover {
   transform: scale(0.9);
   box-shadow: 2px 2px 1px 3px #d79e48;
   /* box-shadow: 8px 6px 5px 3px #302d27; */
@@ -83,7 +84,8 @@ nav ul li a:hover {
   cursor: pointer;
 
 }
-.btn-cv:hover{
+
+.btn-cv:hover {
   background-color: #000;
   border: #ffffff solid 1px;
   color: white;
@@ -109,8 +111,9 @@ nav ul li a:hover {
   height: 3px;
   background-color: #ffffff;
   margin: 2px 0;
-  
+
 }
+
 /* .x{
     width: 30px;
   height: 3px;
@@ -122,13 +125,14 @@ nav ul li a:hover {
 /* Media Query for Mobile */
 @media (max-width: 768px) {
 
-nav{
-  justify-content: space-between;
-  align-items:normal;
-  background: linear-gradient(to bottom right, rgb(0,0,0,0.1), rgb(0,0,0,0.75), black, black);
-  border-bottom: #d69d48 solid 1px;
-  border-radius: 0 0 0 40px;
-}
+  nav {
+    justify-content: space-between;
+    align-items: normal;
+    background: linear-gradient(to bottom right, rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.75), black, black);
+    border-bottom: #d69d48 solid 1px;
+    border-radius: 0 0 0 40px;
+  }
+
   .menu {
     display: none;
     width: 100%;
@@ -146,30 +150,38 @@ nav{
     padding-bottom: 10px;
 
   }
-  ul li{
-    margin: 15px;
-    padding: 10px;
+
+  ul li {
+    margin: 8px;
+    padding: 5px;
     border: rgb(44, 43, 43) solid 1px;
-    box-shadow: .8px 1px .8px 1px  #d79e48 ;
+    box-shadow: .8px 1px .8px 1px #d79e48;
   }
-  ul li:hover{
+
+  ul li:hover {
     border: #ffffff solid 1px;
-    font-weight:lighter;
+    font-weight: lighter;
   }
+
   nav ul li a:hover {
     color: #d69d48;
     font-weight: normal;
-  
+
   }
-  
- 
-  .drop{
+
+  .logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  .drop {
     display: flex;
     flex-direction: column;
   }
 
   .menu-icon {
     display: flex;
+    /* justify-content: space-evenly; */
   }
 
   .btn-cv {
@@ -178,4 +190,3 @@ nav{
 }
 
 /* ---------router for navigation------------ */
-

@@ -140,11 +140,11 @@
   }
   .about-content {
     padding-top: 5vh;
-    padding-left: noZx;
+    padding-left: 10vw;
     width: 90vw;}
 
   .about {
-    height: 120vh;
+    min-height: 110vh;
     text-align: center;
   }
 
@@ -174,10 +174,13 @@
 }
 @media (max-width: 480px) {
   .boxes{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .about {
-    min-height: 150vh;
+    min-height: 110vh;
     ;
   }
   
