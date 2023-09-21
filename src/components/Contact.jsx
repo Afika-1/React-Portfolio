@@ -152,7 +152,7 @@ export default function Contact() {
           </div>
         </div>
         <div className='form-border'>
-          <span className='text1'>Drop a text,</span> <span className='text2'>I'll handle the rest</span>
+          <p><span className='text1'>Drop a text,</span> <span className='text2'>I'll handle the rest</span></p>
           <form id='myForm' onSubmit={handleSubmit}>
             <input className="form-input" type='text' required id='name' value={name} onChange={(e) => setName(e.target.value)} name='name' placeholder='Full Name' />
             <input className="form-input" type='email' required id='myEmail' value={email} onChange={(e) => setEmail(e.target.value)} name='email' placeholder='Email Address' />

@@ -27,6 +27,8 @@ textarea::placeholder {
   padding:  10px 5px;
   margin: 0 20vw;
   border-radius: 10px;
+
+  box-shadow: 1px 1px 10px 0px rgba(255, 255, 255, 1);
   color: #ffffff;
   font-family: "IM FELL Great Primer SC-Regular";
   font-size: 1rem;
@@ -136,6 +138,7 @@ form {
   letter-spacing: 0;
   line-height: normal;
   text-align: center;
+  margin-bottom: 3vh;
 }
 
 .text-wrapper {
@@ -195,7 +198,7 @@ form {
   top: 777px;
   width: 20px;
 }
-
+/* 
 .text-wrapper-10 {
   color: #ffffff;
   font-family: "IM FELL Great Primer SC-Regular";
@@ -254,7 +257,7 @@ form {
   text-align: center;
   top: 418px;
   white-space: nowrap;
-}
+} */
 
 .icons-bottom {
   display: none;
@@ -269,7 +272,9 @@ form {
     gap: 20px;
     margin-top: 5vh;
   }
-
+.form-border{
+  text-align: center;
+}
   .form-message {
     height: 3rem;
     width: 200px;
@@ -295,7 +300,9 @@ form {
 
   .contact-content {
     line-height: 1.4rem;
-    margin: 0;
+    /* margin: 0; */
+    padding:  10px 5px;
+    margin: 0 2vw;
   }
 
   .icons1 {
@@ -337,16 +344,12 @@ form {
 /* Apply the animation to the text elements */
 .text1 {
   font-size: 20px;
-  animation: textAnimation 2s infinite;
+  animation: textAnimation 3s infinite;
 }
 
 .text2 {
   font-size: 20px;
   color: #d79e48;
-  animation: textAnimation 2.5s infinite;
+  animation: textAnimation 3.5s infinite;
 }
 
-.form-border {
-
-
-}
