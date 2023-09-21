@@ -42,6 +42,12 @@ textarea::placeholder {
 
 
 }
+.error{
+  color: rgb(243, 61, 61);
+  font-size: 15px;
+  line-height: 10px;
+  margin-top: 3px;
+}
 
 .contact-det {
   display: flex;
@@ -108,9 +114,12 @@ form {
   background-color: #D9D9D980;
   color: #ffffff;
   height: 5rem;
-  margin-bottom: 10px;
+  margin-top: 10px;
   border-radius: 10px;
   border: #d69d48 solid 1px;
+}
+.recap{
+  margin-top: 5px;
 }
 
 .form-input {
@@ -120,7 +129,7 @@ form {
   width: 30vw;
   font-size: 20px;
   padding: 5px;
-  margin-bottom: 10px;
+  margin-top: 10px;
   border-radius: 10px;
   background-color: #D9D9D980;
   color: #ffffff;
