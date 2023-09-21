@@ -47,6 +47,45 @@ h1 span {
     padding-right: 1vw;
 }
 
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .icon1 {
+    animation: fadeIn 2s 0.5s ease-in-out forwards;
+  }
+  
+  .icon2 {
+    animation: fadeIn 0.5s 1s ease-in-out forwards;
+  }
+  .icon3 {
+    animation: fadeIn 2s 1.5s ease-in-out forwards;
+  }
+  .icon4 {
+    animation: fadeIn 0.5s 2s ease-in-out forwards;
+  }
+  .icon5 {
+    animation: fadeIn 2s 2.5s ease-in-out forwards;
+  }
+  .icon6 {
+    animation: fadeIn 0.5s 3s ease-in-out forwards;
+  }
+  .icon7 {
+    animation: fadeIn 2s 3.5s ease-in-out forwards;
+  }
+  .icon8 {
+    animation: fadeIn 0.5s 4s ease-in-out forwards;
+  }
+  
+  
+  
+  
+  
+  
+  /* Add similar animations for the other classes */
+  
+
 .icons-height {
     height: 40px;
 }
@@ -156,6 +195,10 @@ h1 span {
         flex-direction: column;
 
     }
+    
+.skillset {
+    padding-top: 12vh;
+}
 
     .btn {
         display: block;
@@ -197,3 +240,5 @@ h1 span {
 .skillset p span {
     height: 10px;
 }
+
+/* ----my animations-- */
