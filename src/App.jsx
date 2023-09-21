@@ -6,14 +6,13 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
-import Background from "./components/Three";
 
 function App() {
 
   return (
     <div>
     
-      <Background />
+  
       <Navbar />
       <Portfolio />
       <About />

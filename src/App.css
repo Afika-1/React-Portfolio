@@ -7,7 +7,7 @@
 .bg {
     position: relative;
     max-height: max-content;
-    /* background-color: black; */
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;

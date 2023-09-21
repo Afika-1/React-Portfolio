@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-/* border: rgb(94, 94, 219) solid 2px; */
+  /* border: rgb(94, 94, 219) solid 2px; */
 }
 
 input::placeholder,
@@ -22,12 +22,17 @@ textarea::placeholder {
 }
 
 .contact-content {
+
+  background-color: rgba(255, 255, 255, 0.1);
+  padding:  10px 5px;
+  margin: 0 20vw;
+  border-radius: 10px;
   color: #ffffff;
   font-family: "IM FELL Great Primer SC-Regular";
   font-size: 1rem;
   font-weight: 400;
   line-height: 2rem;
-  margin: 5% 0px 0px 0px;
+  /* margin: 5% 0px 0px 0px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -275,6 +280,7 @@ form {
     width: 200px;
 
   }
+
   form {
     display: flex;
     flex-direction: column;
@@ -309,16 +315,19 @@ form {
 
   }
 }
+
 /* Add keyframes for the animation */
 @keyframes textAnimation {
   0% {
     opacity: 1;
     transform: translateY(0);
   }
+
   50% {
     opacity: 0;
     transform: translateY(-10px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -326,12 +335,18 @@ form {
 }
 
 /* Apply the animation to the text elements */
-.text1{
+.text1 {
   font-size: 20px;
   animation: textAnimation 2s infinite;
 }
+
 .text2 {
   font-size: 20px;
   color: #d79e48;
   animation: textAnimation 2.5s infinite;
+}
+
+.form-border {
+
+
 }
