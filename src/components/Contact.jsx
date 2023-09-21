@@ -35,8 +35,8 @@ export default function Contact() {
         setEmail('');
         setProject('');
         setMessage('');
-        setVerified(false); 
-        alert('Form submitted successfully!'); 
+        setVerified(false);
+        alert('Form submitted successfully!');
       }).catch((error) => {
         console.error('Error! Could not sent email: ', error);
       });
@@ -54,6 +54,11 @@ export default function Contact() {
     console.log("Captcha value:", value);
     setVerified(true)
   }
+
+
+
+
+
 
   return (
 
@@ -146,21 +151,22 @@ export default function Contact() {
 
           </div>
         </div>
+        <div className='form-border'>
+          <span className='text1'>Drop a text,</span> <span className='text2'>I'll handle the rest</span>
+          <form id='myForm' onSubmit={handleSubmit}>
+            <input className="form-input" type='text' required id='name' value={name} onChange={(e) => setName(e.target.value)} name='name' placeholder='Full Name' />
+            <input className="form-input" type='email' required id='myEmail' value={email} onChange={(e) => setEmail(e.target.value)} name='email' placeholder='Email Address' />
+            <input className="form-input" type='text' required id='project' value={project} onChange={(e) => setProject(e.target.value)} name='project' placeholder='Subject' />
+            <textarea className="form-message" type='text' required id='message' value={message} onChange={(e) => setMessage(e.target.value)} name='message' placeholder='Type your message...' />
 
-        <form id='myForm' onSubmit={handleSubmit}>
-          <input className="form-input" type='text' required id='name' value={name} onChange={(e) => setName(e.target.value)} name='name' placeholder='Full Name' />
-          <input className="form-input" type='email' required id='myEmail' value={email} onChange={(e) => setEmail(e.target.value)} name='email' placeholder='Email Address' />
-          <input className="form-input" type='text' required id='project' value={project} onChange={(e) => setProject(e.target.value)} name='project' placeholder='Subject' />
-          <textarea className="form-message" type='text' required id='message' value={message} onChange={(e) => setMessage(e.target.value)} name='message' placeholder='Type your message...' />
-       
 
             <ReCAPTCHA sitekey="6LcLfBgoAAAAAEJy5-jU1w4WQlNLreri-TzfQtl5" onChange={onChange} />
-            
+
             <button className="send-button" type="submit" disabled={!verified} >Send</button>
-          
-        </form>
 
+          </form>
 
+        </div>
 
 
       </div>

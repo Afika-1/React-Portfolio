@@ -309,3 +309,29 @@ form {
 
   }
 }
+/* Add keyframes for the animation */
+@keyframes textAnimation {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to the text elements */
+.text1{
+  font-size: 20px;
+  animation: textAnimation 2s infinite;
+}
+.text2 {
+  font-size: 20px;
+  color: #d79e48;
+  animation: textAnimation 2.5s infinite;
+}
