@@ -2,6 +2,19 @@ import React from 'react'
 import './styling/education.css'
 
 export default function Education() {
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const icons = document.querySelectorAll(".spacing");
+        icons.forEach((icon, index) => {
+          setTimeout(() => {
+            icon.classList.add("animate");
+          }, index * 200); 
+        });
+      });
+      
+
+
+
     return (
         <div className='education' id='education' >
 

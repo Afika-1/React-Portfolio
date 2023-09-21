@@ -7,6 +7,27 @@ import income from '../components/projects/SARS-Tax.png'
 import simple from '../components/projects/unnamed.webp'
 
 export default function Projects() {
+
+
+// Get a reference to the image element
+const imageToAnimate = document.getElementById('imageToAnimate');
+
+// Function to toggle between normal color and black and white
+function toggleImageColor() {
+  if (imageToAnimate.classList.contains('normal-color')) {
+    imageToAnimate.classList.remove('normal-color');
+    imageToAnimate.classList.add('black-white');
+  } else {
+    imageToAnimate.classList.remove('black-white');
+    imageToAnimate.classList.add('normal-color');
+  }
+}
+
+// Set an interval to run the toggle function every 3 seconds
+setInterval(toggleImageColor, 3000);
+
+
+    
     return (
         <div className='projects' id='projects'>
         <div id="line"><p className="line"></p></div>
@@ -19,7 +40,7 @@ export default function Projects() {
 
                 <div className='image-descr'>
                     <div className='description-icons'>
-                        <div className='project-image' id='mzamo'><a href='https://monumental-bombolone-4c47a2.netlify.app/' target='_blank'><img src={web} /></a></div>
+                        <div className='project-image' id='mzamo'><a href='https://monumental-bombolone-4c47a2.netlify.app/' target='_blank'><img src={web} className='normal-color' id='imageToAnimate'/></a></div>
                         <div className='description'>
                             <h2>School Website</h2>
                             <p>We were tasked to create a website for the school to improve their online presence. We used HTML, CSS and JS tools to achieve this</p>
@@ -53,12 +74,12 @@ export default function Projects() {
                                 I used Java to build this. </p>
                                 <a href='https://github.com/Afika-1/Tax-Calculator' arget='_blank'><button>View Code</button></a>
                         </div>
-                        <div className='project-image' id='tax'><a href='https://github.com/Afika-1/Tax-Calculator' target='_blank'><img src={income} /></a></div>
+                        <div className='project-image .bw-image' id='tax'><a href='https://github.com/Afika-1/Tax-Calculator' target='_blank'><img src={income} /></a></div>
 
                     </div>
 
                     <div className='description-icons' id='bd'>
-                        <div className='project-image' id='simple'> <a href='https://github.com/Afika-1/Banking-System-App' target='_blank'><img src={simple} /></a></div>
+                        <div className='project-image .bw-image' id='simple'> <a href='https://github.com/Afika-1/Banking-System-App' target='_blank'><img src={simple} /></a></div>
                         <div className='description'>
                             <h2>Financial Calculator</h2>
                             <p>This application allows the user to  calculate investment (simple/compound) and can also Calculate a house bond. These two are neatly showing on the app. Tkinter python library was used to build the GUI.  </p>

@@ -57,13 +57,13 @@ h1 span {
   }
   
   .icon2 {
-    animation: fadeIn 0.5s 1s ease-in-out forwards;
+    animation: fadeIn 2s 1s ease-in-out forwards;
   }
   .icon3 {
     animation: fadeIn 2s 1.5s ease-in-out forwards;
   }
   .icon4 {
-    animation: fadeIn 0.5s 2s ease-in-out forwards;
+    animation: fadeIn 2s 2s ease-in-out forwards;
   }
   .icon5 {
     animation: fadeIn 2s 2.5s ease-in-out forwards;
@@ -82,9 +82,7 @@ h1 span {
   
   
   
-  
-  /* Add similar animations for the other classes */
-  
+
 
 .icons-height {
     height: 40px;
