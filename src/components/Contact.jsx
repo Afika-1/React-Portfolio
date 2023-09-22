@@ -288,6 +288,8 @@ export default function Contact() {
     setVerified(true);
   };
 
+  
+  
   return (
     <div className='contact' id='contact'>
 
@@ -379,7 +381,7 @@ export default function Contact() {
           </div>
         </div>
         <div className='form-border'>
-          <p><span className='text1'>Send a message,</span> <span className='text2'> I'll take care of the magic!</span></p>
+          {/* <p><span className='text1'>Send a message,</span> <span className='text2'> I'll take care of the magic!</span></p> */}
           
 
       <form id='myForm' onSubmit={handleSubmit}>

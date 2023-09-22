@@ -24,9 +24,9 @@ textarea::placeholder {
 .contact-content {
 
   background-color: rgba(255, 255, 255, 0.05);
-  padding:  10px 5px;
-  margin: 0 20vw;
-  border-radius: 10px ;
+  padding:  20px 5px;
+  margin: 0 18vw;
+  border-radius: 50px 100px 0px 100px ;
 
   box-shadow: 1px 1px 10px 0px rgba(255, 255, 255, 1);
   color: #ffffff;
@@ -40,7 +40,18 @@ textarea::placeholder {
   justify-content: center;
   flex-wrap: wrap;
 
+  animation: slideIn 0.5s ease-in-out;
 
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 .error{
   color: rgb(243, 61, 61);
@@ -226,12 +237,12 @@ form {
   text-align: center;
 }
   .form-message {
-    height: 3rem;
+    height: 4rem;
     width: 200px;
   }
 
   .form-input {
-    height: 1rem;
+    height: 1.5rem;
     width: 200px;
 
   }
@@ -270,8 +281,18 @@ form {
     max-height: 300vh;
 
   }
+  .text1 {
+    font-size: 8px;
+    animation: textAnimation 2s infinite;
+  }
+  
+  .text2 {
+    font-size: 8px;
+    color: #d79e48;
+    animation: textAnimation 3.5s infinite;
+  }
 }
-
+/* 
 @keyframes textAnimation {
   0% {
     opacity: 1;
@@ -298,5 +319,5 @@ form {
   font-size: 20px;
   color: #d79e48;
   animation: textAnimation 3.5s infinite;
-}
+} */
 
