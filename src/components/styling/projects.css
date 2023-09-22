@@ -161,7 +161,7 @@
 
 }
 
-@keyframes textAnimation {
+@keyframes imageAnimation {
     0% {
         opacity: 1;
         transform: translateY(0);
@@ -181,7 +181,34 @@
 
 /* Apply the animation to the text elements */
 .bounce {
-    font-size: 20px;
+    animation: imageAnimation 3s infinite;
+}
 
-    animation: textAnimation 3s infinite;
+
+
+.bounce {
+   
+    transition: transform 1s; /* Add a smooth transition to the transform property */
+}
+
+.bounce:hover {
+    animation: shake 1s ease-in-out infinite; /* Apply the shake animation on hover */
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(5px);
+    }
 }

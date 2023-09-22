@@ -25,7 +25,7 @@ export default function Portfolio() {
             <video src={videobg} autoPlay loop muted />
             <div className='home-content'>
                 <p>Hi There</p>
-                <h1>I'm <span>Afika Shwashwa</span></h1>
+                <h1>I'm <span className='name1'>Afika Shwashwa</span></h1>
                 <p>A software developer  currently  specializing in front-end mobile and web development </p>
                 <div className='btn-icons'>
 

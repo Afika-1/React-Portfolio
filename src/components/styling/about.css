@@ -13,7 +13,7 @@
 
 }
 
-.color{
+.color {
   color: #d79e48;
   padding-left: 5px;
   padding-right: 5px;
@@ -57,7 +57,7 @@
 }
 
 .boxes {
-  
+
   padding-top: 10%;
   display: flex;
   justify-content: center;
@@ -83,7 +83,7 @@
 }
 
 
-#btns{
+#btns {
   font-weight: bold;
 
 }
@@ -130,7 +130,7 @@
 
 @media (max-width: 781px) {
 
-  
+
 
   .qualification {
     font-size: .5rem;
@@ -138,10 +138,12 @@
     gap: 8px;
 
   }
+
   .about-content {
     padding-top: 5vh;
     padding-left: 10vw;
-    width: 90vw;}
+    width: 90vw;
+  }
 
   .about {
     height: 110vh;
@@ -154,7 +156,7 @@
 
   }
 
- 
+
   .boxes div {
     width: 50vw;
     height: 10vh;
@@ -172,16 +174,19 @@
   }
 
 }
+
 @media (max-width: 480px) {
-  .boxes{
+  .boxes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .about {
-  height: 150vh;
-    
+    height: 150vh;
+
   }
-  
+
 }
+
