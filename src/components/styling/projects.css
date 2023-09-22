@@ -30,8 +30,8 @@
 
 
 .description-icons {
-    padding-top: 3%;
-    padding-bottom: 2%;
+    padding-top: 4%;
+    padding-bottom: 4%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -78,8 +78,6 @@
 
 
 #bank img:hover {
-    width: 400px;
-    height: 30vh;
     mix-blend-mode: normal;
     box-shadow: 2px 1px 5px 5px maroon;
     border-radius: 20px;
@@ -182,7 +180,7 @@
 }
 
 /* Apply the animation to the text elements */
-.text1 {
+.bounce {
     font-size: 20px;
 
     animation: textAnimation 3s infinite;

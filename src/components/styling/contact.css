@@ -207,66 +207,7 @@ form {
   top: 777px;
   width: 20px;
 }
-/* 
-.text-wrapper-10 {
-  color: #ffffff;
-  font-family: "IM FELL Great Primer SC-Regular";
-  font-size: 24px;
-  font-weight: 400;
-  left: 750px;
-  letter-spacing: 0;
-  line-height: normal;
-  opacity: 0.5;
-  position: absolute;
-  text-align: center;
-  top: 237px;
-  white-space: nowrap;
-}
 
-.text-wrapper-11 {
-  color: #ffffff;
-  font-family: "IM FELL Great Primer SC-Regular";
-  font-size: 24px;
-  font-weight: 400;
-  left: 747px;
-  letter-spacing: 0;
-  line-height: normal;
-  opacity: 0.5;
-  position: absolute;
-  text-align: center;
-  top: 301px;
-  white-space: nowrap;
-}
-
-.text-wrapper-12 {
-  color: #ffffff;
-  font-family: "IM FELL Great Primer SC-Regular";
-  font-size: 24px;
-  font-weight: 400;
-  left: 750px;
-  letter-spacing: 0;
-  line-height: normal;
-  opacity: 0.5;
-  position: absolute;
-  text-align: center;
-  top: 359px;
-  white-space: nowrap;
-}
-
-.text-wrapper-13 {
-  color: #ffffff;
-  font-family: "IM FELL Great Primer SC-Regular";
-  font-size: 24px;
-  font-weight: 400;
-  left: 750px;
-  letter-spacing: 0;
-  line-height: normal;
-  opacity: 0.5;
-  position: absolute;
-  text-align: center;
-  top: 418px;
-  white-space: nowrap;
-} */
 
 .icons-bottom {
   display: none;
@@ -332,7 +273,6 @@ form {
   }
 }
 
-/* Add keyframes for the animation */
 @keyframes textAnimation {
   0% {
     opacity: 1;
@@ -350,10 +290,9 @@ form {
   }
 }
 
-/* Apply the animation to the text elements */
 .text1 {
   font-size: 20px;
-  animation: textAnimation 3s infinite;
+  animation: textAnimation 2s infinite;
 }
 
 .text2 {

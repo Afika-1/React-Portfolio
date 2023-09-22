@@ -211,7 +211,6 @@ export default function Contact() {
 
   // Step 2: Create state variables for validation
   const [nameError, setNameError] = useState('');
-  const [nameSuccess, setNameSuccess]=useState('')
   const [emailError, setEmailError] = useState('');
   const [projectError, setProjectError] = useState('');
   const [messageError, setMessageError] = useState('');
@@ -297,7 +296,7 @@ export default function Contact() {
         <h1 className="text-wrapper">Contact <span className="text-wrapper-2">Me</span></h1>
       </div>
 
-      <div className="contact-content ">
+      <div className="contact-content">
 
         <div className="contact-det">
 
