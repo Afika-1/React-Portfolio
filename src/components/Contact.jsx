@@ -402,7 +402,7 @@ export default function Contact() {
 
        <ReCAPTCHA sitekey='6LcLfBgoAAAAAEJy5-jU1w4WQlNLreri-TzfQtl5'  className='recap' onChange={onChange} />
 
-        <button className='send-button' type='submit'>
+        <button className='send-button' type='submit'  disabled={!verified}> 
           Send
         </button>
       </form>
