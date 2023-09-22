@@ -102,7 +102,7 @@ nav ul li a:hover {
    */
 
 
-/* Hamburger Icon */
+
 .menu-icon {
   display: none;
   flex-direction: column;
@@ -118,13 +118,7 @@ nav ul li a:hover {
 
 }
 
-/* .x{
-    width: 30px;
-  height: 3px;
-  background-color: #ffffff;
-  margin: 2px 0;
-  
-} */
+
 
 /* Media Query for Mobile */
 @media (max-width: 768px) {
@@ -190,6 +184,26 @@ nav ul li a:hover {
 
   .btn-cv {
     display: none;
+  }
+}
+
+
+.logo {
+  transition: transform 0.2s ease-in-out;
+  animation: bounce 4s infinite;
+}
+
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateY(-5px);
+  }
+  60% {
+    transform: translateX(5px);
   }
 }
 
