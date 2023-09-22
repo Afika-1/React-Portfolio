@@ -54,7 +54,7 @@ setInterval(toggleImageColor, 3000);
                             <p className='para'>Here is a mobile banking system app. This was created using a the TKinter Python library. The App can creates an account and allows account holder to make transactions while recording the data and more.</p>
                             <a href='https://github.com/Afika-1/Bank-App--Final' target='_blank'><button>View Code</button></a>
                         </div>
-                        <div className='project-image'id='bank' ><a href='https://github.com/Afika-1/Bank-App--Final' target='_blank'><img src={bank} /></a></div>
+                        <div className='project-image'id='bank' ><a href='https://github.com/Afika-1/Bank-App--Final' target='_blank'><img src={bank}  className='text1'/></a></div>
 
                     </div>
 

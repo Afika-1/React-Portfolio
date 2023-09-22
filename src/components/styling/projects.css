@@ -73,13 +73,17 @@
     border-radius: 20px;
     border: solid white 1px;
     mix-blend-mode: luminosity;
-    /* box-shadow: 2px 1px 5px 5px #9c9b9b; */
+    box-shadow: 2px 1px 5px 5px #9c9b9b;
 }
 
 
 #bank img:hover {
+    width: 400px;
+    height: 30vh;
     mix-blend-mode: normal;
     box-shadow: 2px 1px 5px 5px maroon;
+    border-radius: 20px;
+
 }
 
 #mzamo img:hover {
@@ -121,6 +125,7 @@
         display: flex;
         flex-direction: column-reverse;
     }
+
     .project-image img {
         width: 60vw;
         height: 20vh;
@@ -156,4 +161,29 @@
         font-size: 0.5rem;
     }
 
+}
+
+@keyframes textAnimation {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+
+    50% {
+        /* opacity: 0.5; */
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply the animation to the text elements */
+.text1 {
+    font-size: 20px;
+
+    animation: textAnimation 3s infinite;
 }

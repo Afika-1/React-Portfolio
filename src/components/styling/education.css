@@ -59,8 +59,7 @@
 
 .container {
   border: #ffffff solid 1px;
-  background-color: #141414;
-
+  background-color: rgba(255, 255, 255, 0.05);
   margin-right: 5vw;
   padding: 10px;
   width: 340px;

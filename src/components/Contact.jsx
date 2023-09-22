@@ -211,6 +211,7 @@ export default function Contact() {
 
   // Step 2: Create state variables for validation
   const [nameError, setNameError] = useState('');
+  const [nameSuccess, setNameSuccess]=useState('')
   const [emailError, setEmailError] = useState('');
   const [projectError, setProjectError] = useState('');
   const [messageError, setMessageError] = useState('');
@@ -253,7 +254,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Step 4: Validate the form
+ 
     if (handleValidation()) {
       const serviceId = 'service_umya76v';
       const templateId = 'template_5chefx8';
@@ -290,13 +291,13 @@ export default function Contact() {
 
   return (
     <div className='contact' id='contact'>
-      {/* ... existing JSX ... */}
+
       <div id="contact-line"><p className="contact-line"></p></div>
       <div className='contact-title'>
         <h1 className="text-wrapper">Contact <span className="text-wrapper-2">Me</span></h1>
       </div>
 
-      <div className="contact-content">
+      <div className="contact-content ">
 
         <div className="contact-det">
 

@@ -23,7 +23,7 @@ textarea::placeholder {
 
 .contact-content {
 
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
   padding:  10px 5px;
   margin: 0 20vw;
   border-radius: 10px;
@@ -340,7 +340,7 @@ form {
   }
 
   50% {
-    opacity: 0;
+    opacity: 0.2;
     transform: translateY(-10px);
   }
 
