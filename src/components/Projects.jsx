@@ -49,12 +49,13 @@ setInterval(toggleImageColor, 3000);
                     </div>
 
                     <div className='description-icons' id='description-icons'>
+                    <div className='project-image'id='bank' ><a href='https://github.com/Afika-1/Bank-App--Final' target='_blank'><img src={bank} className='bounce'/></a></div>
+
                         <div className='description'>
                             <h2>Banking System</h2>
                             <p className='para'>Here is a mobile banking system app. This was created using a the TKinter Python library. The App can creates an account and allows account holder to make transactions while recording the data and more.</p>
                             <a href='https://github.com/Afika-1/Bank-App--Final' target='_blank'><button>View Code</button></a>
                         </div>
-                        <div className='project-image'id='bank' ><a href='https://github.com/Afika-1/Bank-App--Final' target='_blank'><img src={bank} className='bounce'/></a></div>
 
                     </div>
 
@@ -68,13 +69,14 @@ setInterval(toggleImageColor, 3000);
                     </div>
 
                     <div className='description-icons' id='description-icons'>
+                    <div className='project-image .bw-image' id='tax'><a href='https://github.com/Afika-1/Tax-Calculator' target='_blank'><img src={income} className='bounce'/></a></div>
+
                         <div className='description'>
                             <h2>Tax Calculator</h2>
                             <p>The Tax Calculator allows the user to enter their annual income, select the tax bracket they are in and applies the accurate tax rate then displays the annual and monthly tax obligation.
                                 I used Java to build this. </p>
                                 <a href='https://github.com/Afika-1/Tax-Calculator' arget='_blank'><button>View Code</button></a>
                         </div>
-                        <div className='project-image .bw-image' id='tax'><a href='https://github.com/Afika-1/Tax-Calculator' target='_blank'><img src={income} className='bounce'/></a></div>
 
                     </div>
 

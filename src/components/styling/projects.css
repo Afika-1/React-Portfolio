@@ -38,6 +38,10 @@
     gap: 10vw;
     border-bottom: solid #2e2517 2px;
 }
+#description-icons {
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 #bd {
     border-bottom: none;
@@ -119,14 +123,15 @@
 }
 
 @media (max-width: 992px) {
-    #description-icons {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+   
 
     .project-image img {
         width: 60vw;
         height: 20vh;
+    }
+    #description-icons {
+        display: flex;
+        flex-direction: column;
     }
 
     .description-icons {
