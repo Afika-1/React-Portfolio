@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom/client';
 import logo from '../assets/logo.jpg';
 import './styling/navigation.css';
 import resume from '../assets/Afika-Shwashwa.pdf'
+
+
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
     const navRef = useRef(null);

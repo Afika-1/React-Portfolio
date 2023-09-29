@@ -12,7 +12,7 @@ export default function Portfolio() {
         icons.forEach((icon, index) => {
           setTimeout(() => {
             icon.classList.add("animate");
-          }, index * 200); 
+          }, index * Infinity); 
         });
       });
       
