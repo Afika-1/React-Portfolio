@@ -89,7 +89,6 @@ textarea::placeholder {
 
 .send-button {
   margin-top: 5px;
-  cursor: pointer;
   /* position: absolute; */
   padding: .6vh;
   font-size: .7rem;

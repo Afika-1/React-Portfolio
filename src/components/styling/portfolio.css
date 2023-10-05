@@ -1,4 +1,6 @@
-* {
+  @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&family=IM+Fell+Great+Primer+SC&display=swap');
+  
+  * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -29,8 +31,8 @@ video {
 
 h1 span {
     color: #d69d48;
-    font-family: 'IM FELL Great Primer SC';
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 100);
+    font-family: 'IM Fell Great Primer SC', serif;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 100);
 
 }
 
@@ -128,7 +130,7 @@ h1 span {
     width: 6rem;
     background-color: #d69d48;
     color: #ffffff;
-    font-family: "IM FELL Great Primer SC-Regular";
+    font-family: 'IM Fell Great Primer', serif;
     font-size: 20px;
     font-weight: 400;
     border: none;
