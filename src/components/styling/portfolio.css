@@ -20,7 +20,7 @@ video {
     height: 100vh;
     object-fit: cover;
     position: absolute;
-    /* background: rgba(0, 0, 0,100), lightgray 50% */
+    /* background: rgba(0, 0, 0,1), lightgray 50% */
 }
 
 .hm-icons {
