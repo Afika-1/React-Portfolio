@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './styling/contact.css';
 import linkedin from '../assets/linkedin3.gif';
 import github from '../assets/github.gif';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser'
 import ReCAPTCHA from 'react-google-recaptcha';
 
 export default function Contact() {
@@ -18,7 +18,9 @@ export default function Contact() {
   const [projectError, setProjectError] = useState('');
   const [messageError, setMessageError] = useState('');
 
-  const handleValidation = () => {
+  const handleValidation = (e) => {
+    
+    e.preventDefault();
     let valid = true;
 
     if (!name) {
@@ -43,51 +45,64 @@ export default function Contact() {
     }
 
     if (!message) {
-      setMessageError('Message is required');
+      setMessageError('Message cannot be empty');
       valid = false;
     } else {
       setMessageError('');
     }
-
-    return valid;
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
     if (!verified) {
       alert('Please complete the reCAPTCHA before submitting.');
       return;
     }
-
-    if (handleValidation()) {
-      const serviceId = 'service_umya76v';
-      const templateId = 'template_5chefx8';
-      const publicKey = 'j0fvX_rtB1ajB76Pa';
-
-      const templateParams = {
-        from_name: name,
-        from_email: email,
-        to_name: 'Afika Shwashwa',
-        message: message,
-      };
-
-      emailjs
-        .send(serviceId, templateId, templateParams, publicKey)
-        .then((response) => {
-          console.log('Email sent successfully', response);
-          setName('');
-          setEmail('');
-          setProject('');
-          setMessage('');
-          setVerified(false);
-          alert('Form submitted successfully!');
-        })
-        .catch((error) => {
-          console.error('Error! Could not send email: ', error);
-        });
+    if (valid) {
+     
+      setName('');
+      setEmail('');
+      setProject('');
+      setMessage('');
+      setVerified(false);
+      alert('Form submitted successfully!');
     }
+    // return valid;
+
   };
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+
+
+
+  //   if (handleValidation()) {
+  //     const serviceId = 'service_69ad7ld';
+  //     const templateId = 'template_ogg483p';
+  //     const publicKey = 'mmXt2iFzYoqf0nkG_';
+
+  //     const templateParams = {
+  //       from_name: name,
+  //       from_email: email,
+  //       subject: project,
+  //       to_name: 'Afika Shwashwa',
+  //       message: message,
+  //       recaptcha_response: verified
+  //     };
+
+  //     emailjs
+  //       .send(serviceId, templateId, templateParams, publicKey)
+  //       .then((response) => {
+  //         console.log('Email sent successfully', response);
+  //         setName('');
+  //         setEmail('');
+  //         setProject('');
+  //         setMessage('');
+  //         setVerified(false);
+  //         alert('Form submitted successfully!');
+  //       })
+  //       .catch((error) => {
+  //         console.error('Error! Could not send email: ', error);
+  //         alert="Email sent successfully"
+  //       });
+  //   }
+  // };
 
   const onChange = (value) => {
     console.log('Captcha value:', value);
@@ -187,20 +202,20 @@ export default function Contact() {
         </div>
 
         <div className='form-border'>
-          <form id='myForm' onSubmit={handleSubmit}>
-            <input className='form-input' type='text' id='name' value={name} onChange={(e) => setName(e.target.value)} name='name' placeholder='Full Name' />
+          <form id='myForm' onSubmit={handleValidation}>
+            <input className='form-input' type='text' id='name' onChange={(e) => setName(e.target.value)} name='name' placeholder='Full Name' />
             {nameError && <div className='error'>{nameError}</div>}
 
-            <input className='form-input' type='email' id='myEmail' value={email} onChange={(e) => setEmail(e.target.value)} name='email' placeholder='Email Address' />
+            <input className='form-input' type='email' id='myEmail' onChange={(e) => setEmail(e.target.value)} name='email' placeholder='Email Address' />
             {emailError && <div className='error'>{emailError}</div>}
 
-            <input className='form-input' type='text' id='project' value={project} onChange={(e) => setProject(e.target.value)} name='project' placeholder='Subject' />
+            <input className='form-input' type='text' id='project' onChange={(e) => setProject(e.target.value)} name='project' placeholder='Subject' />
             {projectError && <div className='error'>{projectError}</div>}
 
-            <textarea className='form-message' type='text' id='message' value={message} onChange={(e) => setMessage(e.target.value)} name='message' placeholder='Type your message...' />
+            <textarea className='form-message' type='text' id='message' onChange={(e) => setMessage(e.target.value)} name='message' placeholder='Type your message...' />
             {messageError && <div className='error'>{messageError}</div>}
 
-            <ReCAPTCHA sitekey='6LcLfBgoAAAAAEJy5-jU1w4WQlNLreri-TzfQtl5' className='recap' onChange={onChange} />
+            <ReCAPTCHA sitekey='6LcisBgqAAAAACvtGCt6sO2Ql1VjuglJ9MI1tyBI' className='recap' onChange={onChange} />
 
             <button className='send-button' type='submit' >
               Send
