@@ -166,7 +166,7 @@ export default function Contact() {
                7.30283V4.20366H20.9883M7.83325 7.30283H22.8333V14.8648L15.3333 19.6995L7.83325 14.8648M9.33325 8.85242V11.1768H21.3333V8.85242M4.83325 
                10.9908V12.9278L3.33325 11.9516M25.8333 10.9908L27.3333 11.9516L25.8333 12.9278M9.33325 12.7264V15.0508H21.3333V12.7264H9.33325Z" fill="#D79E48" />
               </svg>
-                <span>Afikashwashwa@gmail.com</span></p>
+                <span>AfikaShwashwa@gmail.com</span></p>
               <p >
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 151 138" fill="none">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M121.544 97.0578C123.36 96.3091 125.446 96.1356 127.406 96.5701C129.367

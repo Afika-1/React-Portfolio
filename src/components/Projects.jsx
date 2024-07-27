@@ -12,10 +12,8 @@ import travel from '../components/projects/travel.png'
 export default function Projects() {
 
 
-    // Get a reference to the image element
     const imageToAnimate = document.getElementById('imageToAnimate');
 
-    // Function to toggle between normal color and black and white
     function toggleImageColor() {
         if (imageToAnimate.classList.contains('normal-color')) {
             imageToAnimate.classList.remove('normal-color');
@@ -26,7 +24,6 @@ export default function Projects() {
         }
     }
 
-    // Set an interval to run the toggle function every 3 seconds
     setInterval(toggleImageColor, 3000);
 
 
