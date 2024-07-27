@@ -29,7 +29,7 @@ export default function Portfolio() {
                 <p>A software developer  currently  specializing in front-end mobile and web development </p>
                 <div className='btn-icons'>
 
-                   <button className='btn'> <a href={resume} target='_blank'>Resume</a></button>
+                   {/* <button className='btn'> <a href={resume} target='_blank'>Resume</a></button> */}
                     <div className="hm-icons">
                         <a href="https://github.com/Afika-1" target='_blank'><img className="git-hub" alt="Github link" src={github} /></a>
                         <a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a' target='_blank'><img className="linkedin" alt="Linkedin link" src={linkedin} /></a>

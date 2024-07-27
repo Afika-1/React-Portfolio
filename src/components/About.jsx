@@ -27,12 +27,12 @@ export default function About() {
                         <p>: Software Developer</p>
                     </div>
                 </div>
-<div className='paragraph'>
-                <p className='paragraph1'>I am a Graduate with a Diploma: IT (CN) that branched out to Software Development out of interest and passion for Mobile App Development  .
-                    I am well equipped with tech knowledge and tools hence proficient in computer programs such as Visual Studio Code, SASAMS And Packet Tracer as examples.
-                    <br></br>I have excellent Understanding and skills in languages such as HTML, CSS and JavaScript and upskilling with ReactJS and NodeJS. I currently specialize in Front End .</p>
-                    </div>
-                      <div className='boxes'>
+                <div className='paragraph'>
+                    <p className='paragraph1'>I am a Graduate with a Diploma: IT (CN) that branched out to Software Development out of interest and passion for Mobile App and Web Development  .
+                        I am well equipped with tech knowledge and tools hence proficient in computer programs such as Visual Studio Code, Figma, AWS, SASAMS And Packet Tracer as examples.
+                        <br></br>I have excellent Understanding and skills in languages such as HTML, CSS and JavaScript and upskilling with ReactJS, Ract Native, NodeJS MongoDB. I currently specialize in Front End .</p>
+                </div>
+                <div className='boxes'>
                     <div>
                         <p className='btns' id='btns'>1+</p>
                         <p className='btns'>Years of Experience</p>
@@ -41,7 +41,11 @@ export default function About() {
                         <p className='btns' id='btns'>5+</p>
                         <p className='btns'>Projects Completed</p>
                     </div>
-                    
+                    {/* <div>
+                        <p className='btns' id='btns'>5+</p>
+                        <p className='btns'>My Education</p>
+                    </div> */}
+
                 </div>
             </div>
         </div>

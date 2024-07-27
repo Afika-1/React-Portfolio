@@ -53,7 +53,7 @@ export default function Navbar() {
                         <li><a href="#contact" className="text-wrapper-6" onClick={closeMenu}>Contact</a></li>
                     </ul>
                 </div>
-                <button className="btn-cv"><a href={resume} target='_blank'>Resume</a></button>
+                {/* <button className="btn-cv"><a href={resume} target='_blank'>Resume</a></button> */}
             </nav>
         </header>
     );

@@ -4,7 +4,7 @@ nav {
   justify-content: space-between;
   width: 100vw;
   padding: 10px;
-  background: linear-gradient(to bottom right, black, black, black, rgb(71, 70, 70));
+  background: linear-gradient(to bottom right, black, black , black, rgb(27, 26, 14), black);
 
   z-index: 1;
 }
