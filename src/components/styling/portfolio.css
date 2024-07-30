@@ -247,28 +247,7 @@ h1 span {
   }
   
   @keyframes changeTextColor {
-    /* 0% {
-      color: #d69d48;
-    }
-  
-    25% {
-        color: #d69d48;
-    }
-  
-    50% {
-      color:#292727;
-    }
-  
-    75% {
-        
-        color:#292727;
-    }
-  
-    100% {
-      color: #d69d48;
-      text-shadow: 2px 1px 2px #ffffff;
-    } */
-
+   
     0%{
         color:#292727;
         text-shadow: 2px 1px 10px #444040;
