@@ -7,7 +7,6 @@
 .projects {
 
     background-color: #000000;
-    /* max-height: 350vh; */
     width: 100vw;
     padding-top: 10vh;
     padding-bottom: 5vh;
@@ -53,19 +52,17 @@
     border-radius: 8px;
     height: 1rem;
     width: 4rem;
-    /* border-radius: 10px; */
-    /* width: 100px; */
     padding: 2%;
     color: black;
-    border: none;
+    border: white solid 1px;
+
 
 }
 
 .description-icons a button:hover {
-    background-color: #000;
-    border: #ffffff solid 1px;
+    border: black solid 1px;
     color: white;
-    box-shadow: 2px 2px 1px 3px #d79e48;
+    box-shadow: 2px 2px 1px 3px #47371e;
 
 }
 
