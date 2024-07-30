@@ -46,7 +46,7 @@ export default function Projects() {
                         <div className='project-image' id='mzamo'><a href='https://www.figma.com/proto/T1vS2Nr8xA4MRuR7PQnl1u/TraVerse?node-id=101-359&t=axTqIQpWw4DPCoWZ-1' target='_blank'><img src={travel} className='bounce' /></a></div>
                         <div className='description'>
                             <h2>Travel App</h2>
-                            <p>Currently building this Travel App with React Native. It encompasses all the necessary features a user would need from restuarant when traveling, hotels, clubs to car rentals I designed the UI on Figma.</p>
+                            <p>Currently building this Travel App with React Native. It encompasses all the necessary features a user would need from finding nearby restuarants when traveling, viewing available hotels, clubs, game reserves, to car rentals. I designed the UI on Figma.</p>
                             <a href="https://www.figma.com/proto/T1vS2Nr8xA4MRuR7PQnl1u/TraVerse?node-id=101-359&t=axTqIQpWw4DPCoWZ-1" target='_blank' >
                             <button>View UI</button></a>
                         </div>
@@ -55,7 +55,7 @@ export default function Projects() {
                         <div className='project-image' id='mzamo'><a href='https://monumental-bombolone-4c47a2.netlify.app/' target='_blank'><img src={web} className='bounce' /></a></div>
                         <div className='description'>
                             <h2>School Website</h2>
-                            <p>We were tasked to create a website for the school to improve their online presence. We used HTML, CSS and JavaScript tools to achieve this</p>
+                            <p>The task was to create a website for the school to improve their online presence. We used HTML, CSS and JavaScript tools to achieve this</p>
                             <a href="https://monumental-bombolone-4c47a2.netlify.app/" target='_blank' ><button>View Web</button></a>
                         </div>
                     </div>
@@ -65,8 +65,8 @@ export default function Projects() {
 
                         <div className='description'>
                             <h2>Mobile Banking App</h2>
-                            <p className='para'>Here is a mobile banking system app. This was created using a the TKinter Python library. The App can creates an account and allows account holder to make transactions while recording the data and more.</p>
-                            <a href='https://github.com/Afika-1/Bank-App--Final' target='_blank'><button>View Code</button></a>
+                            <p className='para'>Here is a Mobile Banking System app. This was created using the TKinter Python library. The App can creates an account and allows account holder to make transactions while recording the data and more...See README for visuals</p>
+                            <a href='https://github.com/Afika-1/Bank-App--Final' target='_blank'><button>View Code/UI</button></a>
                         </div>
 
                     </div>
@@ -75,7 +75,7 @@ export default function Projects() {
                         <div className='project-image' id='mzamo'><a href='https://weather-app-f4.netlify.app' target='_blank'><img src={weather} className='bounce' /></a></div>
                         <div className='description'>
                             <h2>Weather App</h2>
-                            <p>This is a weather app that shows the current weather of the requested region . THe website is built with HTML, CSS, Javascript and uses OpenWeatherMap API to access the weather data and display as requested.</p>
+                            <p>This is a weather app that shows the current weather of the requested region . The website is built with HTML, CSS, Javascript and uses OpenWeatherMap API to access the weather data and display as requested.</p>
                             <a href="https://weather-app-f4.netlify.app" target='_blank' ><button>View Web</button></a>
                         </div>
                     </div>
