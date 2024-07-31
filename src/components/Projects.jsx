@@ -8,6 +8,7 @@ import simple from '../components/projects/unnamed.webp'
 import weather from '../components/projects/weather.png'
 import news from '../components/projects/news.png'
 import travel from '../components/projects/travel.png'
+import pannel from '../components/projects/pannel2.png'
 
 export default function Projects() {
 
@@ -42,7 +43,7 @@ export default function Projects() {
 
                 <div className='image-descr'>
 
-                    <div className='description-icons' id='description-icons'>
+                    <div className='description-icons'>
                         <div className='project-image' id='mzamo'><a href='https://www.figma.com/proto/T1vS2Nr8xA4MRuR7PQnl1u/TraVerse?node-id=101-359&t=axTqIQpWw4DPCoWZ-1' target='_blank'><img src={travel} className='bounce' /></a></div>
                         <div className='description'>
                             <h2>Travel App</h2>
@@ -51,11 +52,20 @@ export default function Projects() {
                             <button>View UI</button></a>
                         </div>
                     </div>
+                    <div className='description-icons' id='description-icons'>
+                        <div className='project-image' id='mzamo'><a href='https://www.figma.com/proto/eIlqyYN9iaCPHjlFRqkd78/TraVerse-Mgt-Pannel?node-id=209-346&t=7oK0EsGRsP0RhPwe-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1' target='_blank'><img src={pannel} className='bounce' /></a></div>
+                        <div className='description'>
+                            <h2>Admin Pannel</h2>
+                            <p>I designed the Management Pannel UI for the Travel App depicting how it would look like, what main features it would have, and what information/ features would the Admin have accesss to while keeping the same esthetic as the Travel App.</p>
+                            <a href="https://www.figma.com/proto/eIlqyYN9iaCPHjlFRqkd78/TraVerse-Mgt-Pannel?node-id=209-346&t=7oK0EsGRsP0RhPwe-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" target='_blank' >
+                            <button>View UI</button></a>
+                        </div>
+                    </div>
                     <div className='description-icons'>
                         <div className='project-image' id='mzamo'><a href='https://monumental-bombolone-4c47a2.netlify.app/' target='_blank'><img src={web} className='bounce' /></a></div>
                         <div className='description'>
                             <h2>School Website</h2>
-                            <p>The task was to create a website for the school to improve their online presence. We used HTML, CSS and JavaScript tools to achieve this</p>
+                            <p>The task was to desighn and develop a website for the school to improve their online presence. We used HTML, CSS and JavaScript tools to achieve this</p>
                             <a href="https://monumental-bombolone-4c47a2.netlify.app/" target='_blank' ><button>View Web</button></a>
                         </div>
                     </div>
@@ -67,6 +77,8 @@ export default function Projects() {
                             <h2>Mobile Banking App</h2>
                             <p className='para'>Here is a Mobile Banking System app. This was created using the TKinter Python library. The App can creates an account and allows account holder to make transactions while recording the data and more...See README for visuals</p>
                             <a href='https://github.com/Afika-1/Bank-App--Final' target='_blank'><button>View Code/UI</button></a>
+                            <a href='https://youtu.be/b-po0DZ2fq8' target='_blank'><button className='demo'>Watch Demo</button></a>
+
                         </div>
 
                     </div>
