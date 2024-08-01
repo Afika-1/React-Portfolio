@@ -1,6 +1,5 @@
 import React from 'react'
 import './styling/about.css'
-// import '../App.css'
 
 export default function About() {
     return (
@@ -41,10 +40,12 @@ export default function About() {
                         <p className='btns' id='btns'>5+</p>
                         <p className='btns'>Projects Completed</p>
                     </div>
-                    {/* <div>
-                        <p className='btns' id='btns'>5+</p>
+                    <a>
+                        <div>
+                        <p className='btns' id='btns'>View</p>
                         <p className='btns'>My Education</p>
-                    </div> */}
+                    </div>
+                    </a>
 
                 </div>
             </div>

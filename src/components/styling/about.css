@@ -75,13 +75,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
 }
 
 
-#btns {
+.btns {
   font-weight: bold;
-
+}
+.boxes a div:hover{
+    cursor: pointer;
+    background-color: #535353;
+    box-shadow: 1px 1px 8px 10px #d79e48
 }
 
 .title {
