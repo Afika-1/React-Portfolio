@@ -21,10 +21,10 @@ export default function Portfolio() {
       
 
     return (
-
-        <div className='portfolio' id='portfolio'>
+        <div>
         <Navbar/>
 
+        <div className='portfolio' id='portfolio'>
             <video src={videobg} autoPlay loop muted />
             <div className='home-content'>
                 <p>Hi There</p>
@@ -195,6 +195,7 @@ export default function Portfolio() {
                     </div>
 
                 </div>
+            </div>
             </div>
 
         </div>

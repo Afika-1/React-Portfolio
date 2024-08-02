@@ -39,7 +39,7 @@ export default function Navbar() {
     return (
         <header className='header-class'>
             <nav ref={navRef} className={`navbar ${menuOpen ? 'open' : ''}`}>
-                <p><a href='#portfolio'><img className="logo" alt="logo Image" src={logo} /></a></p>
+                <p><Link to='/portfolio'><img className="logo" alt="logo Image" src={logo} /></Link></p>
                 <div className='drop'>
                     <div className={`menu-icon ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
                         <div className="bar"></div>
@@ -50,9 +50,9 @@ export default function Navbar() {
                     <ul className={`menu ${menuOpen ? 'open' : ''}`}>
                         {/* <li><a href='#portfolio' className='home' onClick={closeMenu}>Home</a></li> */}
                         <li><Link  to='/about' className="text-wrapper-4" id='link' onClick={closeMenu}>About</Link></li>
-                        <li><a href="#projects" className="text-wrapper-5" onClick={closeMenu}>Project</a></li>
-                        <li><a href="#education" className="text-wrapper-4" onClick={closeMenu}>Education</a></li>
-                        <li><a href="#contact" className="text-wrapper-6" onClick={closeMenu}>Contact</a></li>
+                        <li><Link to='/projects' className="text-wrapper-5" onClick={closeMenu}>Project</Link></li>
+                        <li><Link  to="/education" className="text-wrapper-4" onClick={closeMenu}>Education</Link></li>
+                        <li><Link to="/contact" className="text-wrapper-6" onClick={closeMenu}>Contact</Link></li>
                     </ul>
                 </div>
                 {/* <button className="btn-cv"><a href={resume} target='_blank'>Resume</a></button> */}
