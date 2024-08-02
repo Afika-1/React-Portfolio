@@ -169,6 +169,7 @@ nav ul li a:hover {
     padding: 5px;
     border: rgb(44, 43, 43) solid 1px;
     box-shadow: .8px 1px .8px 1px #d79e48;
+    font-size: 18px;
   }
 
   ul li:hover {
@@ -178,7 +179,9 @@ nav ul li a:hover {
 
   nav ul li a:hover {
     color: #d69d48;
-    font-weight: normal;
+    font-weight: bold;
+    font-size: 18px;
+
 
   }
 
