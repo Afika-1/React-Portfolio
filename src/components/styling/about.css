@@ -83,7 +83,11 @@
 .btns {
   font-weight: bold;
 }
+.boxes a{
+  text-decoration: none;
+}
 .boxes a div:hover{
+  
     cursor: pointer;
     background-color: #535353;
     box-shadow: 1px 1px 8px 10px #d79e48
