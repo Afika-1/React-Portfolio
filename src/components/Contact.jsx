@@ -5,6 +5,7 @@ import linkedin from '../assets/linkedin3.gif';
 import github from '../assets/github.gif';
 // import emailjs from '@emailjs/browser'
 import ReCAPTCHA from 'react-google-recaptcha';
+import Navbar from './Navbar';
 
 export default function Contact() {
   const [name, setName] = useState('');
@@ -110,7 +111,11 @@ export default function Contact() {
   };
 
   return (
+    <div>
+       <Navbar/>
+   
     <div className='contact' id='contact'>
+     
       <div id="contact-line"><p className="contact-line"></p></div>
       <div className='contact-title'>
         <h1 className="text-wrapper">Contact <span className="text-wrapper-2">Me</span></h1>
@@ -228,6 +233,7 @@ export default function Contact() {
         <a href='https://github.com/Afika-1' target='_blank'><img className="github" alt="Github link" src={github} /></a>
         <a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a' target='_blank'><img className="lIn-logo" alt="Linkedin link" src={linkedin} /></a>
       </div>
+    </div>
     </div>
   );
 }

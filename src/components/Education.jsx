@@ -1,5 +1,6 @@
 import React from 'react'
 import './styling/education.css'
+import Navbar from './Navbar';
 
 export default function Education() {
 
@@ -17,6 +18,9 @@ export default function Education() {
 
 
     return (
+        <div>
+            <Navbar/>
+        
         <div className='education' id='education' >
 
             <div id="line"><p className="line"></p></div>
@@ -96,7 +100,7 @@ export default function Education() {
                         </section>
                     </div>
 
-
+                    </div>
                 </div>
 
             </div>
