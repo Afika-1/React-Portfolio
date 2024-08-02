@@ -51,7 +51,7 @@ export default function Navbar() {
                         {/* <li><Link to='/'className='home' onClick={closeMenu}>Home</Link></li> */}
                         <li><Link  to='/about' className="text-wrapper-4" id='link' onClick={closeMenu}>About</Link></li>
                         <li><Link to='/projects' className="text-wrapper-5" onClick={closeMenu}>Project</Link></li>
-                        <li><Link  to="/education" className="text-wrapper-4" onClick={closeMenu}>Education</Link></li>
+                        {/* <li><Link  to="/education" className="text-wrapper-4" onClick={closeMenu}>Education</Link></li> */}
                         <li><Link to="/contact" className="text-wrapper-6" onClick={closeMenu}>Contact</Link></li>
                     </ul>
                 </div>
