@@ -69,6 +69,17 @@ nav ul li a:hover {
 
 }
 
+:link {
+  color: #bb0808;
+  text-decoration: none;
+}
+
+/* nav ul li a:hover {
+  color: #d69d48;
+  font-weight: bold;
+
+} */
+
 .btn-cv {
   border-radius: 18px;
   height: 1rem;

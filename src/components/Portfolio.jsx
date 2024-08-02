@@ -4,9 +4,9 @@ import linkedin from '../assets/linkedin3.gif'
 import github from '../assets/github.gif'
 import videobg from '../assets/videobg1.mp4'
 import resume from '../assets/Afika-Shwashwa.pdf'
+import Navbar from './Navbar'
 
 export default function Portfolio() {
-
     document.addEventListener("DOMContentLoaded", function () {
         const icons = document.querySelectorAll(".home-icons");
         icons.forEach((icon, index) => {
@@ -21,7 +21,10 @@ export default function Portfolio() {
       
 
     return (
+
         <div className='portfolio' id='portfolio'>
+        <Navbar/>
+
             <video src={videobg} autoPlay loop muted />
             <div className='home-content'>
                 <p>Hi There</p>

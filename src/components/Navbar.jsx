@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom/client';
 import logo from '../assets/logo.jpg';
 import './styling/navigation.css';
 import resume from '../assets/Afika-Shwashwa.pdf'
+import { Link, NavLink } from 'react-router-dom';
+import About from './About';
 
 
 export default function Navbar() {
@@ -47,7 +49,7 @@ export default function Navbar() {
 
                     <ul className={`menu ${menuOpen ? 'open' : ''}`}>
                         {/* <li><a href='#portfolio' className='home' onClick={closeMenu}>Home</a></li> */}
-                        <li><a href="#about" className="text-wrapper-4" onClick={closeMenu}>About</a></li>
+                        <li><Link  to='/about' className="text-wrapper-4" id='link' onClick={closeMenu}>About</Link></li>
                         <li><a href="#projects" className="text-wrapper-5" onClick={closeMenu}>Project</a></li>
                         <li><a href="#education" className="text-wrapper-4" onClick={closeMenu}>Education</a></li>
                         <li><a href="#contact" className="text-wrapper-6" onClick={closeMenu}>Contact</a></li>
