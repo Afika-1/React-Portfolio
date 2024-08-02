@@ -4,7 +4,7 @@ nav {
   justify-content: space-between;
   width: 100vw;
   padding: 10px;
-  background: linear-gradient(to bottom right, black, black , black, black, rgb(61, 60, 50));
+  background: linear-gradient(to bottom right, black, black , black, rgb(27, 26, 14), black);
 
   z-index: 1;
 }
@@ -69,17 +69,6 @@ nav ul li a:hover {
 
 }
 
-nav ul li  {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  color: #d69d48;
-  font-weight: bold;
-
-}
-
 .btn-cv {
   border-radius: 18px;
   height: 1rem;
@@ -92,7 +81,7 @@ nav ul li a:hover {
   border: none;
   position: relative;
   margin-right: 3vw;
-  /* cursor: pointer; */
+  cursor: pointer;
 
 }
 .btn-cv a{
@@ -107,6 +96,12 @@ nav ul li a:hover {
   box-shadow: 2px 2px 1px 3px #d79e48;
 
 }
+
+  /* 
+  --------navbar responsivness using @media query-------------
+
+   */
+
 
 
 .menu-icon {

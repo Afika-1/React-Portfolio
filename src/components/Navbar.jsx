@@ -54,8 +54,6 @@ export default function Navbar() {
                     </ul>
                 </div>
                 {/* <button className="btn-cv"><a href={resume} target='_blank'>Resume</a></button> */}
-                                <button className="btn-cv"></button>
-
             </nav>
         </header>
     );
