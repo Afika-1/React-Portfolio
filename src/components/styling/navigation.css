@@ -4,13 +4,11 @@ nav {
   justify-content: space-between;
   width: 100vw;
   padding: 10px;
-  background: linear-gradient(to bottom right, black, black , black, black, rgb(124, 123, 114));
+  background: linear-gradient(to bottom right, black, black , black, black, rgb(61, 60, 50));
 
   z-index: 1;
 }
-nav .drop{
 
-}
 .header-class {
 
   fill-opacity: 0.5;
@@ -43,8 +41,8 @@ nav ul li {
 
   list-style-type: none;
   font-family: "IM FELL Great Primer SC-Regular";
-  /* font-size: 20px;
-  font-weight: 400; */
+  font-size: 20px;
+  font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
 
@@ -63,25 +61,24 @@ nav ul {
 nav ul li a {
   color: #ffffff;
   text-decoration: none;
-  font-weight: bold;
-
 }
 
 nav ul li a:hover {
   color: #d69d48;
+  font-weight: bold;
 
 }
 
-/* :link {
-  color: #bb0808;
+nav ul li  {
+  color: #ffffff;
   text-decoration: none;
-} */
+}
 
-/* nav ul li a:hover {
+nav ul li a:hover {
   color: #d69d48;
   font-weight: bold;
 
-} */
+}
 
 .btn-cv {
   border-radius: 18px;
@@ -98,24 +95,18 @@ nav ul li a:hover {
   /* cursor: pointer; */
 
 }
-/* .btn-cv a{
+.btn-cv a{
   text-decoration: none;
   color: #ffffff;
-} */
+}
 
-/* .btn-cv:hover {
+.btn-cv:hover {
   background-color: #000;
   border: #ffffff solid 1px;
   color: white;
   box-shadow: 2px 2px 1px 3px #d79e48;
 
-} */
-
-  /* 
-  --------navbar responsivness using @media query-------------
-
-   */
-
+}
 
 
 .menu-icon {
@@ -169,7 +160,6 @@ nav ul li a:hover {
     padding: 5px;
     border: rgb(44, 43, 43) solid 1px;
     box-shadow: .8px 1px .8px 1px #d79e48;
-    font-size: 18px;
   }
 
   ul li:hover {
@@ -179,9 +169,7 @@ nav ul li a:hover {
 
   nav ul li a:hover {
     color: #d69d48;
-    font-weight: bold;
-    font-size: 18px;
-
+    font-weight: normal;
 
   }
 

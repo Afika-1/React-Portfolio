@@ -9,7 +9,6 @@ import weather from '../components/projects/weather.png'
 import news from '../components/projects/news.png'
 import travel from '../components/projects/travel.png'
 import pannel from '../components/projects/pannel2.png'
-import Navbar from './Navbar'
 
 export default function Projects() {
 
@@ -28,9 +27,9 @@ export default function Projects() {
 
     setInterval(toggleImageColor, 3000);
 
+
+
     return (
-        <div>
-            <Navbar/>
         <div className='projects' id='projects'>
             <div id="line"><p className="line"></p></div>
 
@@ -39,6 +38,9 @@ export default function Projects() {
             </div>
 
             <div className='project-content'>
+
+
+
                 <div className='image-descr'>
 
                     <div className='description-icons'>
@@ -137,7 +139,7 @@ export default function Projects() {
                             <a href='https://github.com/Afika-1/Banking-System-App' target='_blank'><button>View Code</button></a>
                         </div>
                     </div>
-                    </div>
+
 
 
                 </div>

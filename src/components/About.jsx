@@ -7,10 +7,7 @@ import { FaRegFileAlt } from 'react-icons/fa';
 
 export default function About() {
     return (
-        <div>
-            <Navbar />
-
-
+       
             <div className='about' id='about'>
 
                 <div className='title'>
@@ -48,17 +45,17 @@ export default function About() {
                             <p className='btns' id='btns'>5+</p>
                             <p className='btns'>Projects Completed</p>
                         </div>
-                        <Link to='/education'>
+                        {/* <Link to='/education'>
                             <div>
                             <p className='btns' id='btns'><FaRegFileAlt />
-                            </p>
+</p>
                                 <p className='btns' id='btns'>View</p>
                                 <p className='btns'>My Education</p>
                             </div>
-                        </Link>
+                        </Link> */}
 
-                    </div> </div>
-            </div>
+                    </div>
+                     </div>
         </div>
 
     )
