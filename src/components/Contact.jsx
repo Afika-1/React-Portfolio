@@ -20,7 +20,7 @@ export default function Contact() {
   const [messageError, setMessageError] = useState('');
 
   const handleValidation = (e) => {
-    
+
     e.preventDefault();
     let valid = true;
 
@@ -56,7 +56,7 @@ export default function Contact() {
       return;
     }
     if (valid) {
-     
+
       setName('');
       setEmail('');
       setProject('');
@@ -112,21 +112,21 @@ export default function Contact() {
 
   return (
     <div>
-       <Navbar/>
-   
-    <div className='contact' id='contact'>
-     
-      <div id="contact-line"><p className="contact-line"></p></div>
-      <div className='contact-title'>
-        <h1 className="text-wrapper">Contact <span className="text-wrapper-2">Me</span></h1>
-      </div>
+      <Navbar />
 
-      <div className="contact-content">
-        <div className="contact-det">
-          <div className="contact-container">
-            <div className="det-div">
-              <p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 98 99" fill="none">
-                <g clip-path="url(#clip0_421_46)"><path d="M81.6667 68.6426C81.6667 68.1699 81.6241 67.8262 81.5391 67.6113C81.454 67.3965 81.0712 
+      <div className='contact' id='contact'>
+
+        <div id="contact-line"><p className="contact-line"></p></div>
+        <div className='contact-title'>
+          <h1 className="text-wrapper">Contact <span className="text-wrapper-2">Me</span></h1>
+        </div>
+
+        <div className="contact-content">
+          <div className="contact-det">
+            <div className="contact-container">
+              <div className="det-div">
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 98 99" fill="none">
+                  <g clip-path="url(#clip0_421_46)"><path d="M81.6667 68.6426C81.6667 68.1699 81.6241 67.8262 81.5391 67.6113C81.454 67.3965 81.0712 
                 67.042 80.3906 66.5479C79.7101 66.0537 78.8487 65.5166 77.8066 64.9365C76.7645 64.3564 75.7543 63.7871 
               74.776 63.2285C73.7977 62.6699 72.8301 62.1328 71.873 61.6172C70.916 61.1016 70.3099 60.7793 70.0547 
                  60.6504C69.842 60.5215 69.4379 60.2422 68.8425 59.8125C68.247 59.3828 67.7153 59.0605 67.2474 
@@ -154,27 +154,27 @@ export default function Contact() {
                   89.9229 92.6087 93.5537C89.0145 97.1846 84.6866 99 79.625 99H18.375C13.3134 99 8.98546 97.1846 5.39128 
                   93.5537C1.79709 89.9229 0 85.5508 0 80.4375V18.5625C0 13.4492 1.79709 9.07715 5.39128 5.44629C8.98546 1.81543 
                   13.3134 0 18.375 0H79.625C84.6866 0 89.0145 1.81543 92.6087 5.44629C96.2029 9.07715 98 13.4492 98 18.5625Z"
-                  fill="#D79E48" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_421_46">
-                    <rect width="98" height="99" fill="white" />
-                  </clipPath>
-                </defs>
-              </svg>
-                <span>+27662398354</span></p>
+                    fill="#D79E48" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_421_46">
+                      <rect width="98" height="99" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                  <span>+27662398354</span></p>
 
-              <p ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 31 31" fill="none">
-                <path d="M15.3333 0.546631L9.67825 4.20366H4.83325V7.30283L1.78825 9.3018C0.918252 9.84415 0.333252 10.8204 
+                <p ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 31 31" fill="none">
+                  <path d="M15.3333 0.546631L9.67825 4.20366H4.83325V7.30283L1.78825 9.3018C0.918252 9.84415 0.333252 10.8204 
                0.333252 11.9516V27.4475C0.333252 28.2694 0.649322 29.0577 1.21193 29.6389C1.77454 30.2201 2.5376 30.5466 3.33325 
                30.5466H27.3333C28.9983 30.5466 30.3333 29.1675 30.3333 27.4475V11.9516C30.3333 10.8204 29.7483 9.84415 28.8783 9.3018L25.8333 
                7.30283V4.20366H20.9883M7.83325 7.30283H22.8333V14.8648L15.3333 19.6995L7.83325 14.8648M9.33325 8.85242V11.1768H21.3333V8.85242M4.83325 
                10.9908V12.9278L3.33325 11.9516M25.8333 10.9908L27.3333 11.9516L25.8333 12.9278M9.33325 12.7264V15.0508H21.3333V12.7264H9.33325Z" fill="#D79E48" />
-              </svg>
-                <span>AfikaShwashwa@gmail.com</span></p>
-              <p >
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 151 138" fill="none">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M121.544 97.0578C123.36 96.3091 125.446 96.1356 127.406 96.5701C129.367
+                </svg>
+                  <span>AfikaShwashwa@gmail.com</span></p>
+                <p >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 151 138" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M121.544 97.0578C123.36 96.3091 125.446 96.1356 127.406 96.5701C129.367
                 97.0046 131.066 98.017 132.182 99.4153L132.663 100.112L149.246 127.446C149.838 128.42 150.138 129.498 150.122 130.587C150.105 
                131.677 149.773 132.748 149.152 133.71C148.531 134.673 147.64 135.499 146.553 136.12C145.466 136.74 144.214 137.138 142.903 
                 137.279L141.833 137.333H9.16665C7.84388 137.334 6.54021 137.073 5.36448 136.574C4.18876 136.074 3.17512 135.35 2.40819 
@@ -190,50 +190,50 @@ export default function Contact() {
                  36.2733 63.7738 38.8363C60.6638 41.3993 58.9167 44.8755 58.9167 48.5001C58.9167 52.1247 60.6638 55.6009 63.7738 58.1639C66.8838 
                  60.7269 71.1018 62.1667 75.5 62.1667C79.8982 62.1667 84.1162 60.7269 87.2262 58.1639C90.3362 55.6009 92.0833 52.1247 92.0833 
                  48.5001C92.0833 44.8755 90.3362 41.3993 87.2262 38.8363C84.1162 36.2733 79.8982 34.8334 75.5 34.8334Z" fill="#D79E48" />
-                </svg>
-                <span>Cape Town, South Africa</span></p>
+                  </svg>
+                  <span>Cape Town, South Africa</span></p>
 
 
+              </div>
+
+              <div className="icons1">
+
+                <p><a href='https://github.com/Afika-1'><img className="github" alt="Github link" src={github} /></a></p>
+                <p><a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a'><img className="lIn-logo" alt="Linkedin link" src={linkedin} /></a></p>
+
+
+              </div>
             </div>
+          </div>
 
-            <div className="icons1">
+          <div className='form-border'>
+            <form id='myForm' onSubmit={handleValidation}>
+              <input className='form-input' type='text' id='name' onChange={(e) => setName(e.target.value)} name='name' placeholder='Full Name' />
+              {nameError && <div className='error'>{nameError}</div>}
 
-              <p><a href='https://github.com/Afika-1'><img className="github" alt="Github link" src={github} /></a></p>
-              <p><a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a'><img className="lIn-logo" alt="Linkedin link" src={linkedin} /></a></p>
+              <input className='form-input' type='email' id='myEmail' onChange={(e) => setEmail(e.target.value)} name='email' placeholder='Email Address' />
+              {emailError && <div className='error'>{emailError}</div>}
 
+              <input className='form-input' type='text' id='project' onChange={(e) => setProject(e.target.value)} name='project' placeholder='Subject' />
+              {projectError && <div className='error'>{projectError}</div>}
 
-            </div>
+              <textarea className='form-message' type='text' id='message' onChange={(e) => setMessage(e.target.value)} name='message' placeholder='Type your message...' />
+              {messageError && <div className='error'>{messageError}</div>}
+
+              <ReCAPTCHA sitekey='6LcisBgqAAAAACvtGCt6sO2Ql1VjuglJ9MI1tyBI' className='recap' onChange={onChange} />
+
+              <button className='send-button' type='submit' >
+                Send
+              </button>
+            </form>
           </div>
         </div>
 
-        <div className='form-border'>
-          <form id='myForm' onSubmit={handleValidation}>
-            <input className='form-input' type='text' id='name' onChange={(e) => setName(e.target.value)} name='name' placeholder='Full Name' />
-            {nameError && <div className='error'>{nameError}</div>}
-
-            <input className='form-input' type='email' id='myEmail' onChange={(e) => setEmail(e.target.value)} name='email' placeholder='Email Address' />
-            {emailError && <div className='error'>{emailError}</div>}
-
-            <input className='form-input' type='text' id='project' onChange={(e) => setProject(e.target.value)} name='project' placeholder='Subject' />
-            {projectError && <div className='error'>{projectError}</div>}
-
-            <textarea className='form-message' type='text' id='message' onChange={(e) => setMessage(e.target.value)} name='message' placeholder='Type your message...' />
-            {messageError && <div className='error'>{messageError}</div>}
-
-            <ReCAPTCHA sitekey='6LcisBgqAAAAACvtGCt6sO2Ql1VjuglJ9MI1tyBI' className='recap' onChange={onChange} />
-
-            <button className='send-button' type='submit' >
-              Send
-            </button>
-          </form>
+        <div className="icons-bottom">
+          <a href='https://github.com/Afika-1' target='_blank'><img className="github" alt="Github link" src={github} /></a>
+          <a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a' target='_blank'><img className="lIn-logo" alt="Linkedin link" src={linkedin} /></a>
         </div>
       </div>
-
-      <div className="icons-bottom">
-        <a href='https://github.com/Afika-1' target='_blank'><img className="github" alt="Github link" src={github} /></a>
-        <a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a' target='_blank'><img className="lIn-logo" alt="Linkedin link" src={linkedin} /></a>
-      </div>
-    </div>
     </div>
   );
 }

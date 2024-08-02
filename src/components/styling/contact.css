@@ -23,7 +23,7 @@ textarea::placeholder {
 
   padding:  20px 5px;
   margin: 5vh 18vw;
-  border-radius: 150px 150px 0px 150px ;
+  border-radius: 100px 100px 0px 100px ;
 
   box-shadow: 1px 1px 10px 0px rgba(255, 255, 255, 1);
   color: #ffffff;
@@ -258,6 +258,8 @@ form {
     line-height: 1.4rem;
     padding:  10px 5px;
     margin: 0 2vw;
+    border-radius: 90px 90px 0px 90px ;
+
   }
 
   .icons1 {
