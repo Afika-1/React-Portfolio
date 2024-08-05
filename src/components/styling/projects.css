@@ -40,9 +40,9 @@
     flex-direction: row-reverse;
 }
 
-#bd {
+/* #bd {
     border-bottom: none;
-}
+} */
 
 .description-icons a button {
     cursor: pointer;
