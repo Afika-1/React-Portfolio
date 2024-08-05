@@ -8,7 +8,7 @@ import simple from '../components/projects/unnamed.webp'
 import weather from '../components/projects/weather.png'
 import news from '../components/projects/news.png'
 import travel from '../components/projects/travel.png'
-import pannel from '../components/projects/pannel2.png'
+import pannel from '../components/projects/pannel3.png'
 import portfolio from '../components/projects/portfolio.png'
 
 export default function Projects() {
@@ -110,7 +110,7 @@ export default function Projects() {
                         <div className='project-image' id='mzamo'> <a href='https://www.figma.com/proto/tQ2dw3Ng8GbmoKjCwKnEdI/Portfolio?node-id=580-79&t=YHDY0xd4GoWNgAq9-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1' target='_blank'><img src={portfolio} className='bounce' /></a></div>
                         <div className='description'>
                             <h2>Alternative Portfolio</h2>
-                            <p>This was an alternative portfolio design </p>
+                            <p>This was an alternative portfolio design. I designed on Figma, you can view the prototype. </p>
                             <a href='https://www.figma.com/proto/tQ2dw3Ng8GbmoKjCwKnEdI/Portfolio?node-id=580-79&t=YHDY0xd4GoWNgAq9-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1' target='_blank'><button>View UI</button></a>
                         </div>
                     </div>
