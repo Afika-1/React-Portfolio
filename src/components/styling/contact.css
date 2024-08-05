@@ -37,6 +37,7 @@ textarea::placeholder {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  border-radius: 100px 100px 0px 100px ;
 
   animation: slideIn 0.5s ease-in-out;
 

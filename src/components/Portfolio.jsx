@@ -2,6 +2,7 @@ import React from 'react'
 import './styling/portfolio.css'
 import linkedin from '../assets/linkedin3.gif'
 import github from '../assets/github.gif'
+import bg from '../assets/background1.jpg'
 import videobg from '../assets/videobg1.mp4'
 import resume from '../assets/Afika-Shwashwa.pdf'
 
@@ -22,7 +23,10 @@ export default function Portfolio() {
 
     return (
         <div className='portfolio' id='portfolio'>
-            <video src={videobg} autoPlay loop muted />
+            <div className='video-bg'>
+            <video src={videobg} autoPlay loop muted /></div>
+            {/* <div  className='bgimage'></div> */}
+
             <div className='home-content'>
                 <p>Hi There</p>
                 <h1>I'm <span className='name1'>Afika Shwashwa</span></h1>
