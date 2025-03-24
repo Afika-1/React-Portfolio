@@ -29,6 +29,7 @@ export default function Contact() {
       valid = false;
     } else {
       setNameError('');
+      setName('');
     }
 
     if (!email || !/^\S+@\S+\.\S+$/.test(email)) {
@@ -56,7 +57,7 @@ export default function Contact() {
       return;
     }
     if (valid) {
-
+      
       setName('');
       setEmail('');
       setProject('');
@@ -64,6 +65,8 @@ export default function Contact() {
       setVerified(false);
       alert('Form submitted successfully!');
     }
+    window.grecaptcha.reset();
+    
     // return valid;
 
   };
