@@ -36,11 +36,11 @@ export default function About() {
                 </div>
                 <div className='boxes'>
                     <div>
-                        <p className='btns' id='btns'>1+</p>
+                        <p className='btns' id='btns'>2+</p>
                         <p className='btns'>Years of Experience</p>
                     </div>
                     <div>
-                        <p className='btns' id='btns'>5+</p>
+                        <p className='btns' id='btns'>10+</p>
                         <p className='btns'>Projects Completed</p>
                     </div>
                     {/* <Link to='/education'>
