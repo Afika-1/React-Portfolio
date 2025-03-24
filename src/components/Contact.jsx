@@ -37,6 +37,7 @@ export default function Contact() {
       valid = false;
     } else {
       setEmailError('');
+      setEmail('');
     }
 
     if (!project) {
@@ -44,6 +45,7 @@ export default function Contact() {
       valid = false;
     } else {
       setProjectError('');
+      setProject('');
     }
 
     if (!message) {
@@ -57,7 +59,6 @@ export default function Contact() {
       return;
     }
     if (valid) {
-      
       setName('');
       setEmail('');
       setProject('');
@@ -68,7 +69,6 @@ export default function Contact() {
     window.grecaptcha.reset();
     
     // return valid;
-
   };
 
   // const handleSubmit = (e) => {
