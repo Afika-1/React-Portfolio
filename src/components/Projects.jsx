@@ -7,6 +7,7 @@ import income from '../components/projects/SARS-Tax.png'
 import simple from '../components/projects/unnamed.webp'
 import weather from '../components/projects/weather.png'
 import news from '../components/projects/news.png'
+import to from '../components/projects/todo.png'
 import travel from '../components/projects/travel.png'
 import pannel from '../components/projects/pannel3.png'
 import portfolio from '../components/projects/portfolio.png'
@@ -97,6 +98,20 @@ export default function Projects() {
                         <div className='project-image .bw-image' id='tax'><a href='today-scoop-magazine.web.app' target='_blank'><img src={news} className='bounce' /></a></div>
 
                         <div className='description'>
+                            <h2>To-Do-List</h2>
+                            <p>The To Do List app is a user-friendly productivity tool designed to help you manage your tasks efficiently. With a clean and intuitive interface, 
+                                users can easily add new tasks, edit existing ones, and delete items as needed. The app also allows for seamless rearrangement of tasks, 
+                                enabling you to prioritize your to-dos with simple drag-and-drop functionality. It was build using ReactJS, JS, CSS.
+                                </p>
+                            <a href='https://projectto-do-list.netlify.app/' arget='_blank'><button>Visuals</button></a>
+                        </div>
+
+                    </div>
+
+                    <div className='description-icons' id='description-icons'>
+                        <div className='project-image .bw-image' id='tax'><a href='today-scoop-magazine.web.app' target='_blank'><img src={news} className='bounce' /></a></div>
+
+                        <div className='description'>
                             <h2>News Magazine</h2>
                             <p>This web is built using Reacj JS , Bootstrap  and News API(Dev only) to broadcast the top news headlines .. When the user clicks the read more button they're taken to the full story. 
                                 Navigation allows to search articles for a specific category.... See README for  visuals </p>
@@ -104,7 +119,6 @@ export default function Projects() {
                         </div>
 
                     </div>
-
 
                     <div className='description-icons'>
                         <div className='project-image' id='mzamo'> <a href='https://www.figma.com/proto/tQ2dw3Ng8GbmoKjCwKnEdI/Portfolio?node-id=580-79&t=YHDY0xd4GoWNgAq9-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1' target='_blank'><img src={portfolio} className='bounce' /></a></div>

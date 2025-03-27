@@ -1,10 +1,5 @@
 {
   "projects": {
-    "default": "afika-shwashwa-portfolio",
-    "Production": "afika-shwashwa",
-    "prod": "afika-shwashwa-portfolio"
-  },
-  "targets": {},
-  "etags": {},
-  "dataconnectEmulatorConfig": {}
+    "default": "afika-shwashwa-portfolio"
+  }
 }
