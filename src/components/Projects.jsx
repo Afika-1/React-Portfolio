@@ -108,7 +108,7 @@ export default function Projects() {
 
                     </div>
 
-                    <div className='description-icons' id='description-icons'>
+                    <div className='description-icons' >
                         <div className='project-image .bw-image' id='tax'><a href='today-scoop-magazine.web.app' target='_blank'><img src={news} className='bounce' /></a></div>
 
                         <div className='description'>
@@ -120,7 +120,7 @@ export default function Projects() {
 
                     </div>
 
-                    <div className='description-icons'>
+                    <div className='description-icons' id='description-icons'>
                         <div className='project-image' id='mzamo'> <a href='https://www.figma.com/proto/tQ2dw3Ng8GbmoKjCwKnEdI/Portfolio?node-id=580-79&t=YHDY0xd4GoWNgAq9-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1' target='_blank'><img src={portfolio} className='bounce' /></a></div>
                         <div className='description'>
                             <h2>Alternative Portfolio</h2>
@@ -134,7 +134,7 @@ export default function Projects() {
 
 
 
-                    <div className='description-icons' id='description-icons'>
+                    <div className='description-icons' >
                         <div className='project-image' id='mzamo'> <a href='https://github.com/Afika-1/Chat-App' target='_blank'><img src={chat} className='bounce' /></a></div>
                         <div className='description'>
                             <h2>Chat Application</h2>
@@ -143,7 +143,7 @@ export default function Projects() {
                         </div>
                     </div>
 
-                    <div className='description-icons' >
+                    <div className='description-icons' id='description-icons'>
                         <div className='project-image .bw-image' id='tax'><a href='https://github.com/Afika-1/Tax-Calculator' target='_blank'><img src={income} className='bounce' /></a></div>
 
                         <div className='description'>
@@ -155,7 +155,7 @@ export default function Projects() {
 
                     </div>
 
-                    <div className='description-icons' id='description-icons'>
+                    <div className='description-icons' >
                         <div className='project-image .bw-image' id='simple'> <a href='https://github.com/Afika-1/Banking-System-App' target='_blank'><img src={simple} className='bounce' /></a></div>
                         <div className='description'>
                             <h2>Financial Calculator</h2>
