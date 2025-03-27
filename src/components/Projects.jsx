@@ -7,7 +7,7 @@ import income from '../components/projects/SARS-Tax.png'
 import simple from '../components/projects/unnamed.webp'
 import weather from '../components/projects/weather.png'
 import news from '../components/projects/news.png'
-import to from '../components/projects/todo.png'
+import todo from '../components/projects/todo.png'
 import travel from '../components/projects/travel.png'
 import pannel from '../components/projects/pannel3.png'
 import portfolio from '../components/projects/portfolio.png'
@@ -95,7 +95,7 @@ export default function Projects() {
                     </div>
 
                     <div className='description-icons' id='description-icons'>
-                        <div className='project-image .bw-image' id='tax'><a href='today-scoop-magazine.web.app' target='_blank'><img src={news} className='bounce' /></a></div>
+                        <div className='project-image .bw-image' id='tax'><a href='https://projectto-do-list.netlify.app/' target='_blank'><img src={todo} className='bounce' /></a></div>
 
                         <div className='description'>
                             <h2>To-Do-List</h2>
