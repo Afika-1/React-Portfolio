@@ -23,9 +23,9 @@ export default function Portfolio() {
 
     return (
         <div className='portfolio' id='portfolio'>
-            <div className='video-bg'>
-            <video src={videobg} autoPlay loop muted /></div>
-            {/* <div  className='bgimage'></div> */}
+            {/* <div className='video-bg'>
+            <video src={videobg} autoPlay loop muted /></div> */}
+            <div  className='bgimage'></div>
 
             <div className='home-content'>
                 <p>Hi There</p>

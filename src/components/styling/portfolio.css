@@ -16,25 +16,59 @@
       width: 100vw;
       font-family: "IM FELL Great Primer SC-Regular";
   }
-/* 
-  .bgimage {
+
+  /* .bgimage {
       background-image: url('/src/assets/background1.jpg');
       background-position: center;
       height: 100vh;
       width: 100%;
       background-size: cover;
       position: absolute;
+      backdrop-filter: blur(50px); 
+    -webkit-backdrop-filter: blur(50px);
+      opacity: 0.2;
+      background-color: rgba(0, 0, 0, 0.9);
+  } */
+   .bgimage {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+}
 
+.bgimage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/src/assets/background1.jpg');
+    background-position: center;
+    background-size: cover;
+    filter: blur(5px); 
+    -webkit-filter: blur(5px);
+    opacity: 0.2;
+      animation: blurPulse 4s infinite; /* 4s total: 2s blurred, 2s clear */
+}
 
-      backdrop-filter: blur(15px);
-      -webkit-backdrop-filter: blur(15px); */
-      /* For Safari */
-      /* opacity: 0.2; */
-      /* Dimming effect */
-      /* background-color: rgba(0, 0, 0, 0.9); */
-  /* } */
-  .video-bg{
-    /* filter: blur(1px); */
+@keyframes blurPulse {
+    0% {
+        filter: blur(10px);
+        -webkit-filter: blur(10px);
+    }
+    50% {
+        filter: blur(0px); /* No blur */
+        -webkit-filter: blur(0px);
+    }
+    100% {
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+    }
+}
+
+  /* .video-bg{
+    filter: blur(1px);
     opacity: .5;
     background: rgba(0, 0, 0, 0.9);
   }
@@ -44,8 +78,8 @@
       height: 100vh;
       object-fit: cover;
       position: absolute;
-      /* background: rgba(0, 0, 0,1), lightgray 50% */
-  }
+      background: rgba(0, 0, 0,1), lightgray 50%
+  } */
 
   .hm-icons {
       display: flex;
