@@ -6,12 +6,11 @@
 
 .education {
   padding-top: 10vh;
+  padding-bottom: 10vh;
   min-height: 100vh;
-  max-height: 300vh;
   width: 100vw;
   color: white;
   background-color: #000000;
-
 }
 
 .edu-title {
@@ -27,7 +26,7 @@
   color: white;
 }
 
-.education-title span {
+.text-wrapper-2 {
   color: #d79e48;
 }
 
@@ -41,7 +40,7 @@
   padding: 0;
   border-top: #8F8F8F solid;
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 
 .education-content {
@@ -55,16 +54,19 @@
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 5vh;
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .container {
   border: #ffffff solid 1px;
   background-color: rgba(255, 255, 255, 0.05);
-  margin-right: 5vw;
   padding: 10px;
   width: 340px;
   height: 200px;
   box-shadow: 8px 8px 5px 1px #9c9b9b;
+  transition: all 0.3s ease;
 }
 
 .container:hover {
@@ -73,10 +75,13 @@
   background-color: #000000;
 }
 
+.spacing p span {
+  transition: background-color 0.3s ease;
+}
+
 .spacing p span:hover {
   background-color: #d79e48;
 }
-
 
 section {
   margin-left: 23px;
@@ -84,7 +89,6 @@ section {
   padding-left: 10px;
   height: 200px;
   border-left: #d79e48 solid;
-
 }
 
 .container p {
@@ -106,54 +110,22 @@ section {
 }
 
 .spacing {
-  margin-bottom: 4vh;
+  margin-bottom: 0;
+  opacity: 0;
 }
 
-@media (max-width: 781px) {
-  .education {
-    min-height: 100vh;
-  }
-  .edu {
-   
-    padding-top: 1vh;
-  }
-  
-  .container {
-    border: #ffffff solid 1px;
-    margin-right: 5vw;
-    padding: 10px;
-    width: 300px;
-    height: 200px;
-    box-shadow: 8px 8px 5px 1px #9c9b9b;
-  }
-  @media (max-width: 480px) {
-    .education {
-      max-height: 240vh;
-    }
-    .container{
-      padding: 10px;
-      width: 270px;
-      height: 160px;
-    }
-    section {
-      margin-left: 15px;
-      padding-top: 5px;
-      padding-left: 10px;
-      height: 140px;
-  }
-  
-.spacing {
-  margin-bottom: 10vh;
-}
-
-}
-
-}
 @keyframes fadeIn {
-  0% { opacity: 0; transform: translateY(20px); }
-  100% { opacity: 1; transform: translateY(0); }
+  0% { 
+    opacity: 0; 
+    transform: translateY(20px); 
+  }
+  100% { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
 }
-/* ----- edu content icons animation ------- */
+
+/* Education content icons animation */
 .icon1 {
   animation: fadeIn 2s 0.5s ease-in-out forwards;
 }
@@ -161,24 +133,126 @@ section {
 .icon2 {
   animation: fadeIn 2s 1s ease-in-out forwards;
 }
+
 .icon3 {
   animation: fadeIn 2s 1.5s ease-in-out forwards;
 }
+
 .icon4 {
   animation: fadeIn 2s 2s ease-in-out forwards;
 }
+
 .icon5 {
   animation: fadeIn 2s 2.5s ease-in-out forwards;
 }
+
 .icon6 {
-  animation: fadeIn 0.5s 3s ease-in-out forwards;
+  animation: fadeIn 2s 3s ease-in-out forwards;
 }
+
 .icon7 {
   animation: fadeIn 2s 3.5s ease-in-out forwards;
 }
+
 .icon8 {
-  animation: fadeIn 0.5s 4s ease-in-out forwards;
+  animation: fadeIn 2s 4s ease-in-out forwards;
 }
 
+.icon9 {
+  animation: fadeIn 2s 4.5s ease-in-out forwards;
+}
 
+.icon10 {
+  animation: fadeIn 2s 5s ease-in-out forwards;
+}
 
+/* Tablet Responsive */
+@media (max-width: 781px) {
+  .education {
+    padding-bottom: 8vh;
+  }
+  
+  .edu {
+    padding-top: 3vh;
+    gap: 3rem;
+  }
+  
+  .container {
+    width: 320px;
+    height: 220px;
+  }
+  
+  section {
+    height: 220px;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .education {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    min-height: auto;
+  }
+  
+  .edu-title {
+    padding-top: 3vh;
+    font-size: 0.5rem;
+  }
+  
+  .edu {
+    padding-top: 3vh;
+    gap: 4rem;
+  }
+  
+  .container {
+    width: 280px;
+    height: 180px;
+    padding: 8px;
+  }
+  
+  .container h3 {
+    font-size: 1rem;
+  }
+  
+  .container p {
+    font-size: 0.9rem;
+    margin-top: 15px;
+  }
+  
+  section {
+    margin-left: 15px;
+    padding-left: 8px;
+    height: 180px;
+  }
+  
+  .institution {
+    margin-top: 30px;
+  }
+  
+  .edu div span {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra small mobile */
+@media (max-width: 360px) {
+  .container {
+    width: 260px;
+    height: 170px;
+  }
+  
+  .container h3 {
+    font-size: 0.95rem;
+  }
+  
+  .container p {
+    font-size: 0.85rem;
+  }
+  
+  section {
+    height: 170px;
+  }
+}

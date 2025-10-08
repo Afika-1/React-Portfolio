@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import './styling/contact.css';
 import linkedin from '../assets/linkedin3.gif';
