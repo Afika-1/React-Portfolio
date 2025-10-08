@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import './styling/contact.css';
 import linkedin from '../assets/linkedin3.gif';
 import github from '../assets/github.gif';
-// import emailjs from '@emailjs/browser'
 import ReCAPTCHA from 'react-google-recaptcha';
 import Navbar from './Navbar';
 
