@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './styling/contact.css';
 import linkedin from '../assets/linkedin3.gif';
 import github from '../assets/github.gif';
-import ReCAPTCHA from 'react-google-recaptcha';
 import Navbar from './Navbar';
 
 export default function Contact() {
@@ -10,110 +9,102 @@ export default function Contact() {
   const [email, setEmail] = useState('');
   const [project, setProject] = useState('');
   const [message, setMessage] = useState('');
-  const [verified, setVerified] = useState(false);
 
   const [nameError, setNameError] = useState('');
   const [emailError, setEmailError] = useState('');
   const [projectError, setProjectError] = useState('');
   const [messageError, setMessageError] = useState('');
+  const [showSuccess, setShowSuccess] = useState(false);
+
+  const handleNameChange = (e) => {
+    setName(e.target.value);
+    if (e.target.value.trim()) {
+      setNameError('');
+    }
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+    if (e.target.value.trim() && /^\S+@\S+\.\S+$/.test(e.target.value)) {
+      setEmailError('');
+    }
+  };
+
+  const handleProjectChange = (e) => {
+    setProject(e.target.value);
+    if (e.target.value.trim()) {
+      setProjectError('');
+    }
+  };
+
+  const handleMessageChange = (e) => {
+    setMessage(e.target.value);
+    if (e.target.value.trim()) {
+      setMessageError('');
+    }
+  };
 
   const handleValidation = (e) => {
-
     e.preventDefault();
     let valid = true;
 
-    if (!name) {
+    setNameError('');
+    setEmailError('');
+    setProjectError('');
+    setMessageError('');
+
+    if (!name.trim()) {
       setNameError('Name is required');
       valid = false;
-    } else {
-      setNameError('');
-      setName('');
     }
 
-    if (!email || !/^\S+@\S+\.\S+$/.test(email)) {
+    if (!email.trim()) {
+      setEmailError('Email is required');
+      valid = false;
+    } else if (!/^\S+@\S+\.\S+$/.test(email)) {
       setEmailError('Enter a valid email address');
       valid = false;
-    } else {
-      setEmailError('');
-      setEmail('');
     }
 
-    if (!project) {
+    if (!project.trim()) {
       setProjectError('Subject is required');
       valid = false;
-    } else {
-      setProjectError('');
-      setProject('');
     }
 
-    if (!message) {
+    if (!message.trim()) {
       setMessageError('Message cannot be empty');
       valid = false;
-    } else {
-      setMessageError('');
     }
-    if (!verified) {
-      alert('Please complete the reCAPTCHA before submitting.');
-      return;
-    }
+  
     if (valid) {
       setName('');
       setEmail('');
       setProject('');
       setMessage('');
-      setVerified(false);
-      alert('Form submitted successfully!');
+      setShowSuccess(true);
+      
+      setTimeout(() => {
+        setShowSuccess(false);
+      }, 3000);
     }
-    window.grecaptcha.reset();
-    
-    // return valid;
-  };
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-
-
-
-  //   if (handleValidation()) {
-  //     const serviceId = 'service_69ad7ld';
-  //     const templateId = 'template_ogg483p';
-  //     const publicKey = 'mmXt2iFzYoqf0nkG_';
-
-  //     const templateParams = {
-  //       from_name: name,
-  //       from_email: email,
-  //       subject: project,
-  //       to_name: 'Afika Shwashwa',
-  //       message: message,
-  //       recaptcha_response: verified
-  //     };
-
-  //     emailjs
-  //       .send(serviceId, templateId, templateParams, publicKey)
-  //       .then((response) => {
-  //         console.log('Email sent successfully', response);
-  //         setName('');
-  //         setEmail('');
-  //         setProject('');
-  //         setMessage('');
-  //         setVerified(false);
-  //         alert('Form submitted successfully!');
-  //       })
-  //       .catch((error) => {
-  //         console.error('Error! Could not send email: ', error);
-  //         alert="Email sent successfully"
-  //       });
-  //   }
-  // };
-
-  const onChange = (value) => {
-    console.log('Captcha value:', value);
-    setVerified(true);
   };
 
   return (
     <div>
       <Navbar />
+
+      {showSuccess && (
+        <div className="success-popup">
+          <div className="success-content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#4CAF50" strokeWidth="2">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M9 12l2 2 4-4"/>
+            </svg>
+            <h3>Message Sent Successfully!</h3>
+            <p>Thank you for reaching out. I'll get back to you soon.</p>
+          </div>
+        </div>
+      )}
 
       <div className='contact' id='contact'>
 
@@ -127,7 +118,7 @@ export default function Contact() {
             <div className="contact-container">
               <div className="det-div">
                 <p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 98 99" fill="none">
-                  <g clip-path="url(#clip0_421_46)"><path d="M81.6667 68.6426C81.6667 68.1699 81.6241 67.8262 81.5391 67.6113C81.454 67.3965 81.0712 
+                  <g clipPath="url(#clip0_421_46)"><path d="M81.6667 68.6426C81.6667 68.1699 81.6241 67.8262 81.5391 67.6113C81.454 67.3965 81.0712 
                 67.042 80.3906 66.5479C79.7101 66.0537 78.8487 65.5166 77.8066 64.9365C76.7645 64.3564 75.7543 63.7871 
               74.776 63.2285C73.7977 62.6699 72.8301 62.1328 71.873 61.6172C70.916 61.1016 70.3099 60.7793 70.0547 
                  60.6504C69.842 60.5215 69.4379 60.2422 68.8425 59.8125C68.247 59.3828 67.7153 59.0605 67.2474 
@@ -165,7 +156,7 @@ export default function Contact() {
                 </svg>
                   <span>+27662398354</span></p>
 
-                <p ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 31 31" fill="none">
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 31 31" fill="none">
                   <path d="M15.3333 0.546631L9.67825 4.20366H4.83325V7.30283L1.78825 9.3018C0.918252 9.84415 0.333252 10.8204 
                0.333252 11.9516V27.4475C0.333252 28.2694 0.649322 29.0577 1.21193 29.6389C1.77454 30.2201 2.5376 30.5466 3.33325 
                30.5466H27.3333C28.9983 30.5466 30.3333 29.1675 30.3333 27.4475V11.9516C30.3333 10.8204 29.7483 9.84415 28.8783 9.3018L25.8333 
@@ -173,9 +164,9 @@ export default function Contact() {
                10.9908V12.9278L3.33325 11.9516M25.8333 10.9908L27.3333 11.9516L25.8333 12.9278M9.33325 12.7264V15.0508H21.3333V12.7264H9.33325Z" fill="#D79E48" />
                 </svg>
                   <span>AfikaShwashwa@gmail.com</span></p>
-                <p >
+                <p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 151 138" fill="none">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M121.544 97.0578C123.36 96.3091 125.446 96.1356 127.406 96.5701C129.367
+                    <path fillRule="evenodd" clipRule="evenodd" d="M121.544 97.0578C123.36 96.3091 125.446 96.1356 127.406 96.5701C129.367
                 97.0046 131.066 98.017 132.182 99.4153L132.663 100.112L149.246 127.446C149.838 128.42 150.138 129.498 150.122 130.587C150.105 
                131.677 149.773 132.748 149.152 133.71C148.531 134.673 147.64 135.499 146.553 136.12C145.466 136.74 144.214 137.138 142.903 
                 137.279L141.833 137.333H9.16665C7.84388 137.334 6.54021 137.073 5.36448 136.574C4.18876 136.074 3.17512 135.35 2.40819 
@@ -198,32 +189,58 @@ export default function Contact() {
               </div>
 
               <div className="icons1">
-
-                <p><a href='https://github.com/Afika-1'><img className="github" alt="Github link" src={github} /></a></p>
-                <p><a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a'><img className="lIn-logo" alt="Linkedin link" src={linkedin} /></a></p>
-
-
+                <p><a href='https://github.com/Afika-1' target='_blank' rel='noreferrer'><img className="github" alt="Github link" src={github} /></a></p>
+                <p><a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a' target='_blank' rel='noreferrer'><img className="lIn-logo" alt="Linkedin link" src={linkedin} /></a></p>
               </div>
             </div>
           </div>
 
           <div className='form-border'>
             <form id='myForm' onSubmit={handleValidation}>
-              <input className='form-input' type='text' id='name' onChange={(e) => setName(e.target.value)} name='name' placeholder='Full Name' />
+              <input 
+                className='form-input' 
+                type='text' 
+                id='name' 
+                value={name}
+                onChange={handleNameChange} 
+                name='name' 
+                placeholder='Full Name' 
+              />
               {nameError && <div className='error'>{nameError}</div>}
 
-              <input className='form-input' type='email' id='myEmail' onChange={(e) => setEmail(e.target.value)} name='email' placeholder='Email Address' />
+              <input 
+                className='form-input' 
+                type='email' 
+                id='myEmail' 
+                value={email}
+                onChange={handleEmailChange} 
+                name='email' 
+                placeholder='Email Address' 
+              />
               {emailError && <div className='error'>{emailError}</div>}
 
-              <input className='form-input' type='text' id='project' onChange={(e) => setProject(e.target.value)} name='project' placeholder='Subject' />
+              <input 
+                className='form-input' 
+                type='text' 
+                id='project' 
+                value={project}
+                onChange={handleProjectChange} 
+                name='project' 
+                placeholder='Subject' 
+              />
               {projectError && <div className='error'>{projectError}</div>}
 
-              <textarea className='form-message' type='text' id='message' onChange={(e) => setMessage(e.target.value)} name='message' placeholder='Type your message...' />
+              <textarea 
+                className='form-message' 
+                id='message' 
+                value={message}
+                onChange={handleMessageChange} 
+                name='message' 
+                placeholder='Type your message...' 
+              />
               {messageError && <div className='error'>{messageError}</div>}
 
-              <ReCAPTCHA sitekey='6LcisBgqAAAAACvtGCt6sO2Ql1VjuglJ9MI1tyBI' className='recap' onChange={onChange} />
-
-              <button className='send-button' type='submit' >
+              <button className='send-button' type='submit'>
                 Send
               </button>
             </form>
@@ -231,8 +248,8 @@ export default function Contact() {
         </div>
 
         <div className="icons-bottom">
-          <a href='https://github.com/Afika-1' target='_blank'><img className="github" alt="Github link" src={github} /></a>
-          <a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a' target='_blank'><img className="lIn-logo" alt="Linkedin link" src={linkedin} /></a>
+          <a href='https://github.com/Afika-1' target='_blank' rel='noreferrer'><img className="github" alt="Github link" src={github} /></a>
+          <a href='https://www.linkedin.com/in/afika-shwashwa-a05a3220a' target='_blank' rel='noreferrer'><img className="lIn-logo" alt="Linkedin link" src={linkedin} /></a>
         </div>
       </div>
     </div>

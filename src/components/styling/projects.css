@@ -140,9 +140,6 @@
         flex-direction: column;
     }
 
-    .projects {
-        /* height: 20vh; */
-    }
 }
 
 @media (max-width: 480px) {
@@ -151,9 +148,7 @@
         height: 20vh;
     }
 
-    .projects {
-        /* max-height: 400vh; */
-    }
+   
 
     .description-icons h2 {
         font-size: 1rem;
